@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    font-style: unset;
+}
+
+/* li去除效果 */
+
+li {
+    list-style: none;
+}
+
+/* 點選去邊框 */
+
+input {
+    outline: medium;
+}
+
+textarea {
+    outline: medium;
+    border-radius: 3px
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/index.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+}
+
+/* NAV設定 */
+
+.NavBarMFF {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: gray;
+    z-index: 80;
+    top: 0px;
+    border-bottom: 5px inset rgb(238, 226, 226, 0.5);
+}
+
+@media(max-width:360px) {
+    .NavBarMFF {
+        height: 40px;
+    }
+}
+
+.indexBtn {
+    float: left;
+    margin-top: 1px;
+    margin-left: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media(max-width:800px) {
+    .indexBtn {
+        margin-left: 5px;
+        width: 40px;
+        height: 30px;
+    }
+}
+
+.NavBarMFF div {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 800;
+    color: white;
+    font-style: unset;
+}
+
+@media(max-width:360px) {
+    .NavBarMFF div {
+        font-size: 12px;
+    }
+}
+
+/* 登入與註冊 */
+
+.navLeft {
+    float: left;
+    margin-left: 1%;
+}
+
+.navLeft span {
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+/* 角色.挑戰.任務.組隊按鈕 */
+
+.navRight {
+    float: right;
+}
+
+.navRight a {
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+@media(max-width:800px) {
+    .navRightA {
+        width: 80px;
+        text-align: center;
+        background-color: gray;
+        border: 1px solid rgb(245, 237, 237, 0.5);
+        z-index: 2;
+        display: none;
+    }
+}
+
+.hamburger {
+    display: none;
+    z-index: 90;
+}
+
+@media(max-width:800px) {
+    .hamburger {
+        display: block;
+        padding-left: 30px;
+        width: 100px;
+        height: 40px;
+        margin-top: -1px;
+        margin-right: 81px;
+        background-color: gray;
+    }
+}
+
+/* 搜尋按鈕格式 */
+
+.serchBtn {
+    line-height: 40px;
+    display: flex;
+    cursor: pointer;
+    float: right;
+}
+
+@media(max-width:800px) {
+    .serchBtn {
+        top: 0;
+        right: 0;
+        position: absolute;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+}
+
+.serchBtn input {
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 5px;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+@media(max-width:800px) {
+    .serchBtn input {
+        width: 100px;
+        font-size: 12px;
+    }
+}
+
+.serchBtn img {
+    margin-top: 2px;
+    height: 34px;
+    z-index: 100;
+    margin-left: -22px;
+}
+
+/* 底部 */
+
+.FooterMFF {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    z-index: 80;
+    bottom: 0px;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    border-top: 5px inset rgb(238, 226, 226, 0.5);
+}
+
+/* 首頁的輪播圖區域格式 */
+
+.PicDiv {
+    width: 800px;
+    height: 449px;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 120px;
+    border: 20px solid gray;
+    opacity: 0.9;
+    border-radius: 1%;
+    display: flex;
+}
+
+@media(max-width:800px) {
+    .PicDiv {
+        width: 400px;
+        margin-top: 12%;
+        height: 225px;
+    }
+}
+
+@media(max-width:360px) {
+    .PicDiv {
+        width: 350px;
+        margin-top: 40%;
+        height: 197px;
+        border: 3px solid gray;
+    }
+}
+
+@media(max-width:800px) {
+    .PicDiv a img {
+        width: 200px;
+    }
+}
+
+@media(max-width:360px) {
+    .PicDiv a img {
+        width: 175px;
+    }
+}
+
+.PicDiv h5 {
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 2%;
+}
+
+/* 選取圖片 */
+
+.PicDivImg {
+    cursor: pointer;
+}
+
+.PicDivImg:hover {
+    width: 406px;
+    height: 445px;
+    border: 5px solid white;
+    border-radius: 1%;
+}
+
+/* 角色.挑戰.任務.組隊按鈕 按鈕文字 */
+
+/* 登入區塊 */
+
+.LoginForm {
+    background-color: #d9e3e4;
+    width: 720px;
+    height: 358px;
+    margin: 5% auto;
+    margin-top: 100px;
+    border: 10px solid #448899;
+    z-index: 999;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+@media(max-width:800px) {
+    .LoginForm {
+        width: 600px;
+    }
+}
+
+@media(max-width:360px) {
+    .LoginForm {
+        width: 310px;
+        margin-bottom: 60px;
+    }
+}
+
+.LoginForm img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+    margin-top: -40px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.LoginForm div {
+    margin-left: 10px;
+    display: flex;
+    margin-top: 25px;
+}
+
+@media(max-width:800px) {
+    .LoginForm div {
+        margin-left: 103px;
+        width: 290px;
+    }
+}
+
+@media(max-width:360px) {
+    .LoginForm div {
+        margin-left: -22px;
+        width: 290px;
+    }
+}
+
+.LoginForm div p {
+    font-size: 20px;
+    width: 50px;
+    font-weight: 1000;
+    color: #448899;
+    margin-left: 30%;
+}
+
+.LoginForm div input {
+    padding-left: 3px;
+    font-size: 14px;
+    border-radius: 1px;
+}
+
+@media(max-width:800px) {
+    .LoginForm div input {
+        height: 45px;
+    }
+}
+
+.LoginForm div h6 {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 25px;
+    display: none;
+}
+
+.LoginForm button {
+    margin-left: 42%;
+    margin-top: 25px;
+    font-weight: 1000;
+    color: white;
+    background-color: gray;
+    width: 110px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 50px;
+}
+
+@media (max-width:360px) {
+    .LoginForm button {
+        margin-left: 38%;
+    }
+}
+
+.loginBtnChick {
+    font-size: 16px;
+    margin-top: 13px;
+    display: none;
+    text-align: center;
+}

@@ -1,0 +1,190 @@
+.NavBarMFF {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 40px;
+}
+
+
+.contractDiv {
+    background-color: white;
+    margin: 2% auto;
+    width: 70%;
+    height: 550px;
+    overflow-y: scroll;
+    border: solid 3px #448899;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+}
+
+.contractTitle{
+    font-weight: 1000;
+    color: #448899;
+    font-size: 14px;
+}
+
+.agree {
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left: 15%;
+    width: 155px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid 1px #448899;
+}
+
+@media(max-width:600px) {
+    .agree {
+        margin-top: 20px;
+    }
+}
+
+.agreeShiny {
+    border: rgb(139, 139, 139, 0.5) solid 1.5px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: flex;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.agree h6 {
+    font-size: 16px;
+    color: #448899;
+    border-radius: 2px;
+}
+
+.agreeDiv {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.agreeDiv button {
+    width: 60px;
+    height: 30px;
+    color: brown;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 1000;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -7px;
+}
+
+@media(max-width:1200px) {
+    .agreeDiv button {
+        margin-left: 35%;
+    }
+}
+
+@media(max-width:820px) {
+    .agreeDiv button {
+        margin-left: 45%;
+    }
+}
+
+@media(max-width:600px) {
+    .agreeDiv button {
+        margin-left: 65%;
+        margin-top: 22px;
+    }
+}
+
+.RegisteredDatas {
+    display: none;
+    background-color: white;
+    color: gray;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    border: 5px solid gray;
+    width: 35%;
+}
+
+@media(max-width:1000px) {
+    .RegisteredDatas {
+        width: 88%;
+        padding-left: 1%;
+    }
+}
+
+.RegisteredDatas div {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+@media(max-width:600px) {
+    .RegisteredDatas div {
+        margin-left: 10px;
+    }
+}
+
+.RegisteredDatas div p {
+    color: black;
+    font-size: 16px;
+    font-weight: 1000;
+    width: 200px;
+}
+
+@media(max-width:600px) {
+    .RegisteredDatas div p {
+        width: 120px;
+    }
+}
+
+.RegisteredDatas div input {
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    width: 200px;
+    padding-left: 5px;
+}
+
+@media(max-width:600px) {
+    .RegisteredDatas div input {
+        width: 170px;
+    }
+}
+
+.WarningSign {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 25px;
+    display: none;
+}
+
+.RegisteredDatas button {
+    margin: 10px 35%;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    width: 200px;
+    font-weight: 1000;
+}
+
+.AgreeWarningSign {
+    color: rgb(211, 63, 63);
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 1000;
+    display: none;
+}

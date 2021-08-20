@@ -1,0 +1,267 @@
+/* 挑戰葉面的標題圖區域格式 */
+
+.ChallengePicDiv {
+    width: 54%;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 80px;
+    border: 10px solid gray;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+
+.ChallengePicDivs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ChallengePicDivs button {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    margin: 10px auto;
+    color: #448899;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px;
+    border: none;
+    background-color: white;
+}
+
+.ChallengeDatas {
+    width: 54%;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    border: 10px solid gray;
+    opacity: 0.9;
+    border-radius: 1%;
+    padding-bottom: 20px;
+}
+
+.ChallengeModeBtn {
+    margin: 1px auto;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 40%;
+    padding-left: 3px;
+    color: #448899;
+    font-weight: 1000;
+    border-radius: 2px;
+}
+
+.raidersDiv {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 80px;
+        color: black;
+        font-weight: 1000;
+        padding-left: 3px;
+        border-radius: 2.5px;
+        font-size: 15px;
+
+}
+
+.raidersDiv button {
+    border-radius: 3px;
+    font-weight: 1000;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.ChallengeText {
+    height: 70%;
+    background-color: white;
+    margin: 10px auto;
+    opacity: 0.9;
+}
+
+.ChallengeTextLeftRight {
+    width: 92%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 5px solid rgb(189, 180, 180);
+    opacity: 0.9;
+    border-radius: 3%;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.recommendTop5 {
+    width: 92%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 5px solid rgb(189, 180, 180);
+    opacity: 0.9;
+    border-radius: 3px;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.ChallengeIcon h5 {
+    margin-top: -12px;
+    color: #448899;
+    font-weight: 700;
+    text-align: center;
+}
+
+.DpsTop5 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25%
+}
+
+@media(max-width:500px) {
+    .DpsTop5 {
+        padding: 0 15%
+    }
+}
+
+.recommendDiv {
+    width: 60px;
+    max-width: 0 20px;
+}
+
+.recommendImg {
+    width: 50px;
+}
+
+.recommendH5 {
+    font-size: 12px;
+    color: #448899;
+    width: 55px;
+}
+
+.WorldBossTitle {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.BossAchievementDiv {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.PassHerosH5Div {
+    width: 120px;
+}
+
+.PassHerosImg {
+    width: 50px;
+}
+
+.PassHerosH5 {
+    font-size: 12px;
+    color: #448899;
+    width: 70px;
+}
+
+.ShadowDomainMode {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+}
+
+@media(max-width:360px) {
+    .ShadowDomainMode {
+        padding: 5% 2%;
+    }
+}
+
+.ShadowDomainDiv {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.ShadowDomainImg {
+    width: 150px;
+}
+
+.ShadowDomainH5 {
+    color: #448899;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.allianceDataDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+@media(max-width:360px) {
+    .allianceDataDiv {
+        margin-left: 15px;
+    }
+}
+
+.allianceDiv {
+    cursor: pointer;
+    width: 80px;
+    margin-right: 20px;
+}
+
+@media(max-width:360px) {
+    .allianceDiv {
+        margin-right: 2px;
+    }
+}
+
+.allianceImg {
+    height: 60px;
+    width: 60px;
+}
+
+.allianceH5 {
+    color: #448899;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 70px;
+}
+
+.MissionStroy {
+    display: flex;
+    padding: 0 20%;
+}
+
+@media(max-width:750px) {
+    .MissionStroy {
+        padding: 0 10%;
+    }
+}
+
+@media(max-width:630px) {
+    .MissionStroy {
+        display: block;
+        padding: 0 30%;
+    }
+}
+
+.MissionDiv {
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.MissionImg {
+    width: 70px;
+}
+
+.MissionH5 {
+    color: #448899;
+    width: 90px;
+}

@@ -6,10 +6,9 @@ from flask_sqlalchemy import SQLAlchemy
 db = mysql.connector.connect(
     host="localhost",
     port=3307,
-    user="root",
-    passwd="P@ssw0rd",
-    db='mff',
-    charset='utf8')
+    user="",
+    passwd="",
+    db='mff')
 cursor = db.cursor()
 
 # 讀取Json檔案

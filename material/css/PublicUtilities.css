@@ -215,7 +215,7 @@ body {
 @media(max-width:800px) {
     .PicDiv {
         width: 400px;
-        margin-top: 12%;
+        margin-top: 20%;
         height: 225px;
     }
 }

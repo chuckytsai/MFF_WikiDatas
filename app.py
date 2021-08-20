@@ -11,10 +11,9 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     port=3307,
-    user="root",
-    passwd="P@ssw0rd",
-    db='mff',
-    charset='utf8')
+    user="",
+    passwd="",
+    db='mff')
 cursor = db.cursor()
 
 app = Flask(
@@ -85,9 +84,9 @@ def apiHeroIcon():
     for x in heroicon:
         data_dic = {
             "id": x[0],
-            "class": x[1].decode("utf8"),
-            "url": x[2].decode("utf8"),
-            "bgImg": x[3].decode("utf8"),
+            "class": x[1],
+            "url": x[2],
+            "bgImg": x[3],
             "name": x[4]
         }
         data = data_dic.copy()
@@ -122,30 +121,29 @@ def apiHeros(AskHeroName,AskSkinName):
             "Race": x[7],
             "Camp": x[8],
             "photoSticker": x[9],
-            "T1Effects": x[10].decode("utf8"),
-            "T2Effects": x[11].decode("utf8"),
-            "LeaderEffects": x[12].decode("utf8"),
-            "Skill1Effects": x[13].decode("utf8"),
-            "Skill2Effects": x[14].decode("utf8"),
-            "Skill3Effects": x[15].decode("utf8"),
-            "Skill4Effects": x[16].decode("utf8"),
-            "Skill5Effects": x[17].decode("utf8"),
-            "Skill6Effects": x[18].decode("utf8"),
-            "SkinSkillEffects": x[19].decode("utf8"),
-            "RelatedUniforms1": x[20].decode("utf8"),
-            "RelatedUniforms2": x[21].decode("utf8"),
-            "RelatedUniforms3": x[22].decode("utf8"),
-            "RelatedUniforms4": x[23].decode("utf8"),
-            "RelatedUniforms5": x[24].decode("utf8"),
-            "Chained1": x[25].decode("utf8"),
-            "Chained2": x[26].decode("utf8"),
-            "Chained3": x[27].decode("utf8"),
-            "Chained4": x[28].decode("utf8"),
-            "Chained5": x[29].decode("utf8"),
-            "Chained6": x[30].decode("utf8"),
-            "Chained7": x[31].decode("utf8"),
-            "Chained8": x[32].decode("utf8"),
-            "Chained9": x[33].decode("utf8")
+            "T2Effects": x[11],
+            "LeaderEffects": x[12],
+            "Skill1Effects": x[13],
+            "Skill2Effects": x[14],
+            "Skill3Effects": x[15],
+            "Skill4Effects": x[16],
+            "Skill5Effects": x[17],
+            "Skill6Effects": x[18],
+            "SkinSkillEffects": x[19],
+            "RelatedUniforms1": x[20],
+            "RelatedUniforms2": x[21],
+            "RelatedUniforms3": x[22],
+            "RelatedUniforms4": x[23],
+            "RelatedUniforms5": x[24],
+            "Chained1": x[25],
+            "Chained2": x[26],
+            "Chained3": x[27],
+            "Chained4": x[28],
+            "Chained5": x[29],
+            "Chained6": x[30],
+            "Chained7": x[31],
+            "Chained8": x[32],
+            "Chained9": x[33]
         }
   
         data = data_dic.copy()

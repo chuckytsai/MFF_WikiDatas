@@ -11,8 +11,8 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     port=3307,
-    user="",
-    passwd="",
+    user="debian-sys-maint",
+    passwd="3uF5Qh62YCa4vhZ0",
     db='mff')
 cursor = db.cursor()
 
@@ -755,4 +755,4 @@ def creatHero():
             "ok": True
         }),200
 
-app.run(port=3000, debug=True)
+app.run(port=3000,host="0.0.0.0", debug=True)

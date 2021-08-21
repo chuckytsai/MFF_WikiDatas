@@ -21,7 +21,6 @@ app = Flask(
     static_folder="material",
     static_url_path="/mffWIKI"
 )
-
 app.config["JSON_AS_ASCII"] = False
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 app.secret_key ="jo4x965 504"

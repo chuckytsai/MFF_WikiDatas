@@ -8,6 +8,8 @@ db = mysql.connector.connect(
     port=3306,
     user="debian-sys-maint",
     passwd="3uF5Qh62YCa4vhZ0",
+    user="",
+    passwd="",
     db='mff')
 cursor = db.cursor()
 

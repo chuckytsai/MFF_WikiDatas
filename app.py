@@ -11,8 +11,8 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     port=3306,
-    user="3uF5Qh62YCa4vhZ0",
-    passwd="P@ssw0rd",
+    user="debian-sys-maint",
+    passwd="3uF5Qh62YCa4vhZ0",
     db='mff')
 cursor = db.cursor()
 
@@ -98,11 +98,11 @@ def apiHeros(AskHeroName,AskSkinName):
     dataArreys = []
     HeroName = AskHeroName
     SkinName = AskSkinName
-    Name = "SELECT * FROM Heroskin WHERE HeroName= %(val)s AND Heroskin = %(val2)s"
+    Name = "SELECT * FROM heroskin WHERE HeroName= %(val)s AND heroskin = %(val2)s"
     cursor.execute(Name, {'val': HeroName,'val2':SkinName})
     Heros = cursor.fetchall()
 
-    Options = "SELECT * FROM Heroskin WHERE HeroName= %(val)s"
+    Options = "SELECT * FROM heroskin WHERE HeroName= %(val)s"
     cursor.execute(Options, {'val': HeroName})
     HeroOptions = cursor.fetchall()
 
@@ -235,15 +235,15 @@ def apiAlliance():
     Skill5Effects = "%"+thisMoonText+"%"
     Skill6Effects = "%"+thisMoonText+"%"
 
-    t1 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND T1Effects like %(T1Effects)s"
-    t2 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND T2Effects like %(T2Effects)s"
-    l = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND LeaderEffects like %(LeaderEffects)s"
-    s1 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill1Effects like %(Skill1Effects)s"
-    s2 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill2Effects like %(Skill2Effects)s"
-    s3 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill3Effects like %(Skill3Effects)s"
-    s4 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill4Effects like %(Skill4Effects)s"
-    s5 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill5Effects like %(Skill5Effects)s"
-    s6 = "SELECT * FROM  Heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill6Effects like %(Skill6Effects)s"
+    t1 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND T1Effects like %(T1Effects)s"
+    t2 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND T2Effects like %(T2Effects)s"
+    l = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND LeaderEffects like %(LeaderEffects)s"
+    s1 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill1Effects like %(Skill1Effects)s"
+    s2 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill2Effects like %(Skill2Effects)s"
+    s3 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill3Effects like %(Skill3Effects)s"
+    s4 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill4Effects like %(Skill4Effects)s"
+    s5 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill5Effects like %(Skill5Effects)s"
+    s6 = "SELECT * FROM  heroskin WHERE Gender like %(Gender)s AND Camp like %(Camp)s AND CName like %(CName)s AND Skill6Effects like %(Skill6Effects)s"
 
     cursor.execute(t1, {'Gender': Gender, 'Camp': Camp, 'CName': CName, 'T1Effects': T1Effects})
     t1 = cursor.fetchall()
@@ -285,7 +285,7 @@ def SearchDatas():
     keyWord = "%"+wantKey+"%"
 
     dataArreys1 = []
-    sql = "SELECT * FROM Heroskin WHERE  HeroName like %(val)s or Heroskin like %(val)s or CName like %(val)s or SkinName like %(val)s or HowToGet like %(val)s or Gender like %(val)s or Race like %(val)s or Camp like %(val)s or photoSticker like %(val)s or T1Effects like %(val)s or T2Effects like %(val)s or LeaderEffects like %(val)s or Skill1Effects like %(val)s or Skill2Effects like %(val)s or Skill3Effects like %(val)s or Skill4Effects like %(val)s or Skill5Effects like %(val)s or Skill6Effects like %(val)s or SkinSkillEffects like %(val)s or RelatedUniforms1 like %(val)s or RelatedUniforms2 like %(val)s or RelatedUniforms3 like %(val)s or RelatedUniforms4 like %(val)s or RelatedUniforms5 like %(val)s or Chained1 like %(val)s or Chained2 like %(val)s or Chained3 like %(val)s or Chained4 like %(val)s or Chained5 like %(val)s or Chained6 like %(val)s or Chained7 like %(val)s or Chained8 like %(val)s or Chained9 like %(val)s"
+    sql = "SELECT * FROM heroskin WHERE  HeroName like %(val)s or heroskin like %(val)s or CName like %(val)s or SkinName like %(val)s or HowToGet like %(val)s or Gender like %(val)s or Race like %(val)s or Camp like %(val)s or photoSticker like %(val)s or T1Effects like %(val)s or T2Effects like %(val)s or LeaderEffects like %(val)s or Skill1Effects like %(val)s or Skill2Effects like %(val)s or Skill3Effects like %(val)s or Skill4Effects like %(val)s or Skill5Effects like %(val)s or Skill6Effects like %(val)s or SkinSkillEffects like %(val)s or RelatedUniforms1 like %(val)s or RelatedUniforms2 like %(val)s or RelatedUniforms3 like %(val)s or RelatedUniforms4 like %(val)s or RelatedUniforms5 like %(val)s or Chained1 like %(val)s or Chained2 like %(val)s or Chained3 like %(val)s or Chained4 like %(val)s or Chained5 like %(val)s or Chained6 like %(val)s or Chained7 like %(val)s or Chained8 like %(val)s or Chained9 like %(val)s"
     val = ({'val':keyWord})
     cursor.execute(sql, val)
     SearchSkin = cursor.fetchall()
@@ -466,7 +466,7 @@ def skinEvaluation(AskHeroName,AskSkinName):
         dataArreys = []
         HeroName = AskHeroName
         SkinName = AskSkinName
-        likeThis = "SELECT * FROM evaluation WHERE HeroName= %(val)s AND Heroskin = %(val2)s"
+        likeThis = "SELECT * FROM evaluation WHERE HeroName= %(val)s AND HeroSkin = %(val2)s"
         cursor.execute(likeThis, {'val': HeroName,'val2':SkinName})
         evaluation = cursor.fetchall()
         data_dic = {
@@ -480,13 +480,13 @@ def skinEvaluation(AskHeroName,AskSkinName):
         evaluationData = request.get_json()
         user=evaluationData["user"]
         HeroName=evaluationData["HeroName"]
-        Heroskin=evaluationData["Heroskin"]
+        HeroSkin=evaluationData["HeroSkin"]
     
-        cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND Heroskin=%s",(user, HeroName, Heroskin))
+        cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND HeroSkin=%s",(user, HeroName, HeroSkin))
         Result = cursor.fetchone()
         if Result==None:
-            cursor.execute("INSERT INTO evaluation(user,HeroName,Heroskin) VALUES  (%s, %s, %s)",
-                (user, HeroName, Heroskin))
+            cursor.execute("INSERT INTO evaluation(user,HeroName,HeroSkin) VALUES  (%s, %s, %s)",
+                (user, HeroName, HeroSkin))
             db.commit()
             dataArreys = []
             data_dic = {
@@ -496,7 +496,7 @@ def skinEvaluation(AskHeroName,AskSkinName):
             dataArreys.append(data)
             return json.dumps({"data": dataArreys}, ensure_ascii=False)
         else:
-            cursor.execute("DELETE FROM evaluation WHERE user=%s AND HeroName=%s AND Heroskin=%s",(user, HeroName, Heroskin))
+            cursor.execute("DELETE FROM evaluation WHERE user=%s AND HeroName=%s AND HeroSkin=%s",(user, HeroName, HeroSkin))
             db.commit()
             dataArreys = []
             data_dic = {
@@ -510,9 +510,9 @@ def skinEvaluation(AskHeroName,AskSkinName):
         evaluationData = request.get_json()
         user=evaluationData["user"]
         HeroName=evaluationData["HeroName"]
-        Heroskin=evaluationData["Heroskin"]
+        HeroSkin=evaluationData["HeroSkin"]
     
-        cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND Heroskin=%s",(user, HeroName, Heroskin))
+        cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND HeroSkin=%s",(user, HeroName, HeroSkin))
         Result = cursor.fetchone()
         if Result!=None:
             dataArreys = []
@@ -535,7 +535,7 @@ def skinEvaluation(AskHeroName,AskSkinName):
 @app.route("/api/CreatHeroDatas",methods=["GET","POST"])
 def creatHero():
     if request.method == "GET":
-        cursor.execute("SELECT * FROM Heroskin WHERE HowToGet like '%金幣%' or HowToGet like '%鑽石%' or HowToGet like '%劇情%' or HowToGet like '%收藏%'")
+        cursor.execute("SELECT * FROM heroskin WHERE HowToGet like '%金幣%' or HowToGet like '%鑽石%' or HowToGet like '%劇情%' or HowToGet like '%收藏%'")
         heroicon = cursor.fetchall()
         dataArreys = []
         for x in heroicon:
@@ -552,14 +552,14 @@ def creatHero():
         HeroData = request.get_json()
         Id = HeroData["Id"]
         HeroName = HeroData["HeroName"]
-        Heroskin = HeroData["Heroskin"]
+        HeroSkin = HeroData["HeroSkin"]
         CName = HeroData["CName"]
         SkinName = HeroData["SkinName"]
         HowToGet = HeroData["HowToGet"]
         Gender = HeroData["Gender"]
         Race = HeroData["Race"]
         Camp = HeroData["Camp"]
-        photoSticker = HeroName+'/'+Heroskin
+        photoSticker = HeroName+'/'+HeroSkin
         T1Effects = HeroData["T1Effects"]
         T2Effects = HeroData["T2Effects"]
         LeaderEffects = HeroData["LeaderEffects"]
@@ -584,175 +584,175 @@ def creatHero():
         Chained7 = ""
         Chained8 = ""
         Chained9 = ""
-        ChainedText1= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ Heroskin +',第一件'
-        ChainedText2= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ Heroskin +',第二件'
-        ChainedText3= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ Heroskin +',第三件'
-        ChainedText4= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ Heroskin +',第四件'
-        ChainedText5= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ Heroskin +',第五件'
+        ChainedText1= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ HeroSkin +',第一件'
+        ChainedText2= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ HeroSkin +',第二件'
+        ChainedText3= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ HeroSkin +',第三件'
+        ChainedText4= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ HeroSkin +',第四件'
+        ChainedText5= CName.split('(')[0]+ '/' + SkinName +','+ HeroName+ '/'+ HeroSkin +',第五件'
 
-        sql = "INSERT INTO Heroskin(Id,HeroName,Heroskin,CName,SkinName,HowToGet,Gender,Race,Camp,photoSticker,T1Effects,T2Effects,LeaderEffects,Skill1Effects,Skill2Effects,Skill3Effects,Skill4Effects,Skill5Effects,Skill6Effects,SkinSkillEffects,RelatedUniforms1,RelatedUniforms2,RelatedUniforms3,RelatedUniforms4,RelatedUniforms5,Chained1,Chained2,Chained3,Chained4,Chained5,Chained6,Chained7,Chained8,Chained9)VALUES (%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-        val = (str(Id), str(HeroName), str(Heroskin), str(CName), str(SkinName), str(HowToGet), str(Gender), str(Race), str(Camp), str(photoSticker), str(T1Effects), str(T2Effects), str(LeaderEffects), str(Skill1Effects), str(Skill2Effects), str(Skill3Effects), str(Skill4Effects), str(Skill5Effects),
+        sql = "INSERT INTO heroskin(Id,HeroName,HeroDkin,CName,SkinName,HowToGet,Gender,Race,Camp,photoSticker,T1Effects,T2Effects,LeaderEffects,Skill1Effects,Skill2Effects,Skill3Effects,Skill4Effects,Skill5Effects,Skill6Effects,SkinSkillEffects,RelatedUniforms1,RelatedUniforms2,RelatedUniforms3,RelatedUniforms4,RelatedUniforms5,Chained1,Chained2,Chained3,Chained4,Chained5,Chained6,Chained7,Chained8,Chained9)VALUES (%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        val = (str(Id), str(HeroName), str(HeroSkin), str(CName), str(SkinName), str(HowToGet), str(Gender), str(Race), str(Camp), str(photoSticker), str(T1Effects), str(T2Effects), str(LeaderEffects), str(Skill1Effects), str(Skill2Effects), str(Skill3Effects), str(Skill4Effects), str(Skill5Effects),
            str(Skill6Effects), str(SkinSkillEffects), str(RelatedUniforms1), str(RelatedUniforms2), str(RelatedUniforms3), str(RelatedUniforms4), str(RelatedUniforms5), str(Chained1), str(Chained2), str(Chained3), str(Chained4), str(Chained5), str(Chained6), str(Chained7), str(Chained8), str(Chained9))
         cursor.execute(sql, val)
         db.commit()
 
         RelatedUniforms1=RelatedUniforms1.split(',')[1]
-        cursor.execute("SELECT * FROM Heroskin WHERE photoSticker= '%s'" %(RelatedUniforms1))
+        cursor.execute("SELECT * FROM heroskin WHERE photoSticker= '%s'" %(RelatedUniforms1))
         Result = cursor.fetchone()
         if Result[25]=='':
-            cursor.execute("UPDATE Heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[26]=='':
-            cursor.execute("UPDATE Heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[27]=='':
-            cursor.execute("UPDATE Heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[28]=='':
-            cursor.execute("UPDATE Heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[29]=='':
-            cursor.execute("UPDATE Heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[30]=='':
-            cursor.execute("UPDATE Heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[31]=='':
-            cursor.execute("UPDATE Heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[32]=='':
-            cursor.execute("UPDATE Heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
         elif Result[33]=='':
-            cursor.execute("UPDATE Heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
+            cursor.execute("UPDATE heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText1,RelatedUniforms1))
             db.commit()
 
         RelatedUniforms2=RelatedUniforms2.split(',')[1]
-        cursor.execute("SELECT * FROM Heroskin WHERE photoSticker= '%s'" %(RelatedUniforms2))
+        cursor.execute("SELECT * FROM heroskin WHERE photoSticker= '%s'" %(RelatedUniforms2))
         Result = cursor.fetchone()
         if Result[25]=='':
-            cursor.execute("UPDATE Heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[26]=='':
-            cursor.execute("UPDATE Heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[27]=='':
-            cursor.execute("UPDATE Heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[28]=='':
-            cursor.execute("UPDATE Heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[29]=='':
-            cursor.execute("UPDATE Heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[30]=='':
-            cursor.execute("UPDATE Heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[31]=='':
-            cursor.execute("UPDATE Heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[32]=='':
-            cursor.execute("UPDATE Heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
         elif Result[33]=='':
-            cursor.execute("UPDATE Heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
+            cursor.execute("UPDATE heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText2,RelatedUniforms2))
             db.commit()
 
         RelatedUniforms3=RelatedUniforms3.split(',')[1]
-        cursor.execute("SELECT * FROM Heroskin WHERE photoSticker= '%s'" %(RelatedUniforms3))
+        cursor.execute("SELECT * FROM heroskin WHERE photoSticker= '%s'" %(RelatedUniforms3))
         Result = cursor.fetchone()
         if Result[25]=='':
-            cursor.execute("UPDATE Heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[26]=='':
-            cursor.execute("UPDATE Heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[27]=='':
-            cursor.execute("UPDATE Heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[28]=='':
-            cursor.execute("UPDATE Heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[29]=='':
-            cursor.execute("UPDATE Heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[30]=='':
-            cursor.execute("UPDATE Heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[31]=='':
-            cursor.execute("UPDATE Heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[32]=='':
-            cursor.execute("UPDATE Heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
         elif Result[33]=='':
-            cursor.execute("UPDATE Heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
+            cursor.execute("UPDATE heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText3,RelatedUniforms3))
             db.commit()
 
         RelatedUniforms4=RelatedUniforms4.split(',')[1]
-        cursor.execute("SELECT * FROM Heroskin WHERE photoSticker= '%s'" %(RelatedUniforms4))
+        cursor.execute("SELECT * FROM heroskin WHERE photoSticker= '%s'" %(RelatedUniforms4))
         Result = cursor.fetchone()
         if Result[25]=='':
-            cursor.execute("UPDATE Heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[26]=='':
-            cursor.execute("UPDATE Heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[27]=='':
-            cursor.execute("UPDATE Heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[28]=='':
-            cursor.execute("UPDATE Heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[29]=='':
-            cursor.execute("UPDATE Heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[30]=='':
-            cursor.execute("UPDATE Heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[31]=='':
-            cursor.execute("UPDATE Heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[32]=='':
-            cursor.execute("UPDATE Heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
         elif Result[33]=='':
-            cursor.execute("UPDATE Heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
+            cursor.execute("UPDATE heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText4,RelatedUniforms4))
             db.commit()
 
         RelatedUniforms5=RelatedUniforms5.split(',')[1]
-        cursor.execute("SELECT * FROM Heroskin WHERE photoSticker= '%s'" %(RelatedUniforms5))
+        cursor.execute("SELECT * FROM heroskin WHERE photoSticker= '%s'" %(RelatedUniforms5))
         Result = cursor.fetchone()
         if Result[25]=='':
-            cursor.execute("UPDATE Heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained1=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[26]=='':
-            cursor.execute("UPDATE Heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained2=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[27]=='':
-            cursor.execute("UPDATE Heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained3=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[28]=='':
-            cursor.execute("UPDATE Heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained4=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[29]=='':
-            cursor.execute("UPDATE Heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained5=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[30]=='':
-            cursor.execute("UPDATE Heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained6=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[31]=='':
-            cursor.execute("UPDATE Heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained7=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[32]=='':
-            cursor.execute("UPDATE Heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained8=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
         elif Result[33]=='':
-            cursor.execute("UPDATE Heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
+            cursor.execute("UPDATE heroskin SET Chained9=%s WHERE photoSticker=%s",(ChainedText5,RelatedUniforms5))
             db.commit()
 
         return jsonify({
             "ok": True
         }),200
 
-app.run(port=3000, debug=True)
+app.run(port=3000,host="0.0.0.0",debug=True)

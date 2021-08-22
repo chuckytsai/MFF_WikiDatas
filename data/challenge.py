@@ -12,10 +12,11 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     port=3306,
-    user="3uF5Qh62YCa4vhZ0",
-    passwd="P@ssw0rd",
+    user="debian-sys-maint",
+    passwd="3uF5Qh62YCa4vhZ0",
     db='mff')
 cursor = db.cursor()
+
 
 app = Flask(
     __name__,
@@ -25,7 +26,7 @@ app = Flask(
 
 # 讀取Json檔案
 
-with open("challenge.json", mode="r") as file:
+with open(r"data/challenge.json", mode="r", encoding="utf-8") as file:
     data4 = json.load(file)
 
 

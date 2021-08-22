@@ -12,8 +12,8 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     port=3306,
-    user="3uF5Qh62YCa4vhZ0",
-    passwd="P@ssw0rd",
+    user="",
+    passwd="",
     db='mff')
 cursor = db.cursor()
 

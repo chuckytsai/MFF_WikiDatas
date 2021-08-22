@@ -5,15 +5,15 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3307,
-    user="",
-    passwd="",
+    port=3306,
+    user="3uF5Qh62YCa4vhZ0",
+    passwd="P@ssw0rd",
     db='mff')
 cursor = db.cursor()
 
 
 # 讀取Json檔案
-with open(r"data/allHero.json", mode="r", encoding="utf-8") as file:
+with open("data/allHero.json", mode="r") as file:
     data = json.load(file)
 
 

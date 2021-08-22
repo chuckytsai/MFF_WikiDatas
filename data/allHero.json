@@ -3,42 +3,42 @@
         {
             "id": "CaptainAmeric",
             "class": "預設 男性 近戰 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/CaptainAmerica/TheAvengers",
+            "url": "/Heros/CaptainAmerica/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/CaptainAmerica/TheAvengers.jpg",
             "name": "美國隊長"
         },
         {
             "id": "CaptainAmericaSecretWar",
             "class": "女性 近戰 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/CaptainAmerica/SecretWars",
+            "url": "/Heros/CaptainAmerica/SecretWars",
             "bgImg": "/mffWIKI/img/Heros/CaptainAmerica/SecretWars.jpg",
             "name": "美國隊長:秘密戰爭2099"
         },
         {
             "id": "CaptainAmericHydraSupreme",
             "class": "男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/CaptainAmerica/HydraSupreme",
+            "url": "/Heros/CaptainAmerica/HydraSupreme",
             "bgImg": "/mffWIKI/img/Heros/CaptainAmerica/HydraSupreme.jpg",
             "name": "美國隊長:九頭蛇至尊"
         },
         {
             "id": "Blackpanther",
             "class": "預設 男性 近戰 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/Blackpanther/Modern",
+            "url": "/Heros/Blackpanther/Modern",
             "bgImg": "/mffWIKI/img/Heros/Blackpanther/Modern.jpg",
             "name": "黑豹"
         },
         {
             "id": "Hulk",
             "class": "預設 男性 近戰 人類 英雄 伽瑪射線 T3",
-            "url": "http://127.0.0.1:3000/Heros/Hulk/TheAvengers",
+            "url": "/Heros/Hulk/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/Hulk/TheAvengers.jpg",
             "name": "浩克"
         },
         {
             "id": "HulkSecretWars",
             "class": "男性 近戰 人類 反派 伽瑪射線",
-            "url": "http://127.0.0.1:3000/Heros/Hulk/SecretWars",
+            "url": "/Heros/Hulk/SecretWars",
             "bgImg": "/mffWIKI/img/Heros/Hulk/SecretWars.jpg",
             "name": "浩克:秘密戰爭-不完美的未來",
             "display": "none;"
@@ -46,7 +46,7 @@
         {
             "id": "HulkImmortal",
             "class": "男性 近戰 人類 反派 伽瑪射線",
-            "url": "http://127.0.0.1:3000/Heros/Hulk/Immortal",
+            "url": "/Heros/Hulk/Immortal",
             "bgImg": "/mffWIKI/img/Heros/Hulk/Immortal.jpg",
             "name": "浩克-不朽浩克",
             "display": "none;"
@@ -54,2016 +54,2016 @@
         {
             "id": "Thing",
             "class": "預設 男性 近戰 人類 英雄 驚奇4超人 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Thing/Modern",
+            "url": "/Heros/Thing/Modern",
             "bgImg": "/mffWIKI/img/Heros/Thing/Modern.jpg",
             "name": "石頭人"
         },
         {
             "id": "Beast",
             "class": "預設 男性 近戰 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Beast/Classic",
+            "url": "/Heros/Beast/Classic",
             "bgImg": "/mffWIKI/img/Heros/Beast/Classic.jpg",
             "name": "野獸"
         },
         {
             "id": "BeastAgeOfApocalypse",
             "class": "男性 近戰 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/Beast/AgeOfApocalypse",
+            "url": "/Heros/Beast/AgeOfApocalypse",
             "bgImg": "/mffWIKI/img/Heros/Beast/AgeOfApocalypse.jpg",
             "name": "野獸-天啟紀元"
         },
         {
             "id": "Colossus",
             "class": "預設 男性 近戰 X基因 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Colossus/Modern",
+            "url": "/Heros/Colossus/Modern",
             "bgImg": "/mffWIKI/img/Heros/Colossus/Modern.jpg",
             "name": "鋼人"
         },
         {
             "id": "ColossusPhoenixFive",
             "class": "男性 近戰 X基因 反派 鳳凰之力 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Colossus/PhoenixFive",
+            "url": "/Heros/Colossus/PhoenixFive",
             "bgImg": "/mffWIKI/img/Heros/Colossus/PhoenixFive.jpg",
             "name": "鋼人-鳳凰5人組"
         },
         {
             "id": "Giantman",
             "class": "預設 男性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Giantman/Modern",
+            "url": "/Heros/Giantman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Giantman/Modern.jpg",
             "name": "巨人"
         },
         {
             "id": "GiantmanUltron",
             "class": "男性 宇宙 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Giantman/Ultron",
+            "url": "/Heros/Giantman/Ultron",
             "bgImg": "/mffWIKI/img/Heros/Giantman/Ultron.jpg",
             "name": "巨人-皮姆奧創"
         },
         {
             "id": "Shehulk",
             "class": "預設 女性 近戰 人類 英雄 伽瑪射線",
-            "url": "http://127.0.0.1:3000/Heros/Shehulk/AForce",
+            "url": "/Heros/Shehulk/AForce",
             "bgImg": "/mffWIKI/img/Heros/Shehulk/AForce.jpg",
             "name": "女浩克"
         },
         {
             "id": "ShehulkFant4stic",
             "class": "女性 近戰 人類 英雄 伽瑪射線 驚奇4超人",
-            "url": "http://127.0.0.1:3000/Heros/shehulk/Fant4stic",
+            "url": "/Heros/shehulk/Fant4stic",
             "bgImg": "/mffWIKI/img/Heros/Shehulk/Fant4stic.jpg",
             "name": "女浩克-驚奇4超人"
         },
         {
             "id": "Hulking",
             "class": "預設 男性 近戰 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Hulking/NewAvengers",
+            "url": "/Heros/Hulking/NewAvengers",
             "bgImg": "/mffWIKI/img/Heros/Hulking/NewAvengers.jpg",
             "name": "小浩克"
         },
         {
             "id": "Wolverine",
             "class": "預設 男性 近戰 X基因 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/Wolverine/Classic",
+            "url": "/Heros/Wolverine/Classic",
             "bgImg": "/mffWIKI/img/Heros/Wolverine/Classic.jpg",
             "name": "金鋼狼"
         },
         {
             "id": "AmericaChavez",
             "class": "預設 女性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/AmericaChavez/MarvelTheUltimates",
+            "url": "/Heros/AmericaChavez/MarvelTheUltimates",
             "bgImg": "/mffWIKI/img/Heros/AmericaChavez/MarvelTheUltimates.jpg",
             "name": "阿美利卡"
         },
         {
             "id": "AgentVenom",
             "class": "預設 男性 近戰 人類 英雄 共生體",
-            "url": "http://127.0.0.1:3000/Heros/AgentVenom/AllNewAllDifferent",
+            "url": "/Heros/AgentVenom/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/AgentVenom/AllNewAllDifferent.jpg",
             "name": "猛毒特工"
         },
         {
             "id": "MisterFantastic",
             "class": "預設 男性 近戰 人類 英雄 領導力 驚奇4超人 T3",
-            "url": "http://127.0.0.1:3000/Heros/MisterFantastic/Modern",
+            "url": "/Heros/MisterFantastic/Modern",
             "bgImg": "/mffWIKI/img/Heros/MisterFantastic/Modern.jpg",
             "name": "驚奇先生"
         },
         {
             "id": "MisterFantasticTheMaker",
             "class": "男性 近戰 人類 反派 驚奇4超人",
-            "url": "http://127.0.0.1:3000/Heros/MisterFantastic/TheMaker",
+            "url": "/Heros/MisterFantastic/TheMaker",
             "bgImg": "/mffWIKI/img/Heros/MisterFantastic/TheMaker.jpg",
             "name": "驚奇先生-造物者"
         },
         {
             "id": "Hulkbuster",
             "class": "預設 無性別 近戰 生物 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/Hulkbuster/TheAvengersAgeofUltron",
+            "url": "/Heros/Hulkbuster/TheAvengersAgeofUltron",
             "bgImg": "/mffWIKI/img/Heros/Hulkbuster/TheAvengersAgeofUltron.jpg",
             "name": "反浩克裝甲"
         },
         {
             "id": "Warpath",
             "class": "預設 男性 近戰 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Warpath/XForce",
+            "url": "/Heros/Warpath/XForce",
             "bgImg": "/mffWIKI/img/Heros/Warpath/XForce.jpg",
             "name": "戰跡"
         },
         {
             "id": "WhiteTiger",
             "class": "預設 女性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/WhiteTiger/NewAvengers",
+            "url": "/Heros/WhiteTiger/NewAvengers",
             "bgImg": "/mffWIKI/img/Heros/WhiteTiger/NewAvengers.jpg",
             "name": "白虎"
         },
         {
             "id": "Namor",
             "class": "預設 男性 近戰 X基因 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Namor/Classic",
+            "url": "/Heros/Namor/Classic",
             "bgImg": "/mffWIKI/img/Heros/Namor/Classic.jpg",
             "name": "納摩"
         },
         {
             "id": "NamorPhoenixFive",
             "class": "男性 近戰 X基因 反派 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/Namor/PhoenixFive",
+            "url": "/Heros/Namor/PhoenixFive",
             "bgImg": "/mffWIKI/img/Heros/Namor/PhoenixFive.jpg",
             "name": "納摩-鳳凰5人組"
         },
         {
             "id": "Shangchi",
             "class": "預設 男性 近戰 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Shangchi/Modern",
+            "url": "/Heros/Shangchi/Modern",
             "bgImg": "/mffWIKI/img/Heros/Shangchi/Modern.jpg",
             "name": "上氣"
         },
         {
             "id": "Volstagg",
             "class": "預設 男性 近戰 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Volstagg/Modern",
+            "url": "/Heros/Volstagg/Modern",
             "bgImg": "/mffWIKI/img/Heros/Volstagg/Modern.jpg",
             "name": "佛勒斯泰格"
         },
         {
             "id": "Blade",
             "class": "預設 男性 近戰 人類 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Blade/Modern",
+            "url": "/Heros/Blade/Modern",
             "bgImg": "/mffWIKI/img/Heros/Blade/Modern.jpg",
             "name": "刀鋒戰士"
         },
         {
             "id": "Punisher",
             "class": "預設 男性 近戰 人類 英雄 武器專家 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Punisher/Modern",
+            "url": "/Heros/Punisher/Modern",
             "bgImg": "/mffWIKI/img/Heros/Punisher/Modern.jpg",
             "name": "制裁者"
         },
         {
             "id": "PunisherGhostRider",
             "class": "男性 宇宙 人類 反派 火焰",
-            "url": "http://127.0.0.1:3000/Heros/Punisher/GhostRider",
+            "url": "/Heros/Punisher/GhostRider",
             "bgImg": "/mffWIKI/img/Heros/Punisher/GhostRider.jpg",
             "name": "制裁者-宇宙惡靈戰警"
         },
         {
             "id": "SwordMaster",
             "class": "預設 男性 近戰 人類 英雄 武器專家 領導力",
-            "url": "http://127.0.0.1:3000/Heros/SwordMaster/Modern",
+            "url": "/Heros/SwordMaster/Modern",
             "bgImg": "/mffWIKI/img/Heros/SwordMaster/Modern.jpg",
             "name": "劍仙"
         },
         {
             "id": "LukeCage",
             "class": "預設 男性 近戰 人類 英雄 捍衛者 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/LukeCage/Modern",
+            "url": "/Heros/LukeCage/Modern",
             "bgImg": "/mffWIKI/img/Heros/LukeCage/Modern.jpg",
             "name": "力量人"
         },
         {
             "id": "Sif",
             "class": "預設 女性 近戰 外星人 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Sif/AgentsOfSHIELD",
+            "url": "/Heros/Sif/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/Sif/AgentsOfSHIELD.jpg",
             "name": "希芙"
         },
         {
             "id": "Crescent",
             "class": "預設 女性 近戰 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/Crescent/Modern",
+            "url": "/Heros/Crescent/Modern",
             "bgImg": "/mffWIKI/img/Heros/Crescent/Modern.jpg",
             "name": "弦月神女"
         },
         {
             "id": "Hogun",
             "class": "預設 男性 近戰 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Hogun/Modern",
+            "url": "/Heros/Hogun/Modern",
             "bgImg": "/mffWIKI/img/Heros/Hogun/Modern.jpg",
             "name": "後剛"
         },
         {
             "id": "Drax",
             "class": "預設 男性 近戰 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Drax/GuardiansOfTheGalaxy",
+            "url": "/Heros/Drax/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Drax/GuardiansOfTheGalaxy.jpg",
             "name": "德克斯"
         },
         {
             "id": "MoonKight",
             "class": "預設 男性 近戰 人類 英雄 武器專家 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/MoonKight/Modern",
+            "url": "/Heros/MoonKight/Modern",
             "bgImg": "/mffWIKI/img/Heros/MoonKight/Modern.jpg",
             "name": "月光騎士"
         },
         {
             "id": "Gorgon",
             "class": "預設 男性 近戰 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Gorgon/WarOfKings",
+            "url": "/Heros/Gorgon/WarOfKings",
             "bgImg": "/mffWIKI/img/Heros/Gorgon/WarOfKings.jpg",
             "name": "戈爾工"
         },
         {
             "id": "Groot",
             "class": "預設 男性 近戰 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Groot/GuardiansOfTheGalaxy",
+            "url": "/Heros/Groot/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Groot/GuardiansOfTheGalaxy.jpg",
             "name": "古魯特"
         },
         {
             "id": "GrootSecretWars",
             "class": "男性 宇宙 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Groot/SecretWars",
+            "url": "/Heros/Groot/SecretWars",
             "bgImg": "/mffWIKI/img/Heros/Groot/SecretWars.jpg",
             "name": "古魯特:秘密戰爭-索爾"
         },
         {
             "id": "GrootGuardiansOfTheGalaxy2",
             "class": "男性 速度 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Groot/GuardiansOfTheGalaxy2",
+            "url": "/Heros/Groot/GuardiansOfTheGalaxy2",
             "bgImg": "/mffWIKI/img/Heros/Groot/GuardiansOfTheGalaxy2.jpg",
             "name": "古魯特:星際異攻隊2"
         },
         {
             "id": "GrootParty",
             "class": "男性 速度 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Groot/Party",
+            "url": "/Heros/Groot/Party",
             "bgImg": "/mffWIKI/img/Heros/Groot/Party.jpg",
             "name": "古魯特:雪花祭典"
         },
         {
             "id": "Goliath",
             "class": "預設 男性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Goliath/Classic",
+            "url": "/Heros/Goliath/Classic",
             "bgImg": "/mffWIKI/img/Heros/Goliath/Classic.jpg",
             "name": "歌利亞"
         },
         {
             "id": "Deathlok",
             "class": "預設 男性 近戰 人類 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/Deathlok/AgentsOfSHIELD",
+            "url": "/Heros/Deathlok/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/Deathlok/AgentsOfSHIELD.jpg",
             "name": "死亡戰士"
         },
         {
             "id": "DeathlokModern",
             "class": "男性 爆破 人類 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/Deathlok/Modern",
+            "url": "/Heros/Deathlok/Modern",
             "bgImg": "/mffWIKI/img/Heros/Deathlok/Modern.jpg",
             "name": "死亡戰士-現代"
         },
         {
             "id": "HulkCho",
             "class": "預設 男性 近戰 人類 英雄 伽瑪射線 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/HulkCho/AllNew",
+            "url": "/Heros/HulkCho/AllNew",
             "bgImg": "/mffWIKI/img/Heros/HulkCho/AllNew.jpg",
             "name": "浩克(阿爾迪斯．趙)"
         },
         {
             "id": "JessicaJones",
             "class": "預設 女性 近戰 人類 英雄 捍衛者 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/JessicaJones/Modern",
+            "url": "/Heros/JessicaJones/Modern",
             "bgImg": "/mffWIKI/img/Heros/JessicaJones/Modern.jpg",
             "name": "潔西卡瓊斯"
         },
         {
             "id": "Warwolf",
             "class": "預設 男性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Warwolf/SHIELD",
+            "url": "/Heros/Warwolf/SHIELD",
             "bgImg": "/mffWIKI/img/Heros/Warwolf/SHIELD.jpg",
             "name": "狼人"
         },
         {
             "id": "Valkyrie",
             "class": "預設 女性 近戰 外星人 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Valkyrie/Ragnarok",
+            "url": "/Heros/Valkyrie/Ragnarok",
             "bgImg": "/mffWIKI/img/Heros/Valkyrie/Ragnarok.jpg",
             "name": "瓦爾基麗"
         },
         {
             "id": "Ironfist",
             "class": "預設 男性 近戰 人類 英雄 捍衛者 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Ironfist/Classic",
+            "url": "/Heros/Ironfist/Classic",
             "bgImg": "/mffWIKI/img/Heros/Ironfist/Classic.jpg",
             "name": "鐵拳俠"
         },
         {
             "id": "KamalaKhan",
             "class": "預設 女性 近戰 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/KamalaKhan/AllNewAllDifferent",
+            "url": "/Heros/KamalaKhan/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/KamalaKhan/AllNewAllDifferent.jpg",
             "name": "驚奇女士"
         },
         {
             "id": "KamalaKhanKarachi",
             "class": "女性 速度 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/KamalaKhan/Karachi",
+            "url": "/Heros/KamalaKhan/Karachi",
             "bgImg": "/mffWIKI/img/Heros/KamalaKhan/Karachi.jpg",
             "name": "驚奇女士:喀拉蚩服裝"
         },
         {
             "id": "Gorillaman",
             "class": "預設 男性 近戰 人類 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Gorillaman/Modern",
+            "url": "/Heros/Gorillaman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Gorillaman/Modern.jpg",
             "name": "猩猩人"
         },
         {
             "id": "WarTiger",
             "class": "預設 男性 近戰 人類 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/WarTiger/Modern",
+            "url": "/Heros/WarTiger/Modern",
             "bgImg": "/mffWIKI/img/Heros/WarTiger/Modern.jpg",
             "name": "戰虎"
         },
         {
             "id": "Gladiator",
             "class": "預設 男性 近戰 外星人 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Gladiator/Modern",
+            "url": "/Heros/Gladiator/Modern",
             "bgImg": "/mffWIKI/img/Heros/Gladiator/Modern.jpg",
             "name": "角鬥士"
         },
         {
             "id": "RedShehulk",
             "class": "預設 女性 近戰 人類 英雄 伽瑪射線 火焰",
-            "url": "http://127.0.0.1:3000/Heros/RedShehulk/Modern",
+            "url": "/Heros/RedShehulk/Modern",
             "bgImg": "/mffWIKI/img/Heros/RedShehulk/Modern.jpg",
             "name": "女紅浩克"
         },
         {
             "id": "Ares",
             "class": "預設 男性 近戰 外星人 英雄 武器專家 黑暗復仇者 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Ares/Modern",
+            "url": "/Heros/Ares/Modern",
             "bgImg": "/mffWIKI/img/Heros/Ares/Modern.jpg",
             "name": "阿瑞斯"
         },
         {
             "id": "Nebula",
             "class": "預設 女性 近戰 外星人 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Nebula/GuardiansOfTheGalaxy",
+            "url": "/Heros/Nebula/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Nebula/GuardiansOfTheGalaxy.jpg",
             "name": "涅布拉"
         },
         {
             "id": "NebulaTheAvengersEndGame",
             "class": "女性 近戰 外星人 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/Nebula/TheAvengersEndGame",
+            "url": "/Heros/Nebula/TheAvengersEndGame",
             "bgImg": "/mffWIKI/img/Heros/Nebula/TheAvengersEndGame.jpg",
             "name": "涅布拉:復仇者聯盟-終局之戰"
         },
         {
             "id": "NebulaTeamUniform",
             "class": "女性 近戰 外星人 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/Nebula/TeamUniform",
+            "url": "/Heros/Nebula/TeamUniform",
             "bgImg": "/mffWIKI/img/Heros/Nebula/TeamUniform.jpg",
             "name": "涅布拉-復仇者隊服"
         },
         {
             "id": "RedHulk",
             "class": "預設 男性 近戰 人類 反派 伽瑪射線 火焰",
-            "url": "http://127.0.0.1:3000/Heros/RedHulk/Modern",
+            "url": "/Heros/RedHulk/Modern",
             "bgImg": "/mffWIKI/img/Heros/RedHulk/Modern.jpg",
             "name": "紅浩克"
         },
         {
             "id": "RedHulkSymbiont",
             "class": "男性 宇宙 人類 英雄 伽瑪射線 火焰",
-            "url": "http://127.0.0.1:3000/Heros/RedHulk/Symbiont",
+            "url": "/Heros/RedHulk/Symbiont",
             "bgImg": "/mffWIKI/img/Heros/RedHulk/Symbiont.jpg",
             "name": "紅浩克-復仇共生體"
         },
         {
             "id": "Titania",
             "class": "預設 女性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Titania/Modern",
+            "url": "/Heros/Titania/Modern",
             "bgImg": "/mffWIKI/img/Heros/Titania/Modern.jpg",
             "name": "泰坦妮亞"
         },
         {
             "id": "Apocalypse",
             "class": "預設 男性 近戰 X基因 反派 T3",
-            "url": "http://127.0.0.1:3000/Heros/Apocalypse/Age",
+            "url": "/Heros/Apocalypse/Age",
             "bgImg": "/mffWIKI/img/Heros/Apocalypse/Age.jpg",
             "name": "天啟"
         },
         {
             "id": "DoctorOctopus",
             "class": "預設 男性 近戰 人類 反派 機械 邪惡6人組 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/DoctorOctopus/Classic",
+            "url": "/Heros/DoctorOctopus/Classic",
             "bgImg": "/mffWIKI/img/Heros/DoctorOctopus/Classic.jpg",
             "name": "八爪博士"
         },
         {
             "id": "DoctorOctopusSuper",
             "class": "男性 近戰 人類 英雄 機械 邪惡6人組 蜘蛛感應",
-            "url": "http://127.0.0.1:3000/Heros/DoctorOctopus/Super",
+            "url": "/Heros/DoctorOctopus/Super",
             "bgImg": "/mffWIKI/img/Heros/DoctorOctopus/Super.jpg",
             "name": "八爪博士-究極蜘蛛人"
         },
         {
             "id": "DoctorOctopusHydra",
             "class": "男性 速度 人類 反派 機械 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/DoctorOctopus/Hydra",
+            "url": "/Heros/DoctorOctopus/Hydra",
             "bgImg": "/mffWIKI/img/Heros/DoctorOctopus/Hydra.jpg",
             "name": "八爪博士-究極八爪"
         },
         {
             "id": "Kingpin",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Kingpin/Modern",
+            "url": "/Heros/Kingpin/Modern",
             "bgImg": "/mffWIKI/img/Heros/Kingpin/Modern.jpg",
             "name": "金霸王"
         },
         {
             "id": "KingpinSecretWars",
             "class": "男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Kingpin/SecretWars",
+            "url": "/Heros/Kingpin/SecretWars",
             "bgImg": "/mffWIKI/img/Heros/Kingpin/SecretWars.jpg",
             "name": "金霸王:秘密戰爭-裝甲戰爭"
         },
         {
             "id": "Venom",
             "class": "預設 男性 近戰 人類 反派 共生體 T3",
-            "url": "http://127.0.0.1:3000/Heros/Venom/Classic",
+            "url": "/Heros/Venom/Classic",
             "bgImg": "/mffWIKI/img/Heros/Venom/Classic.jpg",
             "name": "猛毒"
         },
         {
             "id": "VenomAnti",
             "class": "男性 近戰 人類 英雄 共生體",
-            "url": "http://127.0.0.1:3000/Heros/Venom/Anti",
+            "url": "/Heros/Venom/Anti",
             "bgImg": "/mffWIKI/img/Heros/Venom/Anti.jpg",
             "name": "猛毒-反猛毒"
         },
         {
             "id": "VenomWarOfTheRealms",
             "class": "男性 近戰 人類 英雄 共生體",
-            "url": "http://127.0.0.1:3000/Heros/Venom/WarOfTheRealms",
+            "url": "/Heros/Venom/WarOfTheRealms",
             "bgImg": "/mffWIKI/img/Heros/Venom/WarOfTheRealms.jpg",
             "name": "猛毒-十界之戰"
         },
         {
             "id": "Sandman",
             "class": "預設 男性 近戰 人類 反派 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/Sandman/Classic",
+            "url": "/Heros/Sandman/Classic",
             "bgImg": "/mffWIKI/img/Heros/Sandman/Classic.jpg",
             "name": "沙人"
         },
         {
             "id": "Lizard",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Lizard/Classic",
+            "url": "/Heros/Lizard/Classic",
             "bgImg": "/mffWIKI/img/Heros/Lizard/Classic.jpg",
             "name": "蜥蜴人"
         },
         {
             "id": "Carnage",
             "class": "預設 男性 近戰 人類 反派 共生體 T3",
-            "url": "http://127.0.0.1:3000/Heros/Carnage/AllNewAllDifferent",
+            "url": "/Heros/Carnage/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Carnage/AllNewAllDifferent.jpg",
             "name": "屠殺"
         },
         {
             "id": "Bullseye",
             "class": "預設 男性 近戰 人類 反派 武器專家 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Bullseye/Modern",
+            "url": "/Heros/Bullseye/Modern",
             "bgImg": "/mffWIKI/img/Heros/Bullseye/Modern.jpg",
             "name": "靶眼"
         },
         {
             "id": "BullseyeTheDarkAvengers",
             "class": "男性 速度 人類 反派 武器專家 黑暗復仇者 ",
-            "url": "http://127.0.0.1:3000/Heros/Bullseye/TheDarkAvengers",
+            "url": "/Heros/Bullseye/TheDarkAvengers",
             "bgImg": "/mffWIKI/img/Heros/Bullseye/TheDarkAvengers.jpg",
             "name": "靶眼:黑暗復仇者"
         },
         {
             "id": "Sabretooth",
             "class": "預設 男性 近戰 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/Sabretooth/Fraternity",
+            "url": "/Heros/Sabretooth/Fraternity",
             "bgImg": "/mffWIKI/img/Heros/Sabretooth/Fraternity.jpg",
             "name": "劍齒虎"
         },
         {
             "id": "CrossBones",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/CrossBones/CaptainAmericaCivilWar",
+            "url": "/Heros/CrossBones/CaptainAmericaCivilWar",
             "bgImg": "/mffWIKI/img/Heros/CrossBones/CaptainAmericaCivilWar.jpg",
             "name": "十字骨"
         },
         {
             "id": "Skurge",
             "class": "預設 男性 近戰 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Skurge/Ragnarok",
+            "url": "/Heros/Skurge/Ragnarok",
             "bgImg": "/mffWIKI/img/Heros/Skurge/Ragnarok.jpg",
             "name": "史泰奇"
         },
         {
             "id": "Absorbingman",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Absorbingman/Modern",
+            "url": "/Heros/Absorbingman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Absorbingman/Modern.jpg",
             "name": "吸收人"
         },
         {
             "id": "Ulik",
             "class": "預設 男性 近戰 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Ulik/Modern",
+            "url": "/Heros/Ulik/Modern",
             "bgImg": "/mffWIKI/img/Heros/Ulik/Modern.jpg",
             "name": "烏里克"
         },
         {
             "id": "Moltenman",
             "class": "預設 男性 近戰 人類 反派 火焰",
-            "url": "http://127.0.0.1:3000/Heros/Moltenman/FarFromHome",
+            "url": "/Heros/Moltenman/FarFromHome",
             "bgImg": "/mffWIKI/img/Heros/Moltenman/FarFromHome.jpg",
             "name": "熔岩人"
         },
         {
             "id": "Rhino",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Rhino/Classic",
+            "url": "/Heros/Rhino/Classic",
             "bgImg": "/mffWIKI/img/Heros/Rhino/Classic.jpg",
             "name": "犀牛人"
         },
         {
             "id": "Minnerva",
             "class": "預設 女性 近戰 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Minnerva/Modern",
+            "url": "/Heros/Minnerva/Modern",
             "bgImg": "/mffWIKI/img/Heros/Minnerva/Modern.jpg",
             "name": "米勒娃"
         },
         {
             "id": "Juggernaut",
             "class": "預設 男性 近戰 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/Juggernaut/Fraternity",
+            "url": "/Heros/Juggernaut/Fraternity",
             "bgImg": "/mffWIKI/img/Heros/Juggernaut/Fraternity.jpg",
             "name": "紅坦克"
         },
         {
             "id": "Killmonger",
             "class": "預設 男性 近戰 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Killmonger/Classic",
+            "url": "/Heros/Killmonger/Classic",
             "bgImg": "/mffWIKI/img/Heros/Killmonger/Classic.jpg",
             "name": "奇爾蒙格"
         },
         {
             "id": "RedGuardian",
             "class": "預設 男性 近戰 人類 反派 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/RedGuardian/Modern",
+            "url": "/Heros/RedGuardian/Modern",
             "bgImg": "/mffWIKI/img/Heros/RedGuardian/Modern.jpg",
             "name": "紅色守衛者"
         },
         {
             "id": "RedGuardianBlackWidow",
             "class": "男性 近戰 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/RedGuardian/BlackWidow",
+            "url": "/Heros/RedGuardian/BlackWidow",
             "bgImg": "/mffWIKI/img/Heros/RedGuardian/BlackWidow.jpg",
             "name": "紅色守衛者-漫威黑寡婦"
         },
         {
             "id": "TaskMaster",
             "class": "預設 男性 近戰 人類 反派 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/TaskMaster/Modern",
+            "url": "/Heros/TaskMaster/Modern",
             "bgImg": "/mffWIKI/img/Heros/TaskMaster/Modern.jpg",
             "name": "模仿大師"
         },
         {
             "id": "Abomination",
             "class": "預設 男性 近戰 人類 反派 伽瑪射線",
-            "url": "http://127.0.0.1:3000/Heros/Abomination/Modern",
+            "url": "/Heros/Abomination/Modern",
             "bgImg": "/mffWIKI/img/Heros/Abomination/Modern.jpg",
             "name": "惡型怪"
         },
         {
             "id": "Morbius",
             "class": "預設 男性 近戰 人類 反派 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Morbius/Modern",
+            "url": "/Heros/Morbius/Modern",
             "bgImg": "/mffWIKI/img/Heros/Morbius/Modern.jpg",
             "name": "魔比斯"
         },
         {
             "id": "Shriek",
             "class": "預設 女性 近戰 人類 反派 共生體",
-            "url": "http://127.0.0.1:3000/Heros/Shriek/Modern",
+            "url": "/Heros/Shriek/Modern",
             "bgImg": "/mffWIKI/img/Heros/Shriek/Modern.jpg",
             "name": "尖叫"
         },
         {
             "id": "Daken",
             "class": "預設 男性 近戰 X基因 反派 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Daken/Modern",
+            "url": "/Heros/Daken/Modern",
             "bgImg": "/mffWIKI/img/Heros/Daken/Modern.jpg",
             "name": "戴肯"
         },
         {
             "id": "Ironman",
             "class": "預設 男性 爆破 人類 英雄 機械 T3",
-            "url": "http://127.0.0.1:3000/Heros/Ironman/Classic",
+            "url": "/Heros/Ironman/Classic",
             "bgImg": "/mffWIKI/img/Heros/Ironman/Classic.jpg",
             "name": "鋼鐵人"
         },
         {
             "id": "IronmanSuperiorIronman",
             "class": "男性 爆破 人類 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Ironman/SuperiorIronman",
+            "url": "/Heros/Ironman/SuperiorIronman",
             "bgImg": "/mffWIKI/img/Heros/Ironman/SuperiorIronman.jpg",
             "name": "究極鋼鐵人"
         },
         {
             "id": "WarMachine",
             "class": "預設 男性 爆破 人類 英雄 機械 領導力",
-            "url": "http://127.0.0.1:3000/Heros/WarMachine/Modern",
+            "url": "/Heros/WarMachine/Modern",
             "bgImg": "/mffWIKI/img/Heros/WarMachine/Modern.jpg",
             "name": "戰爭機器"
         },
         {
             "id": "DoctorStrange",
             "class": "預設 男性 爆破 人類 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/DoctorStrange/AllNewAllDifferent",
+            "url": "/Heros/DoctorStrange/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/DoctorStrange/AllNewAllDifferent.jpg",
             "name": "奇異博士"
         },
         {
             "id": "NegasonicTeenageWarhead",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/NegasonicTeenageWarhead/Modern",
+            "url": "/Heros/NegasonicTeenageWarhead/Modern",
             "bgImg": "/mffWIKI/img/Heros/NegasonicTeenageWarhead/Modern.jpg",
             "name": "青少女彈頭"
         },
         {
             "id": "Cable",
             "class": "預設 男性 爆破 X基因 英雄 武器專家 機械 T3",
-            "url": "http://127.0.0.1:3000/Heros/Cable/Modern",
+            "url": "/Heros/Cable/Modern",
             "bgImg": "/mffWIKI/img/Heros/Cable/Modern.jpg",
             "name": "機堡"
         },
         {
             "id": "Cyclops",
             "class": "預設 男性 爆破 X基因 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Cyclops/Classic",
+            "url": "/Heros/Cyclops/Classic",
             "bgImg": "/mffWIKI/img/Heros/Cyclops/Classic.jpg",
             "name": "獨眼龍"
         },
         {
             "id": "CyclopsAgeOfApocalypse",
             "class": "男性 爆破 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/Cyclops/AgeOfApocalypse",
+            "url": "/Heros/Cyclops/AgeOfApocalypse",
             "bgImg": "/mffWIKI/img/Heros/Cyclops/AgeOfApocalypse.jpg",
             "name": "獨眼龍-天啟紀元"
         },
         {
             "id": "CyclopsPhoenixFive",
             "class": "男性 爆破 X基因 反派 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/Cyclops/PhoenixFive",
+            "url": "/Heros/Cyclops/PhoenixFive",
             "bgImg": "/mffWIKI/img/Heros/Cyclops/PhoenixFive.jpg",
             "name": "獨眼龍-鳳凰5人組"
         },
         {
             "id": "JeanGrey",
             "class": "預設 女性 爆破 X基因 英雄 鳳凰之力 精神抵抗 T3",
-            "url": "http://127.0.0.1:3000/Heros/JeanGrey/Phoenix",
+            "url": "/Heros/JeanGrey/Phoenix",
             "bgImg": "/mffWIKI/img/Heros/JeanGrey/Phoenix.jpg",
             "name": "琴葛雷"
         },
         {
             "id": "JeanGrerMarvel",
             "class": "女性 宇宙 X基因 英雄 鳳凰之力 精神抵抗",
-            "url": "http://127.0.0.1:3000/Heros/JeanGrey/Marvel",
+            "url": "/Heros/JeanGrey/Marvel",
             "bgImg": "/mffWIKI/img/Heros/JeanGrey/Marvel.jpg",
             "name": "琴葛雷-驚奇少女"
         },
         {
             "id": "SharonRogers",
             "class": "預設 女性 爆破 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/SharonRogers/75year",
+            "url": "/Heros/SharonRogers/75year",
             "bgImg": "/mffWIKI/img/Heros/SharonRogers/75year.jpg",
             "name": "雪倫．羅傑斯"
         },
         {
             "id": "AncientOne",
             "class": "預設 男性 爆破 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/AncientOne/Modern",
+            "url": "/Heros/AncientOne/Modern",
             "bgImg": "/mffWIKI/img/Heros/AncientOne/Modern.jpg",
             "name": "上古尊者"
         },
         {
             "id": "AncientOneDoctorStrange",
             "class": "女性 爆破 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/AncientOne/DoctorStrange",
+            "url": "/Heros/AncientOne/DoctorStrange",
             "bgImg": "/mffWIKI/img/Heros/AncientOne/DoctorStrange.jpg",
             "name": "上古尊者-奇異博士"
         },
         {
             "id": "Iceman",
             "class": "預設 男性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Iceman/Modern",
+            "url": "/Heros/Iceman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Iceman/Modern.jpg",
             "name": "冰人"
         },
         {
             "id": "WeaponHex",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/WeaponHex/Fusion",
+            "url": "/Heros/WeaponHex/Fusion",
             "bgImg": "/mffWIKI/img/Heros/WeaponHex/Fusion.jpg",
             "name": "咒術武器"
         },
         {
             "id": "Infernd",
             "class": "預設 男性 爆破 異人族 英雄 火焰",
-            "url": "http://127.0.0.1:3000/Heros/Infernd/AllNewAllDifferent",
+            "url": "/Heros/Infernd/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Infernd/AllNewAllDifferent.jpg",
             "name": "地獄火"
         },
         {
             "id": "Wiccan",
             "class": "預設 男性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Wiccan/NewAvengers",
+            "url": "/Heros/Wiccan/NewAvengers",
             "bgImg": "/mffWIKI/img/Heros/Wiccan/NewAvengers.jpg",
             "name": "巫術"
         },
         {
             "id": "Vision",
             "class": "預設 男性 爆破 生物 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Vision/Modern",
+            "url": "/Heros/Vision/Modern",
             "bgImg": "/mffWIKI/img/Heros/Vision/Modern.jpg",
             "name": "幻視"
         },
         {
             "id": "VisionTheAvengersAgeofUltron",
             "class": "男性 宇宙 生物 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Vision/TheAvengersAgeofUltron",
+            "url": "/Heros/Vision/TheAvengersAgeofUltron",
             "bgImg": "/mffWIKI/img/Heros/Vision/TheAvengersAgeofUltron.jpg",
             "name": "幻視:復仇者聯盟-奧創紀元"
         },
         {
             "id": "VisionWandaVision",
             "class": "男性 宇宙 生物 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Vision/WandaVision",
+            "url": "/Heros/Vision/WandaVision",
             "bgImg": "/mffWIKI/img/Heros/Vision/WandaVision.jpg",
             "name": "幻視-汪達與幻視"
         },
         {
             "id": "Rescue",
             "class": "預設 女性 爆破 人類 英雄 機械 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Rescue/TheAvengersEndGame",
+            "url": "/Heros/Rescue/TheAvengersEndGame",
             "bgImg": "/mffWIKI/img/Heros/Rescue/TheAvengersEndGame.jpg",
             "name": "救援"
         },
         {
             "id": "StarLord",
             "class": "預設 男性 爆破 人類 英雄 武器專家 T3",
-            "url": "http://127.0.0.1:3000/Heros/StarLord/GuardiansOfTheGalaxy",
+            "url": "/Heros/StarLord/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/StarLord/GuardiansOfTheGalaxy.jpg",
             "name": "星爵"
         },
         {
             "id": "Storm",
             "class": "預設 女性 爆破 X基因 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Storm/Modern",
+            "url": "/Heros/Storm/Modern",
             "bgImg": "/mffWIKI/img/Heros/Storm/Modern.jpg",
             "name": "暴風女"
         },
         {
             "id": "MoonGirl",
             "class": "預設 女性 爆破 異人族 英雄 武器專家 領導力",
-            "url": "http://127.0.0.1:3000/Heros/MoonGirl/MarvelNow",
+            "url": "/Heros/MoonGirl/MarvelNow",
             "bgImg": "/mffWIKI/img/Heros/MoonGirl/MarvelNow.jpg",
             "name": "月亮女孩"
         },
         {
             "id": "LincolnCampbell",
             "class": "預設 男性 爆破 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/LincolnCampbell/AgentsOfSHIELD",
+            "url": "/Heros/LincolnCampbell/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/LincolnCampbell/AgentsOfSHIELD.jpg",
             "name": "林肯．坎貝爾"
         },
         {
             "id": "SisterGrimm",
             "class": "預設 女性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/SisterGrimm/AForce",
+            "url": "/Heros/SisterGrimm/AForce",
             "bgImg": "/mffWIKI/img/Heros/SisterGrimm/AForce.jpg",
             "name": "格林姊妹"
         },
         {
             "id": "Songbird",
             "class": "預設 女性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Songbird/NewAvengers",
+            "url": "/Heros/Songbird/NewAvengers",
             "bgImg": "/mffWIKI/img/Heros/Songbird/NewAvengers.jpg",
             "name": "歌姬"
         },
         {
             "id": "KidOmega",
             "class": "預設 男性 爆破 X基因 英雄 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/KidOmega/Modern",
+            "url": "/Heros/KidOmega/Modern",
             "bgImg": "/mffWIKI/img/Heros/KidOmega/Modern.jpg",
             "name": "奧米伽小子"
         },
         {
             "id": "Crystal",
             "class": "預設 女性 爆破 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Crystal/AllNewAllDifferent",
+            "url": "/Heros/Crystal/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Crystal/AllNewAllDifferent.jpg",
             "name": "水晶"
         },
         {
             "id": "CrystalFant4stic",
             "class": "女性 爆破 異人族 英雄 驚奇4超人",
-            "url": "http://127.0.0.1:3000/Heros/Crystal/Fant4stic",
+            "url": "/Heros/Crystal/Fant4stic",
             "bgImg": "/mffWIKI/img/Heros/Crystal/Fant4stic.jpg",
             "name": "水晶-驚奇4超人"
         },
         {
             "id": "RocketRaccoon",
             "class": "預設 男性 爆破 外星人 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/RocketRaccoon/GuardiansOfTheGalaxy",
+            "url": "/Heros/RocketRaccoon/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/RocketRaccoon/GuardiansOfTheGalaxy.jpg",
             "name": "火箭浣熊"
         },
         {
             "id": "RachelSummers",
             "class": "預設 女性 爆破 X基因 英雄 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/RachelSummers/Modern",
+            "url": "/Heros/RachelSummers/Modern",
             "bgImg": "/mffWIKI/img/Heros/RachelSummers/Modern.jpg",
             "name": "瑞秋．桑瑪斯"
         },
         {
             "id": "Bishop",
             "class": "預設 男性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Bishop/Disband",
+            "url": "/Heros/Bishop/Disband",
             "bgImg": "/mffWIKI/img/Heros/Bishop/Disband.jpg",
             "name": "畢曉普"
         },
         {
             "id": "Jubilee",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Jubilee/Classic",
+            "url": "/Heros/Jubilee/Classic",
             "bgImg": "/mffWIKI/img/Heros/Jubilee/Classic.jpg",
             "name": "白光花火"
         },
         {
             "id": "Magik",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Magik/Classic",
+            "url": "/Heros/Magik/Classic",
             "bgImg": "/mffWIKI/img/Heros/Magik/Classic.jpg",
             "name": "秘客"
         },
         {
             "id": "MagikPhoenixFive",
             "class": "女性 爆破 X基因 反派 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/Magik/PhoenixFive",
+            "url": "/Heros/Magik/PhoenixFive",
             "bgImg": "/mffWIKI/img/Heros/Magik/PhoenixFive.jpg",
             "name": "秘客:鳳凰5人組"
         },
         {
             "id": "ScarletWitch",
             "class": "預設 女性 爆破 英雄 不明 T3",
-            "url": "http://127.0.0.1:3000/Heros/ScarletWitch/Classic",
+            "url": "/Heros/ScarletWitch/Classic",
             "bgImg": "/mffWIKI/img/Heros/ScarletWitch/Classic.jpg",
             "name": "緋紅女巫"
         },
         {
             "id": "ScarletWitchWandaVision",
             "class": "女性 宇宙 英雄 不明",
-            "url": "http://127.0.0.1:3000/Heros/ScarletWitch/WandaVision",
+            "url": "/Heros/ScarletWitch/WandaVision",
             "bgImg": "/mffWIKI/img/Heros/ScarletWitch/WandaVision.jpg",
             "name": "緋紅女巫-汪達與幻視"
         },
         {
             "id": "EmmaFrost",
             "class": "預設 女性 爆破 X基因 英雄 精神抵抗",
-            "url": "http://127.0.0.1:3000/Heros/EmmaFrost/Modern",
+            "url": "/Heros/EmmaFrost/Modern",
             "bgImg": "/mffWIKI/img/Heros/EmmaFrost/Modern.jpg",
             "name": "艾瑪．佛斯特"
         },
         {
             "id": "EmmaFrostPhoenixFive",
             "class": "女性 爆破 X基因 反派 精神抵抗 鳳凰之力",
-            "url": "http://127.0.0.1:3000/Heros/EmmaFrost/PhoenixFive",
+            "url": "/Heros/EmmaFrost/PhoenixFive",
             "bgImg": "/mffWIKI/img/Heros/EmmaFrost/PhoenixFive.jpg",
             "name": "艾瑪佛斯特-鳳凰5人組"
         },
         {
             "id": "PhilCoulson",
             "class": "預設 男性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/PhilCoulson/AgentsOfSHIELD",
+            "url": "/Heros/PhilCoulson/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/PhilCoulson/AgentsOfSHIELD.jpg",
             "name": "菲爾．考森"
         },
         {
             "id": "Mantis",
             "class": "預設 女性 爆破 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Mantis/GuardiansOfTheGalaxy2",
+            "url": "/Heros/Mantis/GuardiansOfTheGalaxy2",
             "bgImg": "/mffWIKI/img/Heros/Mantis/GuardiansOfTheGalaxy2.jpg",
             "name": "螳螂女"
         },
         {
             "id": "AdamWarlock",
             "class": "預設 男性 爆破 生物 英雄",
-            "url": "http://127.0.0.1:3000/Heros/AdamWarlock/Modern",
+            "url": "/Heros/AdamWarlock/Modern",
             "bgImg": "/mffWIKI/img/Heros/AdamWarlock/Modern.jpg",
             "name": "術士亞當"
         },
         {
             "id": "Gambit",
             "class": "預設 男性 爆破 X基因 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Gambit/Modern",
+            "url": "/Heros/Gambit/Modern",
             "bgImg": "/mffWIKI/img/Heros/Gambit/Modern.jpg",
             "name": "金牌手"
         },
         {
             "id": "IronHeart",
             "class": "預設 女性 爆破 人類 英雄 機械 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/IronHeart/MarvelNow",
+            "url": "/Heros/IronHeart/MarvelNow",
             "bgImg": "/mffWIKI/img/Heros/IronHeart/MarvelNow.jpg",
             "name": "鋼鐵心"
         },
         {
             "id": "InvisobleWoman",
             "class": "預設 女性 爆破 人類 英雄 驚奇4超人 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/InvisobleWoman/Modern",
+            "url": "/Heros/InvisobleWoman/Modern",
             "bgImg": "/mffWIKI/img/Heros/InvisobleWoman/Modern.jpg",
             "name": "隱形女"
         },
         {
             "id": "HumanTorch",
             "class": "預設 男性 爆破 人類 英雄 火焰 驚奇4超人 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/HumanTorch/Modern",
+            "url": "/Heros/HumanTorch/Modern",
             "bgImg": "/mffWIKI/img/Heros/HumanTorch/Modern.jpg",
             "name": "霹靂火"
         },
         {
             "id": "Psylocke",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Psylocke/XForce",
+            "url": "/Heros/Psylocke/XForce",
             "bgImg": "/mffWIKI/img/Heros/Psylocke/XForce.jpg",
             "name": "靈蝶"
         },
         {
             "id": "Wasp",
             "class": "預設 女性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Wasp/Modern",
+            "url": "/Heros/Wasp/Modern",
             "bgImg": "/mffWIKI/img/Heros/Wasp/Modern.jpg",
             "name": "黃蜂女"
         },
         {
             "id": "WaspNadia",
             "class": "預設 女性 爆破 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/WaspNadia/Modern",
+            "url": "/Heros/WaspNadia/Modern",
             "bgImg": "/mffWIKI/img/Heros/WaspNadia/Modern.jpg",
             "name": "黃蜂女(納迪婭．范．達因)"
         },
         {
             "id": "DaisyJohnson",
             "class": "預設 女性 爆破 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/DaisyJohnson/AgentsOfSHIELD",
+            "url": "/Heros/DaisyJohnson/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/DaisyJohnson/AgentsOfSHIELD.jpg",
             "name": "戴希．強森"
         },
         {
             "id": "BlueDargon",
             "class": "預設 女性 爆破 人類 英雄 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/BlueDargon/Modern",
+            "url": "/Heros/BlueDargon/Modern",
             "bgImg": "/mffWIKI/img/Heros/BlueDargon/Modern.jpg",
             "name": "青龍"
         },
         {
             "id": "ProfessorX",
             "class": "預設 男性 爆破 X基因 英雄 領導力 精神抵抗 T3",
-            "url": "http://127.0.0.1:3000/Heros/ProfessorX/Modern",
+            "url": "/Heros/ProfessorX/Modern",
             "bgImg": "/mffWIKI/img/Heros/ProfessorX/Modern.jpg",
             "name": "X教授"
         },
         {
             "id": "Dazzler",
             "class": "預設 女性 爆破 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Dazzler/Modern",
+            "url": "/Heros/Dazzler/Modern",
             "bgImg": "/mffWIKI/img/Heros/Dazzler/Modern.jpg",
             "name": "炫音"
         },
         {
             "id": "Spiderwoman",
             "class": "預設 女性 爆破 女性 英雄 領導力 蜘蛛感應 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Spiderwoman/Modern",
+            "url": "/Heros/Spiderwoman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Spiderwoman/Modern.jpg",
             "name": "蜘蛛女"
         },
         {
             "id": "Magneto",
             "class": "預設 男性 爆破 X基因 反派 精神抵抗 T3",
-            "url": "http://127.0.0.1:3000/Heros/Magneto/Classic",
+            "url": "/Heros/Magneto/Classic",
             "bgImg": "/mffWIKI/img/Heros/Magneto/Classic.jpg",
             "name": "萬磁王"
         },
         {
             "id": "Kaecilius",
             "class": "預設 男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Kaecilius/DoctorStrange",
+            "url": "/Heros/Kaecilius/DoctorStrange",
             "bgImg": "/mffWIKI/img/Heros/Kaecilius/DoctorStrange.jpg",
             "name": "卡西流斯"
         },
         {
             "id": "UlyssesKlaue",
             "class": "預設 男性 爆破 人類 反派 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/UlyssesKlaue/BlackPanther",
+            "url": "/Heros/UlyssesKlaue/BlackPanther",
             "bgImg": "/mffWIKI/img/Heros/UlyssesKlaue/BlackPanther.jpg",
             "name": "尤里西斯．克勞"
         },
         {
             "id": "Hydroman",
             "class": "預設 男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Hydroman/FarFromHome",
+            "url": "/Heros/Hydroman/FarFromHome",
             "bgImg": "/mffWIKI/img/Heros/Hydroman/FarFromHome.jpg",
             "name": "水人"
         },
         {
             "id": "Mysterio",
             "class": "預設 男性 爆破 人類 反派 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/Mysterio/Classic",
+            "url": "/Heros/Mysterio/Classic",
             "bgImg": "/mffWIKI/img/Heros/Mysterio/Classic.jpg",
             "name": "神秘法師"
         },
         {
             "id": "Redskull",
             "class": "預設 男性 爆破 人類 反派 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Redskull/CaptainAmericaTheFirstAvenger",
+            "url": "/Heros/Redskull/CaptainAmericaTheFirstAvenger",
             "bgImg": "/mffWIKI/img/Heros/Redskull/CaptainAmericaTheFirstAvenger.jpg",
             "name": "紅骷髏"
         },
         {
             "id": "RedskullSecretWars",
             "class": "男性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Redskull/SecretWars",
+            "url": "/Heros/Redskull/SecretWars",
             "bgImg": "/mffWIKI/img/Heros/Redskull/SecretWars.jpg",
             "name": "紅骷髏:秘密戰爭-紅骷髏"
         },
         {
             "id": "Stryfe",
             "class": "預設 男性 爆破 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/Stryfe/Modern",
+            "url": "/Heros/Stryfe/Modern",
             "bgImg": "/mffWIKI/img/Heros/Stryfe/Modern.jpg",
             "name": "紛爭"
         },
         {
             "id": "BaronMordo",
             "class": "預設 男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/BaronMordo/Classic",
+            "url": "/Heros/BaronMordo/Classic",
             "bgImg": "/mffWIKI/img/Heros/BaronMordo/Classic.jpg",
             "name": "莫度男爵"
         },
         {
             "id": "BaronMordoDoctorStrange",
             "class": "男性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/BaronMordo/DoctorStrange",
+            "url": "/Heros/BaronMordo/DoctorStrange",
             "bgImg": "/mffWIKI/img/Heros/BaronMordo/DoctorStrange.jpg",
             "name": "莫度男爵-奇異博士"
         },
         {
             "id": "Lash",
             "class": "預設 男性 爆破 異人族 反派",
-            "url": "http://127.0.0.1:3000/Heros/Lash/AgentsOfSHIELD",
+            "url": "/Heros/Lash/AgentsOfSHIELD",
             "bgImg": "/mffWIKI/img/Heros/Lash/AgentsOfSHIELD.jpg",
             "name": "萊許"
         },
         {
             "id": "Whiplash",
             "class": "預設 男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Whiplash/Ironman2",
+            "url": "/Heros/Whiplash/Ironman2",
             "bgImg": "/mffWIKI/img/Heros/Whiplash/Ironman2.jpg",
             "name": "鞭狂"
         },
         {
             "id": "Maximus",
             "class": "預設 男性 爆破 異人族 反派 精神抵抗",
-            "url": "http://127.0.0.1:3000/Heros/Maximus/WarOfKings",
+            "url": "/Heros/Maximus/WarOfKings",
             "bgImg": "/mffWIKI/img/Heros/Maximus/WarOfKings.jpg",
             "name": "馬克西穆斯"
         },
         {
             "id": "EnchanTress",
             "class": "預設 女性 爆破 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/EnchanTress/Modern",
+            "url": "/Heros/EnchanTress/Modern",
             "bgImg": "/mffWIKI/img/Heros/EnchanTress/Modern.jpg",
             "name": "魅惑魔女"
         },
         {
             "id": "Modok",
             "class": "預設 男性 爆破 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Modok/Classic",
+            "url": "/Heros/Modok/Classic",
             "bgImg": "/mffWIKI/img/Heros/Modok/Classic.jpg",
             "name": "魔多客"
         },
         {
             "id": "Malekith",
             "class": "預設 男性 爆破 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Malekith/DarkWord",
+            "url": "/Heros/Malekith/DarkWord",
             "bgImg": "/mffWIKI/img/Heros/Malekith/DarkWord.jpg",
             "name": "魔雷基"
         },
         {
             "id": "YellowJacket",
             "class": "預設 男性 爆破 人類 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/YellowJacket/Antman",
+            "url": "/Heros/YellowJacket/Antman",
             "bgImg": "/mffWIKI/img/Heros/YellowJacket/Antman.jpg",
             "name": "黃衫俠"
         },
         {
             "id": "MisterSinister",
             "class": "預設 男性 爆破 X基因 反派",
-            "url": "http://127.0.0.1:3000/Heros/MisterSinister/Modern",
+            "url": "/Heros/MisterSinister/Modern",
             "bgImg": "/mffWIKI/img/Heros/MisterSinister/Modern.jpg",
             "name": "驚惡先生"
         },
         {
             "id": "MoonStone",
             "class": "預設 女性 爆破 人類 反派 黑暗復仇者 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/MoonStone/Modern",
+            "url": "/Heros/MoonStone/Modern",
             "bgImg": "/mffWIKI/img/Heros/MoonStone/Modern.jpg",
             "name": "月光石"
         },
         {
             "id": "Spextrum",
             "class": "預設 女性 爆破 人類 英雄 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Spextrum/Modern",
+            "url": "/Heros/Spextrum/Modern",
             "bgImg": "/mffWIKI/img/Heros/Spextrum/Modern.jpg",
             "name": "光譜"
         },
         {
             "id": "BlackWidow",
             "class": "預設 女性 速度 人類 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/BlackWidow/TheAvengers",
+            "url": "/Heros/BlackWidow/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/BlackWidow/TheAvengers.jpg",
             "name": "黑寡婦"
         },
         {
             "id": "Hawekeye",
             "class": "預設 男性 速度 人類 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Hawekeye/TheAvengers",
+            "url": "/Heros/Hawekeye/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/Hawekeye/TheAvengers.jpg",
             "name": "鷹眼"
         },
         {
             "id": "Spiderman",
             "class": "預設 男性 速度 人類 英雄 蜘蛛感應 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/Spiderman/Classic",
+            "url": "/Heros/Spiderman/Classic",
             "bgImg": "/mffWIKI/img/Heros/Spiderman/Classic.jpg",
             "name": "蜘蛛人"
         },
         {
             "id": "Falcon",
             "class": "預設 男性 速度 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Falcon/CaptainAmericaTheWinterSoldier",
+            "url": "/Heros/Falcon/CaptainAmericaTheWinterSoldier",
             "bgImg": "/mffWIKI/img/Heros/Falcon/CaptainAmericaTheWinterSoldier.jpg",
             "name": "獵鷹"
         },
         {
             "id": "WinterSoldier",
             "class": "預設 男性 速度 人類 英雄 武器專家 T3",
-            "url": "http://127.0.0.1:3000/Heros/WinterSoldier/CaptainAmericaTheWinterSoldier",
+            "url": "/Heros/WinterSoldier/CaptainAmericaTheWinterSoldier",
             "bgImg": "/mffWIKI/img/Heros/WinterSoldier/CaptainAmericaTheWinterSoldier.jpg",
             "name": "酷寒戰士"
         },
         {
             "id": "Quicksilver",
             "class": "預設 男性 速度 英雄 不明 T3",
-            "url": "http://127.0.0.1:3000/Heros/Quicksilver/Classic",
+            "url": "/Heros/Quicksilver/Classic",
             "bgImg": "/mffWIKI/img/Heros/Quicksilver/Classic.jpg",
             "name": "快銀"
         },
         {
             "id": "NickFury",
             "class": "預設 男性 速度 人類 英雄 武器專家 領導力",
-            "url": "http://127.0.0.1:3000/Heros/NickFury/Modern",
+            "url": "/Heros/NickFury/Modern",
             "bgImg": "/mffWIKI/img/Heros/NickFury/Modern.jpg",
             "name": "尼克福瑞"
         },
         {
             "id": "Deadpool",
             "class": "預設 男性 速度 X基因 英雄 武器專家 T3",
-            "url": "http://127.0.0.1:3000/Heros/Deadpool/Modern",
+            "url": "/Heros/Deadpool/Modern",
             "bgImg": "/mffWIKI/img/Heros/Deadpool/Modern.jpg",
             "name": "死恃"
         },
         {
             "id": "DeadpoolGirl",
             "class": "女性 速度 X基因 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Deadpool/Girl",
+            "url": "/Heros/Deadpool/Girl",
             "bgImg": "/mffWIKI/img/Heros/Deadpool/Girl.jpg",
             "name": "女死恃"
         },
         {
             "id": "DeadpoolParty",
             "class": "女性 速度 X基因 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Deadpool/Party",
+            "url": "/Heros/Deadpool/Party",
             "bgImg": "/mffWIKI/img/Heros/Deadpool/Party.jpg",
             "name": "死恃-節日派對"
         },
         {
             "id": "Domind",
             "class": "預設 女性 速度 X基因 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Domind/XForce",
+            "url": "/Heros/Domind/XForce",
             "bgImg": "/mffWIKI/img/Heros/Domind/XForce.jpg",
             "name": "多米諾"
         },
         {
             "id": "Gwenpool",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Gwenpool/AllNewAllDifferent",
+            "url": "/Heros/Gwenpool/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Gwenpool/AllNewAllDifferent.jpg",
             "name": "關死恃"
         },
         {
             "id": "LunaSnow",
             "class": "預設 女性 速度 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/LunaSnow/Modern",
+            "url": "/Heros/LunaSnow/Modern",
             "bgImg": "/mffWIKI/img/Heros/LunaSnow/Modern.jpg",
             "name": "冰月花雪"
         },
         {
             "id": "Antman",
             "class": "預設 男性 速度 人類 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Antman/Modern",
+            "url": "/Heros/Antman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Antman/Modern.jpg",
             "name": "蟻人"
         },
         {
             "id": "Agent13",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Agent13/Modern",
+            "url": "/Heros/Agent13/Modern",
             "bgImg": "/mffWIKI/img/Heros/Agent13/Modern.jpg",
             "name": "13 特 工"
         },
         {
             "id": "X23",
             "class": "預設 女性 速度 X基因 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/X23/Classic",
+            "url": "/Heros/X23/Classic",
             "bgImg": "/mffWIKI/img/Heros/X23/Classic.jpg",
             "name": "X23"
         },
         {
             "id": "X23AllNewWolverine",
             "class": "女性 近戰 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/X23/AllNewWolverine",
+            "url": "/Heros/X23/AllNewWolverine",
             "bgImg": "/mffWIKI/img/Heros/X23/AllNewWolverine.jpg",
             "name": "X23-新金鋼狼"
         },
         {
             "id": "Mockingbird",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Mockingbird/HeroAge",
+            "url": "/Heros/Mockingbird/HeroAge",
             "bgImg": "/mffWIKI/img/Heros/Mockingbird/HeroAge.jpg",
             "name": "仿聲鳥"
         },
         {
             "id": "KittyPryde",
             "class": "預設 女性 速度 X基因 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/KittyPryde/Modern",
+            "url": "/Heros/KittyPryde/Modern",
             "bgImg": "/mffWIKI/img/Heros/KittyPryde/Modern.jpg",
             "name": "凱蒂．普萊德"
         },
         {
             "id": "Yondu",
             "class": "預設 男性 速度 外星人 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Yondu/GuardiansOfTheGalaxy",
+            "url": "/Heros/Yondu/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Yondu/GuardiansOfTheGalaxy.jpg",
             "name": "勇度"
         },
         {
             "id": "Karnak",
             "class": "預設 男性 速度 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Karnak/WarOfKings",
+            "url": "/Heros/Karnak/WarOfKings",
             "bgImg": "/mffWIKI/img/Heros/Karnak/WarOfKings.jpg",
             "name": "卡爾奈克"
         },
         {
             "id": "Hellcat",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Hellcat/AllNewAllDifferent",
+            "url": "/Heros/Hellcat/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Hellcat/AllNewAllDifferent.jpg",
             "name": "地獄貓"
         },
         {
             "id": "Nightcrawler",
             "class": "預設 男性 速度 X基因 英雄 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Nightcrawler/Modern",
+            "url": "/Heros/Nightcrawler/Modern",
             "bgImg": "/mffWIKI/img/Heros/Nightcrawler/Modern.jpg",
             "name": "夜行者"
         },
         {
             "id": "DareDevil",
             "class": "預設 男性 速度 人類 英雄 領導力 捍衛者 T3",
-            "url": "http://127.0.0.1:3000/Heros/DareDevil/Modern",
+            "url": "/Heros/DareDevil/Modern",
             "bgImg": "/mffWIKI/img/Heros/DareDevil/Modern.jpg",
             "name": "夜魔俠"
         },
         {
             "id": "Angel",
             "class": "預設 男性 速度 X基因 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Angel/Modern",
+            "url": "/Heros/Angel/Modern",
             "bgImg": "/mffWIKI/img/Heros/Angel/Modern.jpg",
             "name": "天使"
         },
         {
             "id": "SpiderGwen",
             "class": "預設 女性 速度 人類 英雄 蜘蛛感應 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/SpiderGwen/AllNewAllDifferent",
+            "url": "/Heros/SpiderGwen/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/SpiderGwen/AllNewAllDifferent.jpg",
             "name": "女蜘蛛人．關"
         },
         {
             "id": "SpiderGwenSymbiont",
             "class": "女性 速度 人類 反派 蜘蛛感應 共生體",
-            "url": "http://127.0.0.1:3000/Heros/SpiderGwen/Symbiont",
+            "url": "/Heros/SpiderGwen/Symbiont",
             "bgImg": "/mffWIKI/img/Heros/SpiderGwen/Symbiont.jpg",
             "name": "女蜘蛛人．關:猛毒關"
         },
         {
             "id": "Rogue",
             "class": "預設 女性 速度 X基因 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Rogue/Classic",
+            "url": "/Heros/Rogue/Classic",
             "bgImg": "/mffWIKI/img/Heros/Rogue/Classic.jpg",
             "name": "小淘氣"
         },
         {
             "id": "Elektra",
             "class": "預設 女性 速度 人類 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Elektra/Classic",
+            "url": "/Heros/Elektra/Classic",
             "bgImg": "/mffWIKI/img/Heros/Elektra/Classic.jpg",
             "name": "幻影殺手"
         },
         {
             "id": "KidKaiju",
             "class": "預設 男性 速度 異人族 英雄",
-            "url": "http://127.0.0.1:3000/Heros/KidKaiju/Monster",
+            "url": "/Heros/KidKaiju/Monster",
             "bgImg": "/mffWIKI/img/Heros/KidKaiju/Monster.jpg",
             "name": "怪獸小子"
         },
         {
             "id": "SquirrelGirl",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/SquirrelGirl/NewAvengers",
+            "url": "/Heros/SquirrelGirl/NewAvengers",
             "bgImg": "/mffWIKI/img/Heros/SquirrelGirl/NewAvengers.jpg",
             "name": "松鼠女孩"
         },
         {
             "id": "Aero",
             "class": "預設 女性 速度 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Aero/Modern",
+            "url": "/Heros/Aero/Modern",
             "bgImg": "/mffWIKI/img/Heros/Aero/Modern.jpg",
             "name": "氣旋"
         },
         {
             "id": "Wave",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Wave/Modern",
+            "url": "/Heros/Wave/Modern",
             "bgImg": "/mffWIKI/img/Heros/Wave/Modern.jpg",
             "name": "浪"
         },
         {
             "id": "Wong",
             "class": "預設 男性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Wong/AllNewAllDifferent",
+            "url": "/Heros/Wong/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Wong/AllNewAllDifferent.jpg",
             "name": "王"
         },
         {
             "id": "Fantomex",
             "class": "預設 男性 速度 X基因 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Fantomex/XForece",
+            "url": "/Heros/Fantomex/XForece",
             "bgImg": "/mffWIKI/img/Heros/Fantomex/XForece.jpg",
             "name": "白幽靈"
         },
         {
             "id": "WhiteFox",
             "class": "預設 女性 速度 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/WhiteFox/Modern",
+            "url": "/Heros/WhiteFox/Modern",
             "bgImg": "/mffWIKI/img/Heros/WhiteFox/Modern.jpg",
             "name": "白狐"
         },
         {
             "id": "Fandral",
             "class": "預設 男性 速度 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Fandral/Modern",
+            "url": "/Heros/Fandral/Modern",
             "bgImg": "/mffWIKI/img/Heros/Fandral/Modern.jpg",
             "name": "范達爾"
         },
         {
             "id": "Shuri",
             "class": "預設 女性 速度 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Shuri/MarvelLegacy",
+            "url": "/Heros/Shuri/MarvelLegacy",
             "bgImg": "/mffWIKI/img/Heros/Shuri/MarvelLegacy.jpg",
             "name": "舒莉"
         },
         {
             "id": "ElsaBloodstone",
             "class": "預設 女性 速度 人類 英雄 武器專家 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/ElsaBloodstone/Modern",
+            "url": "/Heros/ElsaBloodstone/Modern",
             "bgImg": "/mffWIKI/img/Heros/ElsaBloodstone/Modern.jpg",
             "name": "艾爾莎．血石"
         },
         {
             "id": "Gamora",
             "class": "預設 女性 速度 外星人 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Gamora/GuardiansOfTheGalaxy",
+            "url": "/Heros/Gamora/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Gamora/GuardiansOfTheGalaxy.jpg",
             "name": "葛摩拉"
         },
         {
             "id": "Silk",
             "class": "預設 女性 速度 人類 英雄 蜘蛛感應 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Silk/AllNewAllDifferent",
+            "url": "/Heros/Silk/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Silk/AllNewAllDifferent.jpg",
             "name": "蛛絲女"
         },
         {
             "id": "SpidermanMiles",
             "class": "預設 男性 速度 人類 英雄 蜘蛛感應 領導力",
-            "url": "http://127.0.0.1:3000/Heros/SpidermanMiles/AllNewAllDifferent",
+            "url": "/Heros/SpidermanMiles/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/SpidermanMiles/AllNewAllDifferent.jpg",
             "name": "蜘蛛人(麥爾斯．摩拉斯)"
         },
         {
             "id": "SpidermanMilesAbsoluteCarnage",
             "class": "男性 近戰 人類 反派 蜘蛛感應 共生體",
-            "url": "http://127.0.0.1:3000/Heros/SpidermanMiles/AbsoluteCarnage",
+            "url": "/Heros/SpidermanMiles/AbsoluteCarnage",
             "bgImg": "/mffWIKI/img/Heros/SpidermanMiles/AbsoluteCarnage.jpg",
             "name": "蜘蛛人(麥爾斯．摩拉斯):絕對屠殺"
         },
         {
             "id": "Spider2099",
             "class": "預設 男性 速度 人類 英雄 蜘蛛感應 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Spider2099/Modern",
+            "url": "/Heros/Spider2099/Modern",
             "bgImg": "/mffWIKI/img/Heros/Spider2099/Modern.jpg",
             "name": "蜘蛛人2099"
         },
         {
             "id": "ArachKnight",
             "class": "預設 男性 速度 人類 英雄 蜘蛛感應 領導力",
-            "url": "http://127.0.0.1:3000/Heros/ArachKnight/Fusion",
+            "url": "/Heros/ArachKnight/Fusion",
             "bgImg": "/mffWIKI/img/Heros/ArachKnight/Fusion.jpg",
             "name": "蜘蛛騎士"
         },
         {
             "id": "MistyKnght",
             "class": "預設 女性 速度 人類 英雄 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/MistyKnght/AllNewAllDifferent",
+            "url": "/Heros/MistyKnght/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/MistyKnght/AllNewAllDifferent.jpg",
             "name": "迷霧騎士"
         },
         {
             "id": "HawkeyeKate",
             "class": "預設 女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/HawkeyeKate/MarvelNow",
+            "url": "/Heros/HawkeyeKate/MarvelNow",
             "bgImg": "/mffWIKI/img/Heros/HawkeyeKate/MarvelNow.jpg",
             "name": "鷹眼(凱特．畢夏普)"
         },
         {
             "id": "SunBird",
             "class": "預設 男性 速度 人類 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/SunBird/Modern",
+            "url": "/Heros/SunBird/Modern",
             "bgImg": "/mffWIKI/img/Heros/SunBird/Modern.jpg",
             "name": "鳳皇"
         },
         {
             "id": "DarkHawk",
             "class": "預設 男性 速度 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Darkhawk/Modern",
+            "url": "/Heros/Darkhawk/Modern",
             "bgImg": "/mffWIKI/img/Heros/DarkHawk/Modern.jpg",
             "name": "黑鷹"
         },
         {
             "id": "ScarletSpider",
             "class": "預設 男性 速度 人類 英雄 蜘蛛感應 領導力",
-            "url": "http://127.0.0.1:3000/Heros/ScarletSpider/Modern",
+            "url": "/Heros/ScarletSpider/Modern",
             "bgImg": "/mffWIKI/img/Heros/ScarletSpider/Modern.jpg",
             "name": "猩紅蜘蛛"
         },
         {
             "id": "Sin",
             "class": "預設 女性 速度 人類 反派 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Sin/AllNewAllDifferent",
+            "url": "/Heros/Sin/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Sin/AllNewAllDifferent.jpg",
             "name": "原罪"
         },
         {
             "id": "Ghost",
             "class": "預設 男性 速度 人類 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Ghost/Classic",
+            "url": "/Heros/Ghost/Classic",
             "bgImg": "/mffWIKI/img/Heros/Ghost/Classic.jpg",
             "name": "幽靈"
         },
         {
             "id": "GhostAntmanAndTheWasp",
             "class": "女性 速度 人類 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Ghost/AntmanAndTheWasp",
+            "url": "/Heros/Ghost/AntmanAndTheWasp",
             "bgImg": "/mffWIKI/img/Heros/Ghost/AntmanAndTheWasp.jpg",
             "name": "幽靈-蟻人與黃蜂女"
         },
         {
             "id": "KravenHunter",
             "class": "預設 男性 速度 人類 反派 武器專家 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/KravenHunter/Modern",
+            "url": "/Heros/KravenHunter/Modern",
             "bgImg": "/mffWIKI/img/Heros/KravenHunter/Modern.jpg",
             "name": "獵人克萊文"
         },
         {
             "id": "Vulture",
             "class": "預設 男性 速度 人類 反派 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/Vulture/Classic",
+            "url": "/Heros/Vulture/Classic",
             "bgImg": "/mffWIKI/img/Heros/Vulture/Classic.jpg",
             "name": "禿鷹"
         },
         {
             "id": "Korath",
             "class": "預設 男性 速度 外星人 反派 武器專家",
-            "url": "http://127.0.0.1:3000/Heros/Korath/CaptionMarvel",
+            "url": "/Heros/Korath/CaptionMarvel",
             "bgImg": "/mffWIKI/img/Heros/Korath/CaptionMarvel.jpg",
             "name": "科拉特"
         },
         {
             "id": "GreenGoblin",
             "class": "預設 男性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/GreenGoblin/Classic",
+            "url": "/Heros/GreenGoblin/Classic",
             "bgImg": "/mffWIKI/img/Heros/GreenGoblin/Classic.jpg",
             "name": "綠惡魔"
         },
         {
             "id": "GreenGoblinTheDarkAvengers",
             "class": "男性 爆破 人類 反派 黑暗復仇者 ",
-            "url": "http://127.0.0.1:3000/Heros/GreenGoblin/TheDarkAvengers",
+            "url": "/Heros/GreenGoblin/TheDarkAvengers",
             "bgImg": "/mffWIKI/img/Heros/GreenGoblin/TheDarkAvengers.jpg",
             "name": "綠惡魔:黑暗復仇者"
         },
         {
             "id": "GreenGoblinSuper",
             "class": "男性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/GreenGoblin/Super",
+            "url": "/Heros/GreenGoblin/Super",
             "bgImg": "/mffWIKI/img/Heros/GreenGoblin/Super.jpg",
             "name": "綠惡魔-究極"
         },
         {
             "id": "BaronZemo",
             "class": "預設 男性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/BaronZemo/Modern",
+            "url": "/Heros/BaronZemo/Modern",
             "bgImg": "/mffWIKI/img/Heros/BaronZemo/Modern.jpg",
             "name": "齊莫男爵"
         },
         {
             "id": "Electro",
             "class": "預設 男性 速度 人類 反派 邪惡6人組",
-            "url": "http://127.0.0.1:3000/Heros/Electro/Modern",
+            "url": "/Heros/Electro/Modern",
             "bgImg": "/mffWIKI/img/Heros/Electro/Modern.jpg",
             "name": "電光人"
         },
         {
             "id": "Blackcat",
             "class": "預設 女性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Blackcat/Modern",
+            "url": "/Heros/Blackcat/Modern",
             "bgImg": "/mffWIKI/img/Heros/Blackcat/Modern.jpg",
             "name": "黑貓"
         },
         {
             "id": "Viper",
             "class": "預設 女性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Viper/Modern",
+            "url": "/Heros/Viper/Modern",
             "bgImg": "/mffWIKI/img/Heros/Viper/Modern.jpg",
             "name": "毒蛇"
         },
         {
             "id": "Mystique",
             "class": "預設 女性 速度 X基因 反派 武器專家 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Mystique/Modern",
+            "url": "/Heros/Mystique/Modern",
             "bgImg": "/mffWIKI/img/Heros/Mystique/Modern.jpg",
             "name": "魔形女"
         },
         {
             "id": "Yelena",
             "class": "預設 女性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Yelena/Modern",
+            "url": "/Heros/Yelena/Modern",
             "bgImg": "/mffWIKI/img/Heros/Yelena/Modern.jpg",
             "name": "葉蓮娜"
         },
         {
             "id": "YelenaBlackWidow",
             "class": "女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Yelena/BlackWidow",
+            "url": "/Heros/Yelena/BlackWidow",
             "bgImg": "/mffWIKI/img/Heros/Yelena/BlackWidow.jpg",
             "name": "葉蓮娜: 漫威黑寡婦"
         },
         {
             "id": "YelenaIce",
             "class": "女性 速度 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Yelena/Ice",
+            "url": "/Heros/Yelena/Ice",
             "bgImg": "/mffWIKI/img/Heros/Yelena/Ice.jpg",
             "name": "葉蓮娜: 漫威黑寡婦(冰雪戰衣)"
         },
         {
             "id": "Scorpion",
             "class": "預設 男性 速度 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Scorpion/Modern",
+            "url": "/Heros/Scorpion/Modern",
             "bgImg": "/mffWIKI/img/Heros/Scorpion/Modern.jpg",
             "name": "蠍子人"
         },
         {
             "id": "Thor",
             "class": "預設 男性 宇宙 外星人 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/Thor/TheAvengers",
+            "url": "/Heros/Thor/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/Thor/TheAvengers.jpg",
             "name": "索爾"
         },
         {
             "id": "CaptainMarvel",
             "class": "預設 女性 宇宙 人類 英雄 領導力 T3",
-            "url": "http://127.0.0.1:3000/Heros/CaptainMarvel/Modern",
+            "url": "/Heros/CaptainMarvel/Modern",
             "bgImg": "/mffWIKI/img/Heros/CaptainMarvel/Modern.jpg",
             "name": "驚奇隊長"
         },
         {
             "id": "Slapstick",
             "class": "預設 男性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Slapstick/Modern",
+            "url": "/Heros/Slapstick/Modern",
             "bgImg": "/mffWIKI/img/Heros/Slapstick/Modern.jpg",
             "name": "鬧劇"
         },
         {
             "id": "Clea",
             "class": "預設 女性 宇宙 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Clea/Modern",
+            "url": "/Heros/Clea/Modern",
             "bgImg": "/mffWIKI/img/Heros/Clea/Modern.jpg",
             "name": "克莉"
         },
         {
             "id": "HellStorm",
             "class": "預設 男性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/HellStorm/Modern",
+            "url": "/Heros/HellStorm/Modern",
             "bgImg": "/mffWIKI/img/Heros/HellStorm/Modern.jpg",
             "name": "地獄風暴"
         },
         {
             "id": "Hyperion",
             "class": "預設 男性 宇宙 外星人 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Hyperion/AllNewAllDifferent",
+            "url": "/Heros/Hyperion/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Hyperion/AllNewAllDifferent.jpg",
             "name": "太陽神"
         },
         {
             "id": "Singularity",
             "class": "預設 女性 宇宙 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Singularity/Aforce",
+            "url": "/Heros/Singularity/Aforce",
             "bgImg": "/mffWIKI/img/Heros/Singularity/Aforce.jpg",
             "name": "奇點"
         },
         {
             "id": "Odin",
             "class": "預設 男性 宇宙 外星人 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/Odin/Modern",
+            "url": "/Heros/Odin/Modern",
             "bgImg": "/mffWIKI/img/Heros/Odin/Modern.jpg",
             "name": "奧丁"
         },
         {
             "id": "DoctorVoodoo",
             "class": "預設 男性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/DoctorVoodoo/Modern",
+            "url": "/Heros/DoctorVoodoo/Modern",
             "bgImg": "/mffWIKI/img/Heros/DoctorVoodoo/Modern.jpg",
             "name": "巫毒"
         },
         {
             "id": "GhostRider",
             "class": "預設 男性 宇宙 人類 英雄 領導力 火焰 T3",
-            "url": "http://127.0.0.1:3000/Heros/GhostRider/Classic",
+            "url": "/Heros/GhostRider/Classic",
             "bgImg": "/mffWIKI/img/Heros/GhostRider/Classic.jpg",
             "name": "惡靈戰警"
         },
         {
             "id": "GhostRiderRobbie",
             "class": "預設 男性 宇宙 人類 英雄 火焰",
-            "url": "http://127.0.0.1:3000/Heros/GhostRiderRobbie/MarvelNow",
+            "url": "/Heros/GhostRiderRobbie/MarvelNow",
             "bgImg": "/mffWIKI/img/Heros/GhostRiderRobbie/MarvelNow.jpg",
             "name": "惡靈戰警(羅比．雷伊斯)"
         },
         {
             "id": "GhostPanther",
             "class": "預設 男性 宇宙 人類 英雄 火焰",
-            "url": "http://127.0.0.1:3000/Heros/GhostPanther/Fusion",
+            "url": "/Heros/GhostPanther/Fusion",
             "bgImg": "/mffWIKI/img/Heros/GhostPanther/Fusion.jpg",
             "name": "惡靈黑豹"
         },
         {
             "id": "Angela",
             "class": "預設 女性 宇宙 外星人 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Angela/Modern",
+            "url": "/Heros/Angela/Modern",
             "bgImg": "/mffWIKI/img/Heros/Angela/Modern.jpg",
             "name": "戰鬥天使"
         },
         {
             "id": "Satana",
             "class": "預設 女性 宇宙 人類 英雄 火焰",
-            "url": "http://127.0.0.1:3000/Heros/Satana/Modern",
+            "url": "/Heros/Satana/Modern",
             "bgImg": "/mffWIKI/img/Heros/Satana/Modern.jpg",
             "name": "撒旦娜"
         },
         {
             "id": "NovaSam",
             "class": "預設 男性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/NovaSam/AllNewAllDifferent",
+            "url": "/Heros/NovaSam/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/NovaSam/AllNewAllDifferent.jpg",
             "name": "新星(山姆．亞歷山大)"
         },
         {
             "id": "Heimdall",
             "class": "預設 男性 宇宙 外星人 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Heimdall/Ragnarok",
+            "url": "/Heros/Heimdall/Ragnarok",
             "bgImg": "/mffWIKI/img/Heros/Heimdall/Ragnarok.jpg",
             "name": "海姆達爾"
         },
         {
             "id": "ThorJane",
             "class": "預設 女性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/ThorJane/AllNewAllDifferent",
+            "url": "/Heros/ThorJane/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/ThorJane/AllNewAllDifferent.jpg",
             "name": "索爾(珍．佛斯特)"
         },
         {
             "id": "Medusa",
             "class": "預設 女性 宇宙 異人族 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/Medusa/AllNewAllDifferent",
+            "url": "/Heros/Medusa/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Medusa/AllNewAllDifferent.jpg",
             "name": "美杜莎"
         },
         {
             "id": "BlueMarvel",
             "class": "預設 男性 宇宙 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/BlueMarvel/TheUltimates",
+            "url": "/Heros/BlueMarvel/TheUltimates",
             "bgImg": "/mffWIKI/img/Heros/BlueMarvel/TheUltimates.jpg",
             "name": "藍驚奇"
         },
         {
             "id": "SilverSurfer",
             "class": "預設 男性 宇宙 外星人 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/SilverSurfer/Modern",
+            "url": "/Heros/SilverSurfer/Modern",
             "bgImg": "/mffWIKI/img/Heros/SilverSurfer/Modern.jpg",
             "name": "銀色衝浪手"
         },
         {
             "id": "IronHammer",
             "class": "預設 男性 宇宙 外星人 英雄 機械",
-            "url": "http://127.0.0.1:3000/Heros/IronHammer/Fusion",
+            "url": "/Heros/IronHammer/Fusion",
             "bgImg": "/mffWIKI/img/Heros/IronHammer/Fusion.jpg",
             "name": "鋼鐵之槌"
         },
         {
             "id": "Quasar",
             "class": "預設 女性 宇宙 人類 英雄",
-            "url": "http://127.0.0.1:3000/Heros/Quasar/AllNewAllDifferent",
+            "url": "/Heros/Quasar/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Quasar/AllNewAllDifferent.jpg",
             "name": "類星體(艾薇德．金凱德)"
         },
         {
             "id": "BlackBolt",
             "class": "預設 男性 宇宙 異人族 英雄 T3",
-            "url": "http://127.0.0.1:3000/Heros/BlackBolt/Modern",
+            "url": "/Heros/BlackBolt/Modern",
             "bgImg": "/mffWIKI/img/Heros/BlackBolt/Modern.jpg",
             "name": "黑霹雷"
         },
         {
             "id": "ShadowShell",
             "class": "預設 女性 宇宙 人類 英雄 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/ShadowShell/Modern",
+            "url": "/Heros/ShadowShell/Modern",
             "bgImg": "/mffWIKI/img/Heros/ShadowShell/Modern.jpg",
             "name": "玄武"
         },
         {
             "id": "NovaRichard",
             "class": "預設 男性 宇宙 人類 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/NovaRichard/Modern",
+            "url": "/Heros/NovaRichard/Modern",
             "bgImg": "/mffWIKI/img/Heros/NovaRichard/Modern.jpg",
             "name": "新星"
         },
         {
             "id": "BetaRayBill",
             "class": "預設 男性 宇宙 外星人 英雄 領導力 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/BetaRayBill/Modern",
+            "url": "/Heros/BetaRayBill/Modern",
             "bgImg": "/mffWIKI/img/Heros/BetaRayBill/Modern.jpg",
             "name": "貝塔"
         },
         {
             "id": "PhylaVell",
             "class": "預設 女性 宇宙 外星人 英雄 領導力",
-            "url": "http://127.0.0.1:3000/Heros/PhylaVell/Modern",
+            "url": "/Heros/PhylaVell/Modern",
             "bgImg": "/mffWIKI/img/Heros/PhylaVell/Modern.jpg",
             "name": "菲拉威爾"
         },
         {
             "id": "Sentry",
             "class": "預設 男性 宇宙 外星人 英雄 黑暗復仇者 T3",
-            "url": "http://127.0.0.1:3000/Heros/Sentry/Modern",
+            "url": "/Heros/Sentry/Modern",
             "bgImg": "/mffWIKI/img/Heros/Sentry/Modern.jpg",
             "name": "哨兵"
         },
         {
             "id": "Thanos",
             "class": "預設 男性 宇宙 外星人 反派 T3",
-            "url": "http://127.0.0.1:3000/Heros/Thanos/Unlimited",
+            "url": "/Heros/Thanos/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/Thanos/Unlimited.jpg",
             "name": "薩諾斯"
         },
         {
             "id": "Loki",
             "class": "預設 男性 宇宙 外星人 反派 T3",
-            "url": "http://127.0.0.1:3000/Heros/Loki/TheAvengers",
+            "url": "/Heros/Loki/TheAvengers",
             "bgImg": "/mffWIKI/img/Heros/Loki/TheAvengers.jpg",
             "name": "洛基"
         },
         {
             "id": "LokiLady",
             "class": "女性 宇宙 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Loki/Lady",
+            "url": "/Heros/Loki/Lady",
             "bgImg": "/mffWIKI/img/Heros/Loki/Lady.jpg",
             "name": "洛基:淑女洛基"
         },
         {
             "id": "Antiman",
             "class": "預設 男性 宇宙 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Antiman/AllNewAllDifferent",
+            "url": "/Heros/Antiman/AllNewAllDifferent",
             "bgImg": "/mffWIKI/img/Heros/Antiman/AllNewAllDifferent.jpg",
             "name": "反物質人"
         },
         {
             "id": "Dormammu",
             "class": "預設 男性 宇宙 外星人 反派 T3",
-            "url": "http://127.0.0.1:3000/Heros/Dormammu/Classic",
+            "url": "/Heros/Dormammu/Classic",
             "bgImg": "/mffWIKI/img/Heros/Dormammu/Classic.jpg",
             "name": "多瑪暮"
         },
         {
             "id": "Ultron",
             "class": "預設 男性 宇宙 生物 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Ultron/Modern",
+            "url": "/Heros/Ultron/Modern",
             "bgImg": "/mffWIKI/img/Heros/Ultron/Modern.jpg",
             "name": "奧創"
         },
         {
             "id": "CorvusGlaive",
             "class": "預設 男性 宇宙 外星人 反派 闇黑號令 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/CorvusGlaive/Unlimited",
+            "url": "/Heros/CorvusGlaive/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/CorvusGlaive/Unlimited.jpg",
             "name": "掠鴉兇刃"
         },
         {
             "id": "CorvusGlaiveDarkObsidianArmor",
             "class": "男性 速度 外星人 反派 闇黑號令",
-            "url": "http://127.0.0.1:3000/Heros/CorvusGlaive/DarkObsidianArmor",
+            "url": "/Heros/CorvusGlaive/DarkObsidianArmor",
             "bgImg": "/mffWIKI/img/Heros/CorvusGlaive/DarkObsidianArmor.jpg",
             "name": "掠鴉兇刃-闇黑曜岩裝甲"
         },
         {
             "id": "MorganLefav",
             "class": "預設 女性 宇宙 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/MorganLefav/Modern",
+            "url": "/Heros/MorganLefav/Modern",
             "bgImg": "/mffWIKI/img/Heros/MorganLefav/Modern.jpg",
             "name": "摩根娜勒菲"
         },
         {
             "id": "SuperGiant",
             "class": "預設 女性 宇宙 外星人 反派 精神抵抗 闇黑號令 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/SuperGiant/Unlimited",
+            "url": "/Heros/SuperGiant/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/SuperGiant/Unlimited.jpg",
             "name": "昊天極星"
         },
         {
             "id": "BlackDwarf",
             "class": "預設 男性 宇宙 外星人 反派 闇黑號令 覺醒",
-            "url": "http://127.0.0.1:3000/Heros/BlackDwarf/Unlimited",
+            "url": "/Heros/BlackDwarf/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/BlackDwarf/Unlimited.jpg",
             "name": "星駭寂滅"
         },
         {
             "id": "BlackDwarfDarkObsidianArmor",
             "class": "男性 近戰 外星人 反派 闇黑號令",
-            "url": "http://127.0.0.1:3000/Heros/BlackDwarf/DarkObsidianArmor",
+            "url": "/Heros/BlackDwarf/DarkObsidianArmor",
             "bgImg": "/mffWIKI/img/Heros/BlackDwarf/DarkObsidianArmor.jpg",
             "name": "星駭寂滅-闇黑曜岩裝甲"
         },
         {
             "id": "ProximaMidnight",
             "class": "預設 女性 宇宙 外星人 反派 闇黑號令 T3",
-            "url": "http://127.0.0.1:3000/Heros/ProximaMidnight/Unlimited",
+            "url": "/Heros/ProximaMidnight/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/ProximaMidnight/Unlimited.jpg",
             "name": "闇夜無星"
         },
         {
             "id": "DoctorDoom",
             "class": "預設 男性 宇宙 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/DoctorDoom/Modern",
+            "url": "/Heros/DoctorDoom/Modern",
             "bgImg": "/mffWIKI/img/Heros/DoctorDoom/Modern.jpg",
             "name": "末日博士"
         },
         {
             "id": "Hela",
             "class": "預設 女性 宇宙 外星人 反派",
-            "url": "http://127.0.0.1:3000/Heros/Hela/Modern",
+            "url": "/Heros/Hela/Modern",
             "bgImg": "/mffWIKI/img/Heros/Hela/Modern.jpg",
             "name": "海拉"
         },
         {
             "id": "EbonyMaw",
             "class": "預設 男性 宇宙 外星人 反派 闇黑號令 T3",
-            "url": "http://127.0.0.1:3000/Heros/EbonyMaw/Unlimited",
+            "url": "/Heros/EbonyMaw/Unlimited",
             "bgImg": "/mffWIKI/img/Heros/EbonyMaw/Unlimited.jpg",
             "name": "烏木邪心"
         },
         {
             "id": "EbonyMawDarkObsidianArmor",
             "class": "男性 爆破 外星人 反派 闇黑號令",
-            "url": "http://127.0.0.1:3000/Heros/EbonyMaw/ObsidianArmor",
+            "url": "/Heros/EbonyMaw/ObsidianArmor",
             "bgImg": "/mffWIKI/img/Heros/EbonyMaw/DarkObsidianArmor.jpg",
             "name": "烏木邪心-闇黑曜岩裝甲"
         },
         {
             "id": "Victorious",
             "class": "預設 女性 宇宙 人類 反派",
-            "url": "http://127.0.0.1:3000/Heros/Victorious/Modern",
+            "url": "/Heros/Victorious/Modern",
             "bgImg": "/mffWIKI/img/Heros/Victorious/Modern.jpg",
             "name": "維克多利斯"
         },
         {
             "id": "Ronan",
             "class": "預設 男性 宇宙 外星人 反派 精神抵抗",
-            "url": "http://127.0.0.1:3000/Heros/Ronan/GuardiansOfTheGalaxy",
+            "url": "/Heros/Ronan/GuardiansOfTheGalaxy",
             "bgImg": "/mffWIKI/img/Heros/Ronan/GuardiansOfTheGalaxy.jpg",
             "name": "羅南"
         },
         {
             "id": "Sentinel",
             "class": "預設 無性別 宇宙 生物 反派 機械",
-            "url": "http://127.0.0.1:3000/Heros/Sentinel/Modern",
+            "url": "/Heros/Sentinel/Modern",
             "bgImg": "/mffWIKI/img/Heros/Sentinel/Modern.jpg",
             "name": "哨兵機器人"
         },
         {
             "id": "Thane",
             "class": "預設 男性 宇宙 異人族 反派",
-            "url": "http://127.0.0.1:3000/Heros/Thane/Modern",
+            "url": "/Heros/Thane/Modern",
             "bgImg": "/mffWIKI/img/Heros/Thane/Modern.jpg",
             "name": "塞恩"
         },
         {
             "id": "Moleculeman",
             "class": "預設 男性 宇宙 人類 反派 T3",
-            "url": "http://127.0.0.1:3000/Heros/Moleculeman/Modern",
+            "url": "/Heros/Moleculeman/Modern",
             "bgImg": "/mffWIKI/img/Heros/Moleculeman/Modern.jpg",
             "name": "分子人"
         },
         {
             "id": "Knull",
             "class": "預設 男性 宇宙 外星人 反派 共生體 T3",
-            "url": "http://127.0.0.1:3000/Heros/Knull/Modern",
+            "url": "/Heros/Knull/Modern",
             "bgImg": "/mffWIKI/img/Heros/Knull/Modern.jpg",
             "name": "努爾"
         },
         {
             "id": "Destrover",
             "class": "預設 無性別 宇宙 生物 中立 機械",
-            "url": "http://127.0.0.1:3000/Heros/Destrover/Classic",
+            "url": "/Heros/Destrover/Classic",
             "bgImg": "/mffWIKI/img/Heros/Destrover/Classic.jpg",
             "name": "毀滅者"
         },
         {
             "id": "Sersi",
             "class": "預設 女性 爆破 英雄 外星人 永恆族 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Sersi/Modern",
+            "url": "/Heros/Sersi/Modern",
             "bgImg": "/mffWIKI/img/Heros/Sersi/Modern.jpg",
             "name": "瑟希"
         },
         {
             "id": "Ikaris",
             "class": "預設 男性 宇宙 英雄 外星人 永恆族 領導力",
-            "url": "http://127.0.0.1:3000/Heros/Ikaris/Modern",
+            "url": "/Heros/Ikaris/Modern",
             "bgImg": "/mffWIKI/img/Heros/Ikaris/Modern.jpg",
             "name": "依卡洛斯"
         },
         {
             "id": "Mephisto",
             "class": "預設 男性 爆破 反派 不明 T3",
-            "url": "http://127.0.0.1:3000/Heros/Mephisto/Modern",
+            "url": "/Heros/Mephisto/Modern",
             "bgImg": "/mffWIKI/img/Heros/Mephisto/Modern.jpg",
             "name": "曼菲斯特"
         }

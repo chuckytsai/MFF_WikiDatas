@@ -5,14 +5,14 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3307,
-    user="",
-    passwd="",
+    port=3306,
+    user="3uF5Qh62YCa4vhZ0",
+    passwd="P@ssw0rd",
     db='mff')
 cursor = db.cursor()
 
 # 讀取Json檔案
-with open(r"data/data.json", mode="r", encoding="utf-8") as file:
+with open("data/data.json", mode="r") as file:
     data = json.load(file)
 
 # 創建
@@ -52,10 +52,8 @@ for index in range(len(data)):
     Chained8 = data[index]["Chained8"]
     Chained9 = data[index]["Chained9"]
 
-    sql = "INSERT INTO Heroskin(Id,HeroName,Heroskin,CName,SkinName,HowToGet,Gender,Race,Camp,photoSticker,T1Effects,T2Effects,LeaderEffects,Skill1Effects,Skill2Effects,Skill3Effects,Skill4Effects,Skill5Effects,Skill6Effects,SkinSkillEffects,RelatedUniforms1,RelatedUniforms2,RelatedUniforms3,RelatedUniforms4,RelatedUniforms5,Chained1,Chained2,Chained3,Chained4,Chained5,Chained6,Chained7,Chained8,Chained9)VALUES (%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO heroskin(Id,HeroName,Heroskin,CName,SkinName,HowToGet,Gender,Race,Camp,photoSticker,T1Effects,T2Effects,LeaderEffects,Skill1Effects,Skill2Effects,Skill3Effects,Skill4Effects,Skill5Effects,Skill6Effects,SkinSkillEffects,RelatedUniforms1,RelatedUniforms2,RelatedUniforms3,RelatedUniforms4,RelatedUniforms5,Chained1,Chained2,Chained3,Chained4,Chained5,Chained6,Chained7,Chained8,Chained9)VALUES (%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (str(Id), str(HeroName), str(Heroskin), str(CName), str(SkinName), str(HowToGet), str(Gender), str(Race), str(Camp), str(photoSticker), str(T1Effects), str(T2Effects), str(LeaderEffects), str(Skill1Effects), str(Skill2Effects), str(Skill3Effects), str(Skill4Effects), str(Skill5Effects),
            str(Skill6Effects), str(SkinSkillEffects), str(RelatedUniforms1), str(RelatedUniforms2), str(RelatedUniforms3), str(RelatedUniforms4), str(RelatedUniforms5), str(Chained1), str(Chained2), str(Chained3), str(Chained4), str(Chained5), str(Chained6), str(Chained7), str(Chained8), str(Chained9))
     cursor.execute(sql, val)
     db.commit()
-
-  

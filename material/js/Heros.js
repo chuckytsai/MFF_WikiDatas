@@ -23,8 +23,8 @@ async function checkLike() {
 }
 // 執行like或是取消like
 function skinEvaluation(AccountNumber) {
-    let HeroName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[0];
-    let SkinName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[1];
+    let HeroName = location.href.split('/Heros/')[1].split('/')[0];
+    let SkinName = location.href.split('/Heros/')[1].split('/')[1];
     fetch("/api/skinEvaluation" + '/' + HeroName + '/' + SkinName, {
         method: "POST",
         headers: {
@@ -59,8 +59,8 @@ function skinEvaluation(AccountNumber) {
 }
 
 function skinEvaluationQuantity() {
-    let HeroName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[0];
-    let SkinName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[1];
+    let HeroName = location.href.split('/Heros/')[1].split('/')[0];
+    let SkinName = location.href.split('/Heros/')[1].split('/')[1];
     fetch("/api/skinEvaluation" + '/' + HeroName + '/' + SkinName, {
         method: "GET",
     })
@@ -77,8 +77,8 @@ function skinEvaluationQuantity() {
 }
 
 function HaveLike(AccountNumber) {
-    let HeroName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[0];
-    let SkinName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[1];
+    let HeroName = location.href.split('/Heros/')[1].split('/')[0];
+    let SkinName = location.href.split('/Heros/')[1].split('/')[1];
     fetch("/api/skinEvaluation" + '/' + HeroName + '/' + SkinName, {
         method: "PATCH",
         headers: {

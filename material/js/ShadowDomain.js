@@ -127,7 +127,7 @@ function noneNoIcon() {
     let ShadowDomainImg = document.getElementsByClassName('ShadowDomainImg');
     let ShadowDomainDiv=document.getElementsByClassName('ShadowDomainDiv');
     for (let index = 0; index < ShadowDomainImg.length; index++) {
-        if (ShadowDomainImg[index].src == 'http://127.0.0.1:3000/mffWIKI/img/Challenge/shadow/.jpg'){
+        if (ShadowDomainImg[index].src == '/mffWIKI/img/Challenge/shadow/.jpg'){
             ShadowDomainDiv[index].style.display='none'
         }
         else{

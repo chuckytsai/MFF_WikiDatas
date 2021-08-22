@@ -3,26 +3,26 @@
 class NavMenuCreat extends React.Component {
     render() {
         return <span>
-            <a href='http://127.0.0.1:3000'>
+            <a href='/'>
                 <MffImg className='indexBtn' src='/mffWIKI/img/logo121.jpg' />
             </a>
             <div className='navLeft'>
-                <MffA className='navLeftSpan' href='http://127.0.0.1:3000/Registered' text='登入' />
-                <MffA className='navLeftSpan' href='http://127.0.0.1:3000/Registered' text='/ 註冊' />
-                <MffA className='navLeftSpan' href='http://127.0.0.1:3000/Change' />
+                <MffA className='navLeftSpan' href='/Registered' text='登入' />
+                <MffA className='navLeftSpan' href='/Registered' text='/ 註冊' />
+                <MffA className='navLeftSpan' href='/Change' />
                 <MffSpan className='navLeftSpan' text='登出' onClick={deleteProcess} />
             </div>
             <div class='navRight'>
                 <div className='hamburger'>
                     <MffImg src='/mffWIKI/img/hamburg.png' onClick={navSwitch} />
-                    <MffA className='hamburgerA' href='http://127.0.0.1:3000/Herolist' />
-                    <MffA className='hamburgerA' href='http://127.0.0.1:3000/Challenge' />
+                    <MffA className='hamburgerA' href='/Herolist' />
+                    <MffA className='hamburgerA' href='/Challenge' />
                 </div>
-                <MffA className='navRightA' text='遊戲角色' href='http://127.0.0.1:3000/Herolist' />
-                <MffA className='navRightA' text='遊戲攻略' href='http://127.0.0.1:3000/Challenge' />
+                <MffA className='navRightA' text='遊戲角色' href='/Herolist' />
+                <MffA className='navRightA' text='遊戲攻略' href='/Challenge' />
                 <form class='serchBtn' onSubmit={serchBtnInput}>
                     <MffInput className='serchBtnInput' type='text' placeholder='搜尋關鍵字' />
-                    <MffImg src='/mffWIKI/img/SearchBTN.JPG' onClick={serchBtnInput} />
+                    <MffImg src='/mffWIKI/img/searchBTN.JPG' onClick={serchBtnInput} />
                 </form>
             </div>
         </span>

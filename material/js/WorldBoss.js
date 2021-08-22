@@ -160,7 +160,7 @@ function NoneImg() {
     let PassHerosImg = document.getElementsByClassName('PassHerosImg');
     let PassHerosDiv=document.getElementsByClassName('PassHerosDiv');
     for (let index = 0; index < PassHerosImg.length; index++) {
-        if(PassHerosImg[index].src=='http://127.0.0.1:3000/mffWIKI/img/Heros/.jpg'){
+        if(PassHerosImg[index].src=='/mffWIKI/img/Heros/.jpg'){
             PassHerosDiv[index].style.display='none'
         }
     }

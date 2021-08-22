@@ -62,8 +62,8 @@ function AllianceDatas() {
                 SelectDivElems, document.getElementsByClassName('selectDiv')[0]);
             let HeroIcons = [];
             for (let x = 0; x < r.data.length; x++) {
-                HeroIcons.push(<a href={'http://127.0.0.1:3000/Heros/' + r.data[x]['imgUrl']}>
-                    <MffImg className='allianceImg' src={'http://127.0.0.1:3000/mffWIKI/img/Heros/' + r.data[x]['imgUrl'] + '.jpg'} />
+                HeroIcons.push(<a href={'/Heros/' + r.data[x]['imgUrl']}>
+                    <MffImg className='allianceImg' src={'/mffWIKI/img/Heros/' + r.data[x]['imgUrl'] + '.jpg'} />
                     <MffH5 className='allianceH5' text={r.data[x]['CName'].split('(')[0] + '/' + r.data[x]['SkinName']} />
                 </a>)
             }

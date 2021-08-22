@@ -1,6 +1,6 @@
 // =====英雄制服與技能的定義=====
-let HeroName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[0];
-let SkinName = location.href.split('http://127.0.0.1:3000/Heros/')[1].split('/')[1];
+let HeroName = location.href.split('/Heros/')[1].split('/')[0];
+let SkinName = location.href.split('/Heros/')[1].split('/')[1];
 if (2 > 1) {
     heroDatas(HeroName, SkinName);
 }
@@ -82,31 +82,31 @@ function heroDatas(HeroName, SkinName) {
                     return <div className='Related'>
                         <MffH1 text='相關制服' />
                         <div class='RelatedSkin'>
-                            <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['RelatedUniforms1'].split(',')[1]}>
+                            <a href={'/Heros/' + data[dataID]['RelatedUniforms1'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms1'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms1'].split(',')[0]} />
                         </div>
                         <div class='RelatedSkin'>
-                            <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['RelatedUniforms2'].split(',')[1]}>
+                            <a href={'/Heros/' + data[dataID]['RelatedUniforms2'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms2'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms2'].split(',')[0]} />
                         </div>
                         <div class='RelatedSkin'>
-                            <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['RelatedUniforms3'].split(',')[1]}>
+                            <a href={'/Heros/' + data[dataID]['RelatedUniforms3'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms3'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms3'].split(',')[0]} />
                         </div>
                         <div class='RelatedSkin'>
-                            <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['RelatedUniforms4'].split(',')[1]}>
+                            <a href={'/Heros/' + data[dataID]['RelatedUniforms4'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms4'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms4'].split(',')[0]} />
                         </div>
                         <div class='RelatedSkin'>
-                            <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['RelatedUniforms5'].split(',')[1]}>
+                            <a href={'/Heros/' + data[dataID]['RelatedUniforms5'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms5'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms5'].split(',')[0]} />
@@ -146,7 +146,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained1 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained1'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained1'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained1'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained1'].split(',')[0] + ' ; ' + data[dataID]['Chained1'].split(',')[2]} />
@@ -157,7 +157,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained2 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained2'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained2'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained2'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained2'].split(',')[0] + ' ; ' + data[dataID]['Chained2'].split(',')[2]} />
@@ -168,7 +168,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained3 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained3'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained3'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained3'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained3'].split(',')[0] + ' ; ' + data[dataID]['Chained3'].split(',')[2]} />
@@ -179,7 +179,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained4 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained4'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained4'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained4'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained4'].split(',')[0] + ' ; ' + data[dataID]['Chained4'].split(',')[2]} />
@@ -190,7 +190,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained5 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained5'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained5'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained5'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained5'].split(',')[0] + ' ; ' + data[dataID]['Chained5'].split(',')[2]} />
@@ -201,7 +201,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained6 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained6'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained6'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained6'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained6'].split(',')[0] + ' ; ' + data[dataID]['Chained6'].split(',')[2]} />
@@ -212,7 +212,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained7 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained7'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained7'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained7'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained7'].split(',')[0] + ' ; ' + data[dataID]['Chained7'].split(',')[2]} />
@@ -223,7 +223,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained8 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained8'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained8'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained8'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained8'].split(',')[0] + ' ; ' + data[dataID]['Chained8'].split(',')[2]} />
@@ -234,7 +234,7 @@ function heroDatas(HeroName, SkinName) {
         class Chained9 extends React.Component {
             render() {
                 return <div className='ChainedDiv' style={{ display: this.props.display }}>
-                    <a href={'http://127.0.0.1:3000/Heros/' + data[dataID]['Chained9'].split(',')[1]}>
+                    <a href={'/Heros/' + data[dataID]['Chained9'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained9'].split(',')[1] + '.jpg'} />
                     </a>
                     <MffH6 className='ChainedText' text={data[dataID]['Chained9'].split(',')[0] + ' ; ' + data[dataID]['Chained9'].split(',')[2]} />
@@ -616,7 +616,7 @@ function checkProcessLike() {
             if (res.data == true) {
                 skinEvaluation(res.AccountNumber);
             } else {
-                window.location = 'http://127.0.0.1:3000/Registered'
+                window.location = '/Registered'
             }
         })
 }

@@ -10,11 +10,10 @@ import json
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3307,
-    user="root",
-    passwd="P@ssw0rd",
-    db='mff',
-    charset='utf8')
+    port=3306,
+    user="",
+    passwd="",
+    db='mff')
 cursor = db.cursor()
 
 app = Flask(
@@ -749,4 +748,4 @@ def creatHero():
             "ok": True
         }),200
 
-app.run(port=3000, debug=True)
+app.run(port=3000,host='0.0.0.0',debug=True)

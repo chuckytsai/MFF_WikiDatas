@@ -5,7 +5,7 @@ if (localStorage.getItem('showSmall') == null) {
     localStorage.setItem("showSmall", 0);
     localStorage.setItem("showBig", 20);
 }
-let wantKeyWordUrl = location.href.split('/Search')[1].split('/')[1]
+let wantKeyWordUrl = location.href.split('http://127.0.0.1:3000/Search')[1].split('/')[1]
 var encoded = wantKeyWordUrl;
 wantKeyWordUrl = decodeURIComponent(encoded.replace(/\+/g, " "));
 let SearchResult = document.getElementsByClassName('SearchResult')[0];
@@ -58,7 +58,7 @@ function SearchResultText(x) {
 function data1SearchUrl(data) {
     let Data1SearchUrs = [];
     for (let index = 0; index < data.length; index++) {
-        Data1SearchUrs.push(<div className='SearchUrl'><a href={"/Heros/" + data[index].url}>
+        Data1SearchUrs.push(<div className='SearchUrl'><a href={"http://127.0.0.1:3000/Heros/" + data[index].url}>
             <MffP text={data[index].CName + '-' + data[index].SkinName} />
             <MffH6 text={"名稱:" + data[index].CName + " 性別:" + data[index].Gender + " 陣營:" + data[index].Camp + " 種族:" + data[index].Race + " 獲得方式:" + data[index].HowToGet + "..."} />
         </a></div>)
@@ -101,7 +101,7 @@ function data3SearchUrl(data) {
                 localStorage.setItem("ChallengeOptionMission", data[index].idCName);
             }
         }
-        Data3SearchUrs.push(<div className='SearchUrl' onClick={changeMode}><a href={"/Challenge"}>
+        Data3SearchUrs.push(<div className='SearchUrl' onClick={changeMode}><a href={"http://127.0.0.1:3000/Challenge"}>
             <MffP text={"模式:" + data[index].mode + " 名稱:" + data[index].idCName + "..."} />
         </a></div>)
     }
@@ -126,7 +126,7 @@ function searchPageBtnCreate(pageMath) {
         pages.push(<button value={x} className='searchPageBtn' onClick={function () {
             localStorage.setItem("showSmall", x * 20);
             localStorage.setItem("showBig", (x + 1) * 20);
-            localStorage.setItem("btnIndex", x);
+            localStorage.setItem("searchBtnIndex", x);
             SearchUrlCut();
         }}>{x + 1}</button>)
     }
@@ -162,14 +162,14 @@ function SearchDataMoveScol() {
 
 function srarchBtnColor() {
     let searchPageBtn = document.getElementsByClassName('searchPageBtn');
-    if(localStorage.getItem('SearchbtnIndex') == null){
-        localStorage.setItem("SearchbtnIndex", 0);
+    if(localStorage.getItem('searchBtnIndex') == null){
+        localStorage.setItem("searchBtnIndex", 0);
     }
     for (let index = 0; index < searchPageBtn.length; index++) {
         searchPageBtn[index].style.color = 'black';
         searchPageBtn[index].style.backgroundColor = '#c2c2e2';
 
     }
-    searchPageBtn[localStorage.SearchbtnIndex].style.color = 'white';
-    searchPageBtn[localStorage.SearchbtnIndex].style.backgroundColor = '#448899';
+    searchPageBtn[localStorage.searchBtnIndex].style.color = 'white';
+    searchPageBtn[localStorage.searchBtnIndex].style.backgroundColor = '#448899';
 }

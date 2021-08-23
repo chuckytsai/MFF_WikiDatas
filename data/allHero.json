@@ -815,10 +815,10 @@
             "name": "幻視:復仇者聯盟-奧創紀元"
         },
         {
-            "id": "VisionWandaVision",
+            "id": "VisionWandavision",
             "class": "男性 宇宙 生物 英雄",
-            "url": "/Heros/Vision/WandaVision",
-            "bgImg": "/mffWIKI/img/Heros/Vision/WandaVision.jpg",
+            "url": "/Heros/Vision/Wandavision",
+            "bgImg": "/mffWIKI/img/Heros/Vision/Wandavision.jpg",
             "name": "幻視-汪達與幻視"
         },
         {

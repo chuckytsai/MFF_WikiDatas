@@ -11,11 +11,10 @@ import json
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3307,
+    port=3306,
     user="root",
     passwd="P@ssw0rd",
-    db='mff',
-    charset='utf8')
+    db='mff')
 cursor = db.cursor()
 
 

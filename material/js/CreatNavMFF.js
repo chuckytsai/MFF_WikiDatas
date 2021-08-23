@@ -85,7 +85,9 @@ async function deleteProcess() {
 function serchBtnInput(d) {
     d.preventDefault();
     localStorage.setItem('SearchRecordLocation', 0);
-    localStorage.setItem("SearchbtnIndex", 0);
+    localStorage.setItem("searchBtnIndex", 0);
+    localStorage.setItem("showSmall", 0);
+    localStorage.setItem("showBig", 20);
     let serchBtnInput = document.getElementsByClassName('serchBtnInput')[0];
     if (serchBtnInput.value.length > 0) {
         location = "/Search" + '/' + serchBtnInput.value;

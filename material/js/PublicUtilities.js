@@ -70,7 +70,7 @@ async function registerProcess() {
         AgreeWarningSign[0].style.display = 'block';
         AgreeWarningSign[0].innerHTML = '信箱格式錯誤'
     }
-    else if (RegisteredDatasPassword.length < 7 && RegisteredDatasPassword.length > 13) {
+    else if (RegisteredDatasPassword.length < 7 && RegisteredDatasPassword.length > 13 && RegisteredDatasPassword.search(passwordRule)) {
         RegisteredDatasPassword.value = '';
         RegisteredDatasPasswordAgain.value = '';
         AgreeWarningSign[0].style.display = 'block';
@@ -108,7 +108,7 @@ async function registerProcess() {
                     AgreeWarningSign[0].style.display = 'block';
                     AgreeWarningSign[0].style.color = 'blue';
                     AgreeWarningSign[0].innerHTML = ' * 已註冊成功！';
-                    history.go(-1)
+                    location = "/Registered";
                 }
             })
             .catch(function (error) {

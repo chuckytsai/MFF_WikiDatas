@@ -10,12 +10,11 @@ import json
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3306,
-    user="debian-sys-maint",
-    passwd="3uF5Qh62YCa4vhZ0",
-    user="",
-    passwd="",
-    db='mff')
+    port=3307,
+    user="root",
+    passwd="P@ssw0rd",
+    db='mff',
+    charset='utf8')
 cursor = db.cursor()
 
 app = Flask(
@@ -100,7 +99,7 @@ def apiHeros(AskHeroName,AskSkinName):
     dataArreys = []
     HeroName = AskHeroName
     SkinName = AskSkinName
-    Name = "SELECT * FROM heroskin WHERE HeroName= %(val)s AND heroskin = %(val2)s"
+    Name = "SELECT * FROM heroskin WHERE HeroName= %(val)s AND HeroSkin = %(val2)s"
     cursor.execute(Name, {'val': HeroName,'val2':SkinName})
     Heros = cursor.fetchall()
 
@@ -147,7 +146,6 @@ def apiHeros(AskHeroName,AskSkinName):
             "Chained8": x[32].decode("utf8"),
             "Chained9": x[33].decode("utf8")
         }
-  
         data = data_dic.copy()
         dataArreys.append(data)
     return json.dumps({"data": dataArreys}, ensure_ascii=False)
@@ -155,7 +153,7 @@ def apiHeros(AskHeroName,AskSkinName):
 # 遊戲攻略
 @app.route("/api/Challenge/<mode>/<idCName>")
 def apiChallenge(mode,idCName):
-    Name = "SELECT * FROM Challenge Where mode=%(val1)s AND idCName=%(val2)s"
+    Name = "SELECT * FROM challenge Where mode=%(val1)s AND idCName=%(val2)s"
     cursor.execute(Name, {'val1': mode,'val2': idCName})
     datas = cursor.fetchall()
     dataArreys = []
@@ -205,7 +203,7 @@ def apiChallenge(mode,idCName):
 #任務模式
 @app.route("/api/mission")
 def apiMMission():
-    Name = "SELECT * FROM Challenge Where mode='任務模式'"
+    Name = "SELECT * FROM challenge Where mode='任務模式'"
     cursor.execute(Name)
     datas = cursor.fetchall()
     dataArreys = []
@@ -287,7 +285,7 @@ def SearchDatas():
     keyWord = "%"+wantKey+"%"
 
     dataArreys1 = []
-    sql = "SELECT * FROM heroskin WHERE  HeroName like %(val)s or heroskin like %(val)s or CName like %(val)s or SkinName like %(val)s or HowToGet like %(val)s or Gender like %(val)s or Race like %(val)s or Camp like %(val)s or photoSticker like %(val)s or T1Effects like %(val)s or T2Effects like %(val)s or LeaderEffects like %(val)s or Skill1Effects like %(val)s or Skill2Effects like %(val)s or Skill3Effects like %(val)s or Skill4Effects like %(val)s or Skill5Effects like %(val)s or Skill6Effects like %(val)s or SkinSkillEffects like %(val)s or RelatedUniforms1 like %(val)s or RelatedUniforms2 like %(val)s or RelatedUniforms3 like %(val)s or RelatedUniforms4 like %(val)s or RelatedUniforms5 like %(val)s or Chained1 like %(val)s or Chained2 like %(val)s or Chained3 like %(val)s or Chained4 like %(val)s or Chained5 like %(val)s or Chained6 like %(val)s or Chained7 like %(val)s or Chained8 like %(val)s or Chained9 like %(val)s"
+    sql = "SELECT * FROM heroskin WHERE  HeroName like %(val)s or HeroSkin like %(val)s or CName like %(val)s or SkinName like %(val)s or HowToGet like %(val)s or Gender like %(val)s or Race like %(val)s or Camp like %(val)s or photoSticker like %(val)s or T1Effects like %(val)s or T2Effects like %(val)s or LeaderEffects like %(val)s or Skill1Effects like %(val)s or Skill2Effects like %(val)s or Skill3Effects like %(val)s or Skill4Effects like %(val)s or Skill5Effects like %(val)s or Skill6Effects like %(val)s or SkinSkillEffects like %(val)s or RelatedUniforms1 like %(val)s or RelatedUniforms2 like %(val)s or RelatedUniforms3 like %(val)s or RelatedUniforms4 like %(val)s or RelatedUniforms5 like %(val)s or Chained1 like %(val)s or Chained2 like %(val)s or Chained3 like %(val)s or Chained4 like %(val)s or Chained5 like %(val)s or Chained6 like %(val)s or Chained7 like %(val)s or Chained8 like %(val)s or Chained9 like %(val)s"
     val = ({'val':keyWord})
     cursor.execute(sql, val)
     SearchSkin = cursor.fetchall()
@@ -319,7 +317,7 @@ def SearchDatas():
         dataArreys2.append(data2)
 
     dataArreys3 = []
-    sql = "SELECT * FROM Challenge WHERE id like %(val)s or idCName like %(val)s or mode like %(val)s or keyword like %(val)s or top1 like %(val)s or top1Name like %(val)s or top2 like %(val)s or top2Name like %(val)s or top3 like %(val)s or top3Name like %(val)s or top4 like %(val)s or top4Name like %(val)s or top5 like %(val)s or top5Name like %(val)s or top6 like %(val)s or top6Name like %(val)s or top7 like %(val)s or top7Name like %(val)s or 9F like %(val)s or 9FName like %(val)s or 19F like %(val)s or 19FName like %(val)s or 29F like %(val)s or 29FName like %(val)s or 39F like %(val)s or 39FName like %(val)s or 49F like %(val)s or 49FName like %(val)s or 59F like %(val)s or 59FName like %(val)s or 69F like %(val)s or 69FName like %(val)s or 79F like %(val)s or 79FName like %(val)s or 89F like %(val)s or 89FName like %(val)s"
+    sql = "SELECT * FROM challenge WHERE id like %(val)s or idCName like %(val)s or mode like %(val)s or keyword like %(val)s or top1 like %(val)s or top1Name like %(val)s or top2 like %(val)s or top2Name like %(val)s or top3 like %(val)s or top3Name like %(val)s or top4 like %(val)s or top4Name like %(val)s or top5 like %(val)s or top5Name like %(val)s or top6 like %(val)s or top6Name like %(val)s or top7 like %(val)s or top7Name like %(val)s or 9F like %(val)s or 9FName like %(val)s or 19F like %(val)s or 19FName like %(val)s or 29F like %(val)s or 29FName like %(val)s or 39F like %(val)s or 39FName like %(val)s or 49F like %(val)s or 49FName like %(val)s or 59F like %(val)s or 59FName like %(val)s or 69F like %(val)s or 69FName like %(val)s or 79F like %(val)s or 79FName like %(val)s or 89F like %(val)s or 89FName like %(val)s"
     val = ({'val':keyWord})
     cursor.execute(sql, val)
     SearchChallenge = cursor.fetchall()
@@ -330,8 +328,6 @@ def SearchDatas():
         }
         data3 = data3_dic.copy()
         dataArreys3.append(data3)
-
-        
     return json.dumps({"data1": dataArreys1,"data2": dataArreys2,"data3": dataArreys3}, ensure_ascii=False)
 
 # 使用者登入
@@ -404,7 +400,6 @@ def loginPage():
 					"error": True,
 					"message": "Email已重複註冊過",
 					}),400
-				
         except:
             return jsonify ({
 				"error": True,
@@ -426,7 +421,7 @@ def loginPage():
                     "adm": False,
                     "AccountNumber":session['AccountNumber'],
                     "NickName":session['NickName']
-			    })               
+			    })
         else:
             return jsonify({
 				"data": None,
@@ -477,13 +472,11 @@ def skinEvaluation(AskHeroName,AskSkinName):
         data = data_dic.copy()
         dataArreys.append(data)
         return json.dumps({"data": dataArreys}, ensure_ascii=False)
-          
     if request.method == "POST":
         evaluationData = request.get_json()
         user=evaluationData["user"]
         HeroName=evaluationData["HeroName"]
         HeroSkin=evaluationData["HeroSkin"]
-    
         cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND HeroSkin=%s",(user, HeroName, HeroSkin))
         Result = cursor.fetchone()
         if Result==None:
@@ -513,7 +506,6 @@ def skinEvaluation(AskHeroName,AskSkinName):
         user=evaluationData["user"]
         HeroName=evaluationData["HeroName"]
         HeroSkin=evaluationData["HeroSkin"]
-    
         cursor.execute ("SELECT * FROM evaluation WHERE user=%s AND HeroName=%s AND HeroSkin=%s",(user, HeroName, HeroSkin))
         Result = cursor.fetchone()
         if Result!=None:
@@ -757,5 +749,4 @@ def creatHero():
             "ok": True
         }),200
 
-app.run(port=3000,host="0.0.0.0",debug=True)
-
+app.run(port=3000, debug=True)

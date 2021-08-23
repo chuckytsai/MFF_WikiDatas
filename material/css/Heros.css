@@ -196,11 +196,6 @@
     opacity: 0.9;
     z-index: 888;
     display: flex;
-    overflow: scroll;
-}
-
-.Related::-webkit-scrollbar {
-    scroll-snap-type: none;
 }
 
 @media(max-width:800px) {
@@ -602,16 +597,22 @@
 }
 
 .SkillDescription:hover {
-    height: 140px;
-    width: 150px;
     cursor: pointer;
-    background-color: bisque;
-    overflow: scroll;
+    width: 320px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -100px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(247, 237, 226);
+    border: 3px solid rgb(19, 18, 18, 0.8);
 }
 
 .SkillDescription h4 {
     margin-bottom: 3px;
-    width: 200px;
 }
 
 .DescriptionTitle {
@@ -668,7 +669,7 @@
     .SkillCellphone {
         width: 220px;
         left: 23px;
-        margin: 0px 15%;
+        margin: 10px 15%;
     }
 }
 

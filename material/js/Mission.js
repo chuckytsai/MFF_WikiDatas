@@ -66,17 +66,29 @@ function MissionDatas() {
             class MissStroy extends React.Component {
                 render() {
                     return <div className="MissionStroy">
-                        <div className="MissionDiv">
-                            <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
-                            <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top1Name']} />
+                        <div className="MissionDiv" onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
+                            <a href={'/Heros/' + r.data[0]['top1']}>
+                                <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
+                                <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top1Name']} />
+                            </a>
                         </div>
-                        <div className="MissionDiv" >
-                            <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
-                            <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top2Name']} />
+                        <div className="MissionDiv" onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
+                            <a href={'/Heros/' + r.data[0]['top2']}>
+                                <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
+                                <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top2Name']} />
+                            </a>
                         </div>
-                        <div className="MissionDiv" >
-                            <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
-                            <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top3Name']} />
+                        <div className="MissionDiv" onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
+                            <a href={'/Heros/' + r.data[0]['top3']}>
+                                <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
+                                <MffH5 className="MissionH5" text={'本月需求角色/' + r.data[0]['top3Name']} />
+                            </a>
                         </div>
                     </div>
                 }

@@ -69,31 +69,31 @@ function ShadowDomainDatas() {
                     return <div className="shadowDatas">
                         <div className='ShadowDomainMode'>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top1'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top1'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top1Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top2'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top2'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top2Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top3'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top3'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top3Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top4'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top4'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top4Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top5'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top5'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top5Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top6'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top6'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top5Name} />
                             </div>
                             <div className='ShadowDomainDiv'>
-                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/Challenge/shadow/" + r.data[0]['top7'] + ".jpg"} />
+                                <MffImg className='ShadowDomainImg' src={"/mffWIKI/img/challenge/shadow/" + r.data[0]['top7'] + ".jpg"} />
                                 <MffH5 className='ShadowDomainH5' text={r.data[0].top5Name} />
                             </div>
                         </div>
@@ -127,7 +127,7 @@ function noneNoIcon() {
     let ShadowDomainImg = document.getElementsByClassName('ShadowDomainImg');
     let ShadowDomainDiv=document.getElementsByClassName('ShadowDomainDiv');
     for (let index = 0; index < ShadowDomainImg.length; index++) {
-        if (ShadowDomainImg[index].src == '/mffWIKI/img/Challenge/shadow/.jpg'){
+        if (ShadowDomainImg[index].src == 'http://35.73.243.150:3000/mffWIKI/img/challenge/shadow/.jpg'){
             ShadowDomainDiv[index].style.display='none'
         }
         else{

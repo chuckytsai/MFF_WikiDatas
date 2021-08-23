@@ -10,7 +10,7 @@ class NavMenuCreat extends React.Component {
                 <MffA className='navLeftSpan' href='/Registered' text='登入' />
                 <MffA className='navLeftSpan' href='/Registered' text='/ 註冊' />
                 <MffA className='navLeftSpan' href='/Change' />
-                <MffSpan className='navLeftSpan' text='登出' onClick={deleteProcess} />
+                <MffSpan display='none' className='navLeftSpan' text='登出' onClick={deleteProcess} />
             </div>
             <div class='navRight'>
                 <div className='hamburger'>
@@ -84,6 +84,8 @@ async function deleteProcess() {
 
 function serchBtnInput(d) {
     d.preventDefault();
+    localStorage.setItem('SearchRecordLocation', 0);
+    localStorage.setItem("SearchbtnIndex", 0);
     let serchBtnInput = document.getElementsByClassName('serchBtnInput')[0];
     if (serchBtnInput.value.length > 0) {
         location = "/Search" + '/' + serchBtnInput.value;

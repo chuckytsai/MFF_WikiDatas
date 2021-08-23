@@ -139,6 +139,6 @@ class TypeSelectSpan extends React.Component {
     }
 }
 
-let heroSelectElem = <TypeSelectSpan />;
-ReactDOM.render(
-    heroSelectElem, document.getElementsByClassName('TypeSelectSpan')[0]);
+// let heroSelectElem = <TypeSelectSpan />;
+// ReactDOM.render(
+//     heroSelectElem, document.getElementsByClassName('TypeSelectSpan')[0]);

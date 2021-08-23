@@ -81,31 +81,41 @@ function heroDatas(HeroName, SkinName) {
                 render() {
                     return <div className='Related'>
                         <MffH1 text='相關制服' />
-                        <div class='RelatedSkin'>
+                        <div class='RelatedSkin' onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
                             <a href={'/Heros/' + data[dataID]['RelatedUniforms1'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms1'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms1'].split(',')[0]} />
                         </div>
-                        <div class='RelatedSkin'>
+                        <div class='RelatedSkin' onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
                             <a href={'/Heros/' + data[dataID]['RelatedUniforms2'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms2'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms2'].split(',')[0]} />
                         </div>
-                        <div class='RelatedSkin'>
+                        <div class='RelatedSkin' onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
                             <a href={'/Heros/' + data[dataID]['RelatedUniforms3'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms3'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms3'].split(',')[0]} />
                         </div>
-                        <div class='RelatedSkin'>
+                        <div class='RelatedSkin' onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
                             <a href={'/Heros/' + data[dataID]['RelatedUniforms4'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms4'].split(',')[1] + '.jpg'} />
                             </a>
                             <MffH6 className='RelatedText' text={data[dataID]['RelatedUniforms4'].split(',')[0]} />
                         </div>
-                        <div class='RelatedSkin'>
+                        <div class='RelatedSkin' onClick={function () {
+                            localStorage.setItem('HerosRecordLocation', 0)
+                        }}>
                             <a href={'/Heros/' + data[dataID]['RelatedUniforms5'].split(',')[1]}>
                                 <MffImg className='RelatedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['RelatedUniforms5'].split(',')[1] + '.jpg'} />
                             </a>
@@ -134,7 +144,6 @@ function heroDatas(HeroName, SkinName) {
                             }}></div>
                         </span>
                     </div>
-
                 }
             }
             let SkinRelatedElem = <SkinRelated />;
@@ -145,7 +154,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第1件
         class Chained1 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function () {
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained1'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained1'].split(',')[1] + '.jpg'} />
                     </a>
@@ -156,7 +167,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第2件
         class Chained2 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained2'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained2'].split(',')[1] + '.jpg'} />
                     </a>
@@ -167,7 +180,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第3件
         class Chained3 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained3'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained3'].split(',')[1] + '.jpg'} />
                     </a>
@@ -178,7 +193,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第4件
         class Chained4 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained4'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained4'].split(',')[1] + '.jpg'} />
                     </a>
@@ -189,7 +206,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第5件
         class Chained5 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained5'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained5'].split(',')[1] + '.jpg'} />
                     </a>
@@ -200,7 +219,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第6件
         class Chained6 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained6'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained6'].split(',')[1] + '.jpg'} />
                     </a>
@@ -211,7 +232,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第7件
         class Chained7 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained7'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained7'].split(',')[1] + '.jpg'} />
                     </a>
@@ -222,7 +245,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第8件
         class Chained8 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained8'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained8'].split(',')[1] + '.jpg'} />
                     </a>
@@ -233,7 +258,9 @@ function heroDatas(HeroName, SkinName) {
         // 被關聯制服第9件
         class Chained9 extends React.Component {
             render() {
-                return <div className='ChainedDiv' style={{ display: this.props.display }}>
+                return <div className='ChainedDiv' style={{ display: this.props.display }} onClick={function(){
+                    localStorage.setItem('HerosRecordLocation', 0)
+                }}>
                     <a href={'/Heros/' + data[dataID]['Chained9'].split(',')[1]}>
                         <MffImg className='ChainedImg' src={'/mffWIKI/img/Heros/' + data[dataID]['Chained9'].split(',')[1] + '.jpg'} />
                     </a>
@@ -325,6 +352,7 @@ function heroDatas(HeroName, SkinName) {
                     <div class='SkillDescription'>
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[1]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[2]} />
+                        <MffH4 text={data[dataID]['Skill6Effects'].split(",")[3]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[4]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[5]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[6]} />
@@ -341,7 +369,6 @@ function heroDatas(HeroName, SkinName) {
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[17]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[18]} />
                         <MffH4 text={data[dataID]['Skill6Effects'].split(",")[19]} />
-                        <MffH4 text={data[dataID]['Skill6Effects'].split(",")[20]} />
                     </div>
                 </div>;
             }
@@ -355,7 +382,7 @@ function heroDatas(HeroName, SkinName) {
                         localStorage.setItem("cellphoneSkill", 9);
                         cellphoneSkillDecription();
                     }} />
-                    <MffH6 className='DescriptionTitle' display='none'/>
+                    <MffH6 className='DescriptionTitle' display='none' />
                     <div class='SkillDescription'>
                         <MffH4 text={data[dataID]['SkinSkillEffects'].split(",")[0]} />
                         <MffH4 text={data[dataID]['SkinSkillEffects'].split(",")[1]} />
@@ -402,6 +429,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['Skill1Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[6]} />
@@ -411,7 +439,7 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[10]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[11]} />
                                 <MffH4 text={data[dataID]['Skill1Effects'].split(",")[12]} />
-                                <MffH4 text={data[dataID]['Skill1Effects'].split(",")[13]} />
+
                             </div>
                         </div>
                         <div className="skillText">
@@ -423,6 +451,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['Skill2Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[6]} />
@@ -432,7 +461,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[10]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[11]} />
                                 <MffH4 text={data[dataID]['Skill2Effects'].split(",")[12]} />
-                                <MffH4 text={data[dataID]['Skill2Effects'].split(",")[13]} />
                             </div>
                         </div>
                         <div className="skillText">
@@ -444,6 +472,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['Skill3Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[6]} />
@@ -460,7 +489,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[17]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[18]} />
                                 <MffH4 text={data[dataID]['Skill3Effects'].split(",")[19]} />
-                                <MffH4 text={data[dataID]['Skill3Effects'].split(",")[20]} />
                             </div>
                         </div>
                         <div className="skillText">
@@ -472,6 +500,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['Skill4Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[6]} />
@@ -488,7 +517,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[17]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[18]} />
                                 <MffH4 text={data[dataID]['Skill4Effects'].split(",")[19]} />
-                                <MffH4 text={data[dataID]['Skill4Effects'].split(",")[20]} />
                             </div>
                         </div>
                         <div className="skillText">
@@ -500,6 +528,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['Skill5Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[6]} />
@@ -516,8 +545,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[17]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[18]} />
                                 <MffH4 text={data[dataID]['Skill5Effects'].split(",")[19]} />
-                                <MffH4 text={data[dataID]['Skill5Effects'].split(",")[20]} />
-
                             </div>
                         </div>
                     </div>
@@ -531,6 +558,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['T1Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[6]} />
@@ -540,7 +568,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[10]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[11]} />
                                 <MffH4 text={data[dataID]['T1Effects'].split(",")[12]} />
-                                <MffH4 text={data[dataID]['T1Effects'].split(",")[13]} />
                             </div>
                         </div>
                         <div class='skillText'>
@@ -552,6 +579,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['T2Effects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[6]} />
@@ -561,7 +589,6 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[10]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[11]} />
                                 <MffH4 text={data[dataID]['T2Effects'].split(",")[12]} />
-                                <MffH4 text={data[dataID]['T2Effects'].split(",")[13]} />
                             </div>
                         </div>
                         <div class='skillText'>
@@ -573,6 +600,7 @@ function heroDatas(HeroName, SkinName) {
                             <div class='SkillDescription'>
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[1]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[2]} />
+                                <MffH4 text={data[dataID]['LeaderEffects'].split(",")[3]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[4]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[5]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[6]} />
@@ -582,10 +610,8 @@ function heroDatas(HeroName, SkinName) {
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[10]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[11]} />
                                 <MffH4 text={data[dataID]['LeaderEffects'].split(",")[12]} />
-                                <MffH4 text={data[dataID]['LeaderEffects'].split(",")[13]} />
                             </div>
                         </div>
-
                         <Skill6Effects display={localStorage.T3Show} />
                         <SkinSkillEffects display={localStorage.SkinSkillShow} />
                     </div>
@@ -707,7 +733,6 @@ function cellphoneSkillDecription() {
         for (let index = 0; index < cellphoneSkillSelect.length; index++) {
             cellphoneSkillSelect[index].style.backgroundColor = 'gray';
         }
-
         cellphoneSkillSelect[localStorage.cellphoneSkill].style.backgroundColor = '#448899';
         SkillCellphoneTitle.innerHTML = DescriptionTitle[localStorage.cellphoneSkill].innerHTML
         SkillCellphoneDescription.innerHTML = SkillDescription[localStorage.cellphoneSkill].innerHTML;

@@ -682,10 +682,10 @@
             "name": "鋼鐵人"
         },
         {
-            "id": "IronmanSuperiorIronman",
+            "id": "IronmanSuperiorironman",
             "class": "男性 爆破 人類 反派 機械",
-            "url": "/Heros/Ironman/SuperiorIronman",
-            "bgImg": "/mffWIKI/img/Heros/Ironman/SuperiorIronman.jpg",
+            "url": "/Heros/Ironman/Superiorironman",
+            "bgImg": "/mffWIKI/img/Heros/Ironman/Superiorironman.jpg",
             "name": "究極鋼鐵人"
         },
         {
@@ -1546,7 +1546,7 @@
             "id": "DarkHawk",
             "class": "預設 男性 速度 人類 英雄 領導力",
             "url": "/Heros/Darkhawk/Modern",
-            "bgImg": "/mffWIKI/img/Heros/DarkHawk/Modern.jpg",
+            "bgImg": "/mffWIKI/img/Heros/Darkhawk/Modern.jpg",
             "name": "黑鷹"
         },
         {

@@ -38,21 +38,45 @@ async function checkProcess() {
             }
         })
 }
-// 選取英雄類別
-function printValue() {
-    // localStorage給值
+
+let ConditionScreening = document.getElementsByClassName('ConditionScreening');
+// 選擇性別
+ConditionScreening[0].onchange = function () {
     localStorage.setItem("Present", ' ');
-    localStorage.setItem("Gender", document.getElementsByClassName('Gender')[0].value);
-    localStorage.setItem("HeroAttributes", document.getElementsByClassName('HeroAttributes')[0].value);
-    localStorage.setItem("Race", document.getElementsByClassName('Race')[0].value);
-    localStorage.setItem("Camp", document.getElementsByClassName('Camp')[0].value);
-    localStorage.setItem("Ability", document.getElementsByClassName('Ability')[0].value);
+    localStorage.setItem("Gender", document.getElementById('Gender').value);
     Herolist();
 }
 
+// 選擇屬性
+ConditionScreening[1].onchange = function () {
+    localStorage.setItem("Present", ' ');
+    localStorage.setItem("HeroAttributes", document.getElementById('HeroAttributes').value);
+    Herolist();
+}
+
+// 選擇種族
+ConditionScreening[2].onchange = function () {
+    localStorage.setItem("Present", ' ');
+    localStorage.setItem("Race", document.getElementById('Race').value);
+    Herolist();
+}
+
+// 選擇陣營
+ConditionScreening[3].onchange = function () {
+    localStorage.setItem("Present", ' ');
+    localStorage.setItem("Camp", document.getElementById('Camp').value);
+    Herolist();
+}
+
+// 選擇能力
+ConditionScreening[4].onchange = function () {
+    localStorage.setItem("Present", ' ');
+    localStorage.setItem("Ability", document.getElementById('Ability').value);
+    Herolist();
+}
 
 // 清除類別選擇
-function dBtn() {
+ConditionScreening[5].onclick = function () {
     localStorage.setItem("Gender", '');
     localStorage.setItem("HeroAttributes", '');
     localStorage.setItem("Race", '');
@@ -61,44 +85,16 @@ function dBtn() {
     location = "/Herolist";
 }
 
-
-function optionShow() {
-    let optionShow = document.getElementsByTagName('option');
-    for (let index = 0; index < optionShow.length; index++) {
-        if (optionShow[index].value == localStorage.Gender) {
-            optionShow[index].style.display = 'none';
-        }
-        else {
-            optionShow[index].style.display = 'block';
-        }
-        if (optionShow[index].value == localStorage.HeroAttributes) {
-            optionShow[index].style.display = 'none';
-        }
-        else {
-            optionShow[index].style.display = 'block';
-        }
-        if (optionShow[index].value == localStorage.Race) {
-            optionShow[index].style.display = 'none';
-        }
-        else {
-            optionShow[index].style.display = 'block';
-        }
-        if (optionShow[index].value == localStorage.Camp) {
-            optionShow[index].style.display = 'none';
-        }
-        else {
-            optionShow[index].style.display = 'block';
-        }
-        if (optionShow[index].value == localStorage.Ability) {
-            optionShow[index].style.display = 'none';
-        }
-        else {
-            optionShow[index].style.display = 'block';
-        }
-        if (optionShow[index].innerHTML == '' || optionShow[index].innerHTML == ' ') {
-            optionShow[index].style.display = 'none';
-        }
-    }
+// 選取英雄類別
+function printValue() {
+    // localStorage給值
+    localStorage.setItem("Present", ' ');
+    localStorage.setItem("Gender", document.getElementById('Gender').value);
+    localStorage.setItem("HeroAttributes", document.getElementById('HeroAttributes').value);
+    localStorage.setItem("Race", document.getElementById('Race').value);
+    localStorage.setItem("Camp", document.getElementById('Camp').value);
+    localStorage.setItem("Ability", document.getElementById('Ability').value);
+    Herolist();
 }
 
 // ======滾動滑鼠======

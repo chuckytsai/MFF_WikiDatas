@@ -6,11 +6,9 @@ if (localStorage.getItem('Gender') == null && localStorage.getItem('HeroAttribut
     localStorage.setItem("Ability", ' ');
     localStorage.setItem("Present", '預設');
     Herolist();
-    optionShow();
 }
 else {
     Herolist();
-    optionShow();
 }
 
 // =====英雄列表ICON製造區=====

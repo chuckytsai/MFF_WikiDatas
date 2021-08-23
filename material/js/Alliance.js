@@ -63,8 +63,10 @@ function AllianceDatas() {
             let HeroIcons = [];
             for (let x = 0; x < r.data.length; x++) {
                 HeroIcons.push(<a href={'/Heros/' + r.data[x]['imgUrl']}>
-                    <MffImg className='allianceImg' src={'/mffWIKI/img/Heros/' + r.data[x]['imgUrl'] + '.jpg'} />
-                    <MffH5 className='allianceH5' text={r.data[x]['CName'].split('(')[0] + '/' + r.data[x]['SkinName']} />
+                    <div onClick={function () { localStorage.setItem('HerosRecordLocation', 0) }}>
+                        <MffImg className='allianceImg' src={'/mffWIKI/img/Heros/' + r.data[x]['imgUrl'] + '.jpg'} />
+                        <MffH5 className='allianceH5' text={r.data[x]['CName'].split('(')[0] + '/' + r.data[x]['SkinName']} />
+                    </div>
                 </a>)
             }
             class AllianceDataDiv extends React.Component {
@@ -77,7 +79,7 @@ function AllianceDatas() {
             let AllianceDataDivElems = <AllianceDataDiv />;
             ReactDOM.render(
                 AllianceDataDivElems, document.getElementsByClassName('ChallengeList')[0]);
-                AllianceOptionShow();
+            AllianceOptionShow();
         }).catch(function (error) {
             console.log(error)
         });
@@ -105,7 +107,7 @@ function AllianceOptionShow() {
             optionShow[index].style.display = 'none';
         }
         if (optionShow[index].value == localStorage.ChallengeRaiders) {
-            localStorage.setItem('ChallengeRaidersText',optionShow[index].innerHTML)
+            localStorage.setItem('ChallengeRaidersText', optionShow[index].innerHTML)
             optionShow[index].style.display = 'none';
         }
     }

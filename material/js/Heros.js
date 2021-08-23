@@ -1,7 +1,6 @@
 checkProcess();
 checkLike();
 // 英雄各制服喜愛設定
-let evaluationH1 = document.getElementsByClassName('evaluationH1');
 let goodBtn = document.getElementsByClassName('goodBtn');
 let good = document.getElementsByClassName('good');
 let likeBigger = true;
@@ -61,6 +60,7 @@ function skinEvaluation(AccountNumber) {
 function skinEvaluationQuantity() {
     let HeroName = location.href.split('/Heros/')[1].split('/')[0];
     let SkinName = location.href.split('/Heros/')[1].split('/')[1];
+    let evaluationH1 = document.getElementsByClassName('evaluationH1');
     fetch("/api/skinEvaluation" + '/' + HeroName + '/' + SkinName, {
         method: "GET",
     })
@@ -87,7 +87,7 @@ function HaveLike(AccountNumber) {
         body: JSON.stringify({
             user: AccountNumber,
             HeroName: HeroName,
-            Heroskin: SkinName
+            HeroSkin: SkinName
         }),
     })
         .then(response => {
@@ -101,7 +101,7 @@ function HaveLike(AccountNumber) {
                     goodBtn[0].style.display = 'none';
                     goodBtn[1].style.display = 'block';
                     goodBtn[1].style.backgroundColor = 'rgb(201, 184, 154)';
-                    good[1].style.height = '32px';
+                    good[1].style.height = '30.5px';
                 }
                 else {
                     goodBtn[0].style.display = 'block';

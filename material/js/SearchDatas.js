@@ -162,14 +162,14 @@ function SearchDataMoveScol() {
 
 function srarchBtnColor() {
     let searchPageBtn = document.getElementsByClassName('searchPageBtn');
-    if(localStorage.getItem('btnIndex') == null){
-        localStorage.setItem("btnIndex", 0);
+    if(localStorage.getItem('SearchbtnIndex') == null){
+        localStorage.setItem("SearchbtnIndex", 0);
     }
     for (let index = 0; index < searchPageBtn.length; index++) {
         searchPageBtn[index].style.color = 'black';
         searchPageBtn[index].style.backgroundColor = '#c2c2e2';
 
     }
-    searchPageBtn[localStorage.btnIndex].style.color = 'white';
-    searchPageBtn[localStorage.btnIndex].style.backgroundColor = '#448899';
+    searchPageBtn[localStorage.SearchbtnIndex].style.color = 'white';
+    searchPageBtn[localStorage.SearchbtnIndex].style.backgroundColor = '#448899';
 }

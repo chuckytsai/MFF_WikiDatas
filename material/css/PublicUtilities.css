@@ -129,7 +129,6 @@ body {
 @media(max-width:800px) {
     .hamburger {
         display: block;
-        padding-left: 30px;
         width: 100px;
         height: 40px;
         margin-top: -1px;
@@ -198,72 +197,6 @@ body {
     border-top: 5px inset rgb(238, 226, 226, 0.5);
 }
 
-/* 首頁的輪播圖區域格式 */
-
-.PicDiv {
-    width: 800px;
-    height: 449px;
-    background-color: white;
-    margin: 0% auto;
-    margin-top: 120px;
-    border: 20px solid gray;
-    opacity: 0.9;
-    border-radius: 1%;
-    display: flex;
-}
-
-@media(max-width:800px) {
-    .PicDiv {
-        width: 400px;
-        margin-top: 20%;
-        height: 225px;
-    }
-}
-
-@media(max-width:360px) {
-    .PicDiv {
-        width: 350px;
-        margin-top: 40%;
-        height: 197px;
-        border: 3px solid gray;
-    }
-}
-
-@media(max-width:800px) {
-    .PicDiv a img {
-        width: 200px;
-    }
-}
-
-@media(max-width:360px) {
-    .PicDiv a img {
-        width: 175px;
-    }
-}
-
-.PicDiv h5 {
-    font-size: 22px;
-    color: white;
-    position: absolute;
-    margin-top: -100px;
-    margin-left: 2%;
-}
-
-/* 選取圖片 */
-
-.PicDivImg {
-    cursor: pointer;
-}
-
-.PicDivImg:hover {
-    width: 406px;
-    height: 445px;
-    border: 5px solid white;
-    border-radius: 1%;
-}
-
-/* 角色.挑戰.任務.組隊按鈕 按鈕文字 */
-
 /* 登入區塊 */
 
 .LoginForm {
@@ -280,13 +213,13 @@ body {
 
 @media(max-width:800px) {
     .LoginForm {
-        width: 600px;
+        width: 300px;
     }
 }
 
 @media(max-width:360px) {
     .LoginForm {
-        width: 310px;
+        width: 300px;
         margin-bottom: 60px;
     }
 }
@@ -309,7 +242,7 @@ body {
 
 @media(max-width:800px) {
     .LoginForm div {
-        margin-left: 103px;
+        margin-left: -20px;
         width: 290px;
     }
 }
@@ -337,7 +270,8 @@ body {
 
 @media(max-width:800px) {
     .LoginForm div input {
-        height: 45px;
+        height: 30px;
+        margin-top: 10px;
     }
 }
 

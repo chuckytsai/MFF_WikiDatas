@@ -26,8 +26,8 @@ function WorldBossDatas() {
                     }}>
                         <MffOption value="" text={localStorage.idCName} />
                         <MffOption value="闇夜無星" text='闇夜無星' />
-                        <MffOption value="星駭寂滅" text='星駭寂滅' />
-                        <MffOption value="掠鴉兇刃" text='掠鴉兇刃' />
+                        <MffOption value="星駭滅寂" text='星駭滅寂' />
+                        <MffOption value="掠鴉凶刃" text='掠鴉凶刃' />
                         <MffOption value="昊天極星" text='昊天極星' />
                         <MffOption value="烏木邪心" text='烏木邪心' />
                         <MffOption value="薩諾斯" text='薩諾斯' />
@@ -56,68 +56,143 @@ function WorldBossDatas() {
                         <MffH5 className="WorldBossTitle" text='站長推薦輸出角色' />
                         {/* 站長推薦輸出角色 */}
                         <div className='DpsTop5'>
-                            <div className='recommendDiv'>
-                                <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
-                                <MffH5 className='recommendH5' text={r.data[0].top1Name} />
+                            <div className='recommendDiv' onClick={function () {
+                                localStorage.setItem('HerosRecordLocation', 0)
+                            }}>
+                                <a href={'/Heros/' + r.data[0]['top1']}>
+                                    <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
+                                    <MffH5 className='recommendH5' text={r.data[0].top1Name} />
+                                </a>
                             </div>
-                            <div className='recommendDiv'>
-                                <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
-                                <MffH5 className='recommendH5' text={r.data[0].top2Name} />
+
+                            <div className='recommendDiv' onClick={function () {
+                                localStorage.setItem('HerosRecordLocation', 0)
+                            }}>
+                                <a href={'/Heros/' + r.data[0]['top2']}>
+                                    <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
+                                    <MffH5 className='recommendH5' text={r.data[0].top2Name} />
+                                </a>
                             </div>
-                            <div className='recommendDiv'>
-                                <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
-                                <MffH5 className='recommendH5' text={r.data[0].top3Name} />
+
+                            <div className='recommendDiv' onClick={function () {
+                                localStorage.setItem('HerosRecordLocation', 0)
+                            }}>
+                                <a href={'/Heros/' + r.data[0]['top3']}>
+                                    <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
+                                    <MffH5 className='recommendH5' text={r.data[0].top3Name} />
+                                </a>
                             </div>
-                            <div className='recommendDiv'>
-                                <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top4'] + ".jpg"} />
-                                <MffH5 className='recommendH5' text={r.data[0].top4Name} />
+
+                            <div className='recommendDiv' onClick={function () {
+                                localStorage.setItem('HerosRecordLocation', 0)
+                            }}>
+                                <a href={'/Heros/' + r.data[0]['top4']}>
+                                    <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top4'] + ".jpg"} />
+                                    <MffH5 className='recommendH5' text={r.data[0].top4Name} />
+                                </a>
                             </div>
-                            <div className='recommendDiv'>
-                                <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top5'] + ".jpg"} />
-                                <MffH5 className='recommendH5' text={r.data[0].top5Name} />
+
+
+                            <div className='recommendDiv' onClick={function () {
+                                localStorage.setItem('HerosRecordLocation', 0)
+                            }}>
+                                <a href={'/Heros/' + r.data[0]['top5']}>
+                                    <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top5'] + ".jpg"} />
+                                    <MffH5 className='recommendH5' text={r.data[0].top5Name} />
+                                </a>
                             </div>
+
                         </div>
 
                         {/* 世界頭目過關條件角色 */}
                         <div>
                             <MffH5 className="WorldBossTitle" text='世界頭目過關條件角色' />
+
                             <div className="BossAchievementDiv">
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f9'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f9Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f9']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f9'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f9Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f19'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f19Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f19']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f19'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'19F/' + r.data[0]['f19Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f29'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f29Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f29']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f29'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'29F/' + r.data[0]['f29Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f39'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f39Name']} />
+
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f39']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f39'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'39F/' + r.data[0]['f39Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f49'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f49Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f49']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f49'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'49F/' + r.data[0]['f49Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f59'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f59Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f59']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f59'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'59F/' + r.data[0]['f59Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f69'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f69Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f69']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f69'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'69F/' + r.data[0]['f69Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f79'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f79Name']} />
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f79']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f79'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'79F/' + r.data[0]['f79Name']} />
+                                    </a>
                                 </div>
-                                <div className="PassHerosDiv">
-                                    <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f89'] + ".jpg"} />
-                                    <MffH5 className="PassHerosH5" text={'9F/' + r.data[0]['f89Name']} />
+
+
+                                <div className="PassHerosDiv" onClick={function () {
+                                    localStorage.setItem('HerosRecordLocation', 0)
+                                }}>
+                                    <a href={'/Heros/' + r.data[0]['f89']}>
+                                        <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f89'] + ".jpg"} />
+                                        <MffH5 className="PassHerosH5" text={'89F/' + r.data[0]['f89Name']} />
+                                    </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -158,10 +233,10 @@ function WorldBossOptionShow() {
 
 function NoneImg() {
     let PassHerosImg = document.getElementsByClassName('PassHerosImg');
-    let PassHerosDiv=document.getElementsByClassName('PassHerosDiv');
+    let PassHerosDiv = document.getElementsByClassName('PassHerosDiv');
     for (let index = 0; index < PassHerosImg.length; index++) {
-        if(PassHerosImg[index].src=='/mffWIKI/img/Heros/.jpg'){
-            PassHerosDiv[index].style.display='none'
+        if (PassHerosImg[index].src == 'http://35.73.243.150:3000/mffWIKI/img/Heros/.jpg') {
+            PassHerosDiv[index].style.display = 'none'
         }
     }
 }

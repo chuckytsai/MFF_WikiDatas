@@ -112,6 +112,7 @@ class MffH6 extends React.Component {
 class MffSpan extends React.Component {
     render() {
         return <span
+            style={{ display: this.props.display }}
             className={this.props.className}
             onClick={this.props.onClick}>
             {this.props.text}

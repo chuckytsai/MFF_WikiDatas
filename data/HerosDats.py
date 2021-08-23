@@ -5,10 +5,10 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = mysql.connector.connect(
     host="localhost",
-    port=3307,
+    port=,
     user="root",
-    passwd="P@ssw0rd",
-    db='mff',
+    passwd="",
+    db='',
     charset='utf8')
 cursor = db.cursor()
 

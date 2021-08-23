@@ -1,0 +1,2106 @@
+{
+    "data": [
+        {
+            "id": "A.ProximaMidnight",
+            "idCName": "闇夜無星",
+            "mode": "世界頭目",
+            "keyword": "ProximaMidnight",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "CaptainAmerica/HydraSupreme",
+                    "top1Name": "美國隊長/九頭蛇至尊",
+                    "top2": "MoonKight/Kight",
+                    "top2Name": "月光騎士/騎士先生",
+                    "top3": "Venom/WarOfTheRealms",
+                    "top3Name": "猛毒/十界之戰",
+                    "top4": "MisterFantastic/TheMaker",
+                    "top4Name": "驚奇先生/造物者",
+                    "top5": "Knull/Modern",
+                    "top5Name": "努爾/現代"
+                },
+                {
+                    "9F": "Hulk/TheAvengers",
+                    "9FName": "浩克",
+                    "19F": "CaptainAmerica/TheAvengers",
+                    "19FName": "美國隊長",
+                    "29F": "LukeCage/Modern",
+                    "29FName": "力量人",
+                    "39F": "Blackpanther/Modern",
+                    "39FName": "黑豹",
+                    "49F": "Shuri/MarvelLegacy",
+                    "49FName": "舒莉",
+                    "59F": "Maximus/WarOfKings",
+                    "59FName": "馬克西穆斯",
+                    "69F": "Blade/Modern",
+                    "69FName": "刀鋒戰士",
+                    "79F": "DoctorOctopus/Classic",
+                    "79FName": "八爪博士",
+                    "89F": "JessicaJones/Modern",
+                    "89FName": "潔西卡瓊斯"
+                }
+            ]
+        },
+        {
+            "id": "A.BlackDwarf",
+            "idCName": "星駭滅寂",
+            "mode": "世界頭目",
+            "keyword": "BlackDwarf",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Odin/GodFather",
+                    "top2Name": "奧丁/眾神之父",
+                    "top3": "Cable/XOfSword",
+                    "top3Name": "機堡/X之劍",
+                    "top4": "DoctorStrange/Space",
+                    "top4Name": "奇異博士/太空衣",
+                    "top5": "Gambit/Excalibur",
+                    "top5Name": "金牌手/聖劍聯盟"
+                },
+                {
+                    "9F": "Hulkbuster/TheAvengersAgeofUltron",
+                    "9FName": "浩克破壞者",
+                    "19F": "Shangchi/Modern",
+                    "19FName": "上氣",
+                    "29F": "WinterSoldier/CaptainAmericaTheWinterSoldier",
+                    "29FName": "酷寒戰士",
+                    "39F": "Rhino/Classic",
+                    "39FName": "犀牛人",
+                    "49F": "WarMachine/Modern",
+                    "49FName": "戰爭機器",
+                    "59F": "Ronan/GuardiansOfTheGalaxy",
+                    "59FName": "羅南",
+                    "69F": "Spiderman/Classic",
+                    "69FName": "蜘蛛人",
+                    "79F": "BlackWidow/TheAvengers",
+                    "79FName": "黑寡婦",
+                    "89F": "Loki/TheAvengers",
+                    "89FName": "洛基"
+                }
+            ]
+        },
+        {
+            "id": "A.CorvusGlaive",
+            "idCName": "掠鴉凶刃",
+            "mode": "世界頭目",
+            "keyword": "CorvusGlaive",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "Rogue/Excalibur",
+                    "top1Name": "小淘氣/聖劍聯盟",
+                    "top2": "Deadpool/DeadPool30YearBlack",
+                    "top2Name": "死恃/30周年黑禮服",
+                    "top3": "Gambit/Excalibur",
+                    "top3Name": "金牌手/聖劍聯盟",
+                    "top4": "SpiderGwen/Symbiont",
+                    "top4Name": "蜘蛛關/猛毒",
+                    "top5": "Knull/Modern",
+                    "top5Name": "努爾/現代"
+                },
+                {
+                    "9F": "Hyperion/AllNewAllDifferent",
+                    "9FName": "太陽神",
+                    "19F": "Rogue/Classic",
+                    "19FName": "小淘氣",
+                    "29F": "BlackBolt/Modern",
+                    "29FName": "黑霹雷",
+                    "39F": "Medusa/AllNewAllDifferent",
+                    "39FName": "梅杜莎",
+                    "49F": "Gorgon/WarOfKings",
+                    "49FName": "戈爾工",
+                    "59F": "Karnak/WarOfKings",
+                    "59FName": "卡爾奈克",
+                    "69F": "KamalaKhan/AllNewAllDifferent",
+                    "69FName": "驚奇女士",
+                    "79F": "Infernd/AllNewAllDifferent",
+                    "79FName": "地獄火",
+                    "89F": "DaisyJohnson/AgentsOfSHIELD",
+                    "89FName": "戴希強森"
+                }
+            ]
+        },
+        {
+            "id": "A.SuperGiant",
+            "idCName": "昊天極星",
+            "mode": "世界頭目",
+            "keyword": "SuperGiant",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "DoctorStrange/Space",
+                    "top2Name": "奇異博士/太空衣",
+                    "top3": "Odin/GodFather",
+                    "top3Name": "奧丁/眾神之父",
+                    "top4": "Cable/XOfSword",
+                    "top4Name": "機堡/X之劍",
+                    "top5": "HumanTorch/Classic",
+                    "top5Name": "霹靂火/經典"
+                },
+                {
+                    "9F": "RedHulk/Modern",
+                    "9FName": "紅浩克",
+                    "19F": "",
+                    "19FName": "",
+                    "29F": "",
+                    "29FName": "",
+                    "39F": "",
+                    "39FName": "",
+                    "49F": "",
+                    "49FName": "",
+                    "59F": "",
+                    "59FName": "",
+                    "69F": "",
+                    "69FName": "",
+                    "79F": "",
+                    "79FName": "",
+                    "89F": "",
+                    "89FName": ""
+                }
+            ]
+        },
+        {
+            "id": "A.EbonyMaw",
+            "idCName": "烏木邪心",
+            "mode": "世界頭目",
+            "keyword": "EbonyMaw",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "GhostRider/HellKing",
+                    "top1Name": "惡靈戰警/地獄之王",
+                    "top2": "HumanTorch/Classic",
+                    "top2Name": "霹靂火/經典",
+                    "top3": "Thor/HeraldOfThunder",
+                    "top3Name": "索爾/雷霆先鋒",
+                    "top4": "BetaRayBill/Modern",
+                    "top4Name": "馬面雷神/現代",
+                    "top5": "SuperGiant/DarkObsidianArmor",
+                    "top5Name": "昊天極星/闇黑曜岩裝甲"
+                },
+                {
+                    "9F": "ThorJane/AllNewAllDifferent",
+                    "9FName": "索爾珍",
+                    "19F": "Satana/Modern",
+                    "19FName": "撒旦娜",
+                    "29F": "EmmaFrost/Modern",
+                    "29FName": "艾瑪佛斯特",
+                    "39F": "Crystal/AllNewAllDifferent",
+                    "39FName": "水晶",
+                    "49F": "DoctorStrange/AllNewAllDifferent",
+                    "49FName": "奇異博士",
+                    "59F": "Modok/Classic",
+                    "59FName": "魔多客",
+                    "69F": "Mysterio/Classic",
+                    "69FName": "神秘法師",
+                    "79F": "ScarletWitch/Classic",
+                    "79FName": "緋紅女巫",
+                    "89F": "BlueMarvel/TheUltimates",
+                    "89FName": "藍驚奇"
+                }
+            ]
+        },
+        {
+            "id": "A.Thanos",
+            "idCName": "薩諾斯",
+            "mode": "世界頭目",
+            "keyword": "Thanos",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Odin/GodFather",
+                    "top2Name": "奧丁/眾神之父",
+                    "top3": "Cable/XOfSword",
+                    "top3Name": "機堡/X之劍",
+                    "top4": "HumanTorch/Classic",
+                    "top4Name": "霹靂火/經典",
+                    "top5": "Gambit/Excalibur",
+                    "top5Name": "金牌手/聖劍聯盟"
+                },
+                {
+                    "9F": "Ironman/Classic",
+                    "9FName": "鋼鐵人",
+                    "19F": "StarLord/GuardiansOfTheGalaxy",
+                    "19FName": "星爵",
+                    "29F": "Deadpool/Modern",
+                    "29FName": "死恃",
+                    "39F": "Mantis/GuardiansOfTheGalaxy2",
+                    "39FName": "螳螂女",
+                    "49F": "Gamora/GuardiansOfTheGalaxy",
+                    "49FName": "葛魔拉",
+                    "59F": "NovaSam/AllNewAllDifferent",
+                    "59FName": "新星(山姆)",
+                    "69F": "Drax/GuardiansOfTheGalaxy",
+                    "69FName": "德克斯",
+                    "79F": "Nebula/GuardiansOfTheGalaxy",
+                    "79FName": "涅布拉",
+                    "89F": "AdamWarlock/Modern",
+                    "89FName": "術士亞當"
+                }
+            ]
+        },
+        {
+            "id": "B.Quicksilver",
+            "idCName": "快銀",
+            "mode": "世界頭目",
+            "keyword": "Quicksilver",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Odin/GodFather",
+                    "top2Name": "奧丁/眾神之父",
+                    "top3": "Venom/WarOfTheRealms",
+                    "top3Name": "猛毒/十界之戰",
+                    "top4": "MisterFantastic/TheMaker",
+                    "top4Name": "驚奇先生/造物者",
+                    "top5": "Knull/Modern",
+                    "top5Name": "努爾/現代"
+                },
+                {
+                    "9F": "HawkeyeKate/MarvelNow",
+                    "9FName": "鷹眼凱特",
+                    "19F": "Quasar/AllNewAllDifferent",
+                    "19FName": "類星體",
+                    "29F": "KravenHunter/Modern",
+                    "29FName": "獵人克萊文",
+                    "39F": "SuperGiant/Unlimited",
+                    "39FName": "昊天極星",
+                    "49F": "Absorbingman/Modern",
+                    "49FName": "吸收人",
+                    "59F": "Sabretooth/Fraternity",
+                    "59FName": "劍齒虎",
+                    "69F": "Deathlok/AgentsOfSHIELD",
+                    "69FName": "死亡戰士",
+                    "79F": "DoctorDoom/Modern",
+                    "79FName": "末日博士",
+                    "89F": "Angel/Modern",
+                    "89FName": "天使"
+                }
+            ]
+        },
+        {
+            "id": "B.Cable",
+            "idCName": "機堡",
+            "mode": "世界頭目",
+            "keyword": "Cable",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Deadpool/DeadPool30YearBlack",
+                    "top2Name": "死恃/30周年黑禮服",
+                    "top3": "Rogue/Excalibur",
+                    "top3Name": "小淘氣/聖劍聯盟",
+                    "top4": "Odin/GodFather",
+                    "top4Name": "奧丁/眾神之父",
+                    "top5": "Knull/Modern",
+                    "top5Name": "努爾/現代"
+                },
+                {
+                    "9F": "Titania/Modern",
+                    "9FName": "泰坦妮亞",
+                    "19F": "HulkCho/AllNew",
+                    "19FName": "浩克趙",
+                    "29F": "MisterFantastic/Modern",
+                    "29FName": "驚奇先生",
+                    "39F": "ArachKnight/Fusion",
+                    "39FName": "蜘蛛騎士",
+                    "49F": "Sin/AllNewAllDifferent",
+                    "49FName": "原罪",
+                    "59F": "Odin/Modern",
+                    "59FName": "奧丁",
+                    "69F": "KidKaiju/Monster",
+                    "69FName": "怪獸小子",
+                    "79F": "BaronMordo/Classic",
+                    "79FName": "莫度男爵",
+                    "89F": "ProximaMidnight/Unlimited",
+                    "89FName": "闇夜無星"
+                }
+            ]
+        },
+        {
+            "id": "B.ScarletWitch",
+            "idCName": "緋紅女巫",
+            "mode": "世界頭目",
+            "keyword": "ScarletWitch",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Deadpool/DeadPool30YearBlack",
+                    "top2Name": "死恃/30周年黑禮服",
+                    "top3": "Rogue/Excalibur",
+                    "top3Name": "小淘氣/聖劍聯盟",
+                    "top4": "Odin/GodFather",
+                    "top4Name": "奧丁/眾神之父",
+                    "top5": "Knull/Modern",
+                    "top5Name": "努爾/現代"
+                },
+                {
+                    "9F": "Hellcat/AllNewAllDifferent",
+                    "9FName": "地獄貓",
+                    "19F": "SquirrelGirl/NewAvengers",
+                    "19FName": "松鼠女孩",
+                    "29F": "SilverSurfer/Modern",
+                    "29FName": "銀色衝浪手",
+                    "39F": "YellowJacket/Antman",
+                    "39FName": "黃衫俠",
+                    "49F": "WeaponHex/Fusion",
+                    "49FName": "武器魔女",
+                    "59F": "GhostRiderRobbie/MarvelNow",
+                    "59FName": "惡靈戰警(羅比)",
+                    "69F": "Antiman/AllNewAllDifferent",
+                    "69FName": "反物質人",
+                    "79F": "Iceman/Modern",
+                    "79FName": "冰人",
+                    "89F": "Wolverine/Classic",
+                    "89FName": "金鋼狼"
+                }
+            ]
+        },
+        {
+            "id": "B.Apocalypse",
+            "idCName": "天啟",
+            "mode": "世界頭目",
+            "keyword": "Apocalypse",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "HumanTorch/Classic",
+                    "top2Name": "霹靂火/經典",
+                    "top3": "Cable/XOfSword",
+                    "top3Name": "機堡/X之劍",
+                    "top4": "Odin/GodFather",
+                    "top4Name": "奧丁/眾神之父",
+                    "top5": "Gambit/Excalibur",
+                    "top5Name": "金牌手/聖劍聯盟"
+                },
+                {
+                    "9F": "Heimdall/Ragnarok",
+                    "9FName": "海姆達爾",
+                    "19F": "BlackDwarf/Unlimited",
+                    "19FName": "星駭滅寂",
+                    "29F": "Whiplash/Ironman2",
+                    "29FName": "鞭狂",
+                    "39F": "IronHeart/MarvelNow",
+                    "39FName": "鋼鐵心",
+                    "49F": "Dormammu/Classic",
+                    "49FName": "多瑪暮",
+                    "59F": "SpiderGwen/AllNewAllDifferent",
+                    "59FName": "蜘蛛關",
+                    "69F": "RachelSummers/Modern",
+                    "69FName": "瑞秋桑瑪斯",
+                    "79F": "Stryfe/Modern",
+                    "79FName": "紛爭",
+                    "89F": "MorganLefav/Modern",
+                    "89FName": "摩根娜"
+                }
+            ]
+        },
+        {
+            "id": "C.Knull",
+            "idCName": "努爾",
+            "mode": "世界頭目",
+            "keyword": "Knull",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Cable/XOfSword",
+                    "top2Name": "機堡/X之劍",
+                    "top3": "HumanTorch/Classic",
+                    "top3Name": "霹靂火/經典",
+                    "top4": "Odin/GodFather",
+                    "top4Name": "奧丁/眾神之父",
+                    "top5": "SuperGiant/DarkObsidianArmor",
+                    "top5Name": "昊天極星/闇黑曜岩裝甲"
+                },
+                {
+                    "9F": "Apocalypse/Age",
+                    "9FName": "天啟",
+                    "19F": "",
+                    "19FName": "",
+                    "29F": "",
+                    "29FName": "",
+                    "39F": "",
+                    "39FName": "",
+                    "49F": "",
+                    "49FName": "",
+                    "59F": "",
+                    "59FName": "",
+                    "69F": "",
+                    "69FName": "",
+                    "79F": "",
+                    "79FName": "",
+                    "89F": "",
+                    "89FName": ""
+                }
+            ]
+        },
+        {
+            "id": "C.Mephisto",
+            "idCName": "曼菲斯特",
+            "mode": "世界頭目",
+            "keyword": "Mephisto",
+            "raiders": [
+                {
+                    "option1": "建議輸出角色",
+                    "option2": "英雄可用支援角色",
+                    "option3": "反派可用支援角色",
+                    "option4": "過關樓層需要角色"
+                },
+                {
+                    "top1": "MoonStone/Modern",
+                    "top1Name": "月光石/現代",
+                    "top2": "Cable/XOfSword",
+                    "top2Name": "機堡/X之劍",
+                    "top3": "HumanTorch/Classic",
+                    "top3Name": "霹靂火/經典",
+                    "top4": "Odin/GodFather",
+                    "top4Name": "奧丁/眾神之父",
+                    "top5": "SuperGiant/DarkObsidianArmor",
+                    "top5Name": "昊天極星/闇黑曜岩裝甲"
+                },
+                {
+                    "9F": "",
+                    "9FName": "",
+                    "19F": "",
+                    "19FName": "",
+                    "29F": "",
+                    "29FName": "",
+                    "39F": "",
+                    "39FName": "",
+                    "49F": "",
+                    "49FName": "",
+                    "59F": "",
+                    "59FName": "",
+                    "69F": "",
+                    "69FName": "",
+                    "79F": "",
+                    "79FName": "",
+                    "89F": "",
+                    "89FName": ""
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow1F",
+            "idCName": "影域1F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "CombatBuff",
+                    "top1Name": "近戰有利",
+                    "top2": "SpeedBuff",
+                    "top2Name": "速度有利",
+                    "top3": "BlastBuff",
+                    "top3Name": "爆破有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow2F",
+            "idCName": "影域2F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "SpeedNoEngrgy",
+                    "top1Name": "速度反射能量",
+                    "top2": "CombatBuff2",
+                    "top2Name": "近戰有利",
+                    "top3": "BlastNoPhysical",
+                    "top3Name": "爆破反射物理",
+                    "top4": "HeroBuff",
+                    "top4Name": "英雄有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow3F",
+            "idCName": "影域3F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "CombatBuff",
+                    "top1Name": "近戰有利",
+                    "top2": "SpeedBuff",
+                    "top2Name": "速度有利",
+                    "top3": "BlastBuff",
+                    "top3Name": "爆破有利",
+                    "top4": "UniverseBuff",
+                    "top4Name": "宇宙有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow4F",
+            "idCName": "影域4F(戰場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "VillainBuff2",
+                    "top1Name": "反派有利",
+                    "top2": "VillainBuff",
+                    "top2Name": "反派有利",
+                    "top3": "PhysicalVillainNerf",
+                    "top3Name": "反派物理反射"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow5F",
+            "idCName": "影域5F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "PhysicalVillainNerf",
+                    "top1Name": "反派物理反射",
+                    "top2": "HeroBuff",
+                    "top2Name": "英雄有利",
+                    "top3": "VillainBuff3",
+                    "top3Name": "反派有利",
+                    "top4": "UniverseVillainBuff",
+                    "top4Name": "反派宇宙有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow6F",
+            "idCName": "影域6F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "CombatBuff",
+                    "top1Name": "近戰有利",
+                    "top2": "SpeedBuff",
+                    "top2Name": "速度有利",
+                    "top3": "HeroBoy",
+                    "top3Name": "英雄男性有利",
+                    "top4": "BlastBuff",
+                    "top4Name": "爆破有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow7F",
+            "idCName": "影域7F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "SpeedNoEngrgy",
+                    "top1Name": "速度反射能量",
+                    "top2": "CombatBuff2",
+                    "top2Name": "近戰有利",
+                    "top3": "BlastNoPhysical",
+                    "top3Name": "爆破反射物理",
+                    "top4": "HeroBuff",
+                    "top4Name": "英雄有利",
+                    "top5": "VillainBuff3",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow8F",
+            "idCName": "影域8F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "ElectricityNerf",
+                    "top1Name": "電傷害無效",
+                    "top2": "FireNerf",
+                    "top2Name": "火傷害無效",
+                    "top3": "HeroBoy",
+                    "top3Name": "英雄男性有利",
+                    "top4": "UniverseBuff",
+                    "top4Name": "宇宙有利",
+                    "top5": "VillainBuff5",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "D.Shadow9F",
+            "idCName": "影域9F(戰場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "VillainBuff2",
+                    "top1Name": "反派有利",
+                    "top2": "VillainBuff",
+                    "top2Name": "反派有利",
+                    "top3": "PhysicalVillainNerf",
+                    "top3Name": "反派物理反射",
+                    "top4": "VillainBuff4",
+                    "top4Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow10F",
+            "idCName": "影域10F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "BlastNoPhysical",
+                    "top1Name": "爆破反射物理",
+                    "top2": "HeroBuff",
+                    "top2Name": "英雄有利",
+                    "top3": "BlastNoPhysical2",
+                    "top3Name": "爆破反射物理",
+                    "top4": "UniverseVillainBuff",
+                    "top4Name": "反派宇宙有利",
+                    "top5": "VillainBuff3",
+                    "top5Name": "反派有利",
+                    "top6": "CombatBuffAvoid",
+                    "top6Name": "近戰有利(迴避提高)"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow11F",
+            "idCName": "影域11F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "ElectricityNerf",
+                    "top1Name": "電傷害無效",
+                    "top2": "FireNerf",
+                    "top2Name": "火傷害無效",
+                    "top3": "HeroBoy",
+                    "top3Name": "英雄男性有利",
+                    "top4": "UniverseBuff",
+                    "top4Name": "宇宙有利",
+                    "top5": "VillainBuff5",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow12F",
+            "idCName": "影域12F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "FireBuff",
+                    "top1Name": "火傷害有利",
+                    "top2": "IceNerf",
+                    "top2Name": "冰傷害無效",
+                    "top3": "ElectricityNerf",
+                    "top3Name": "電傷害無效",
+                    "top4": "VillainBuff6",
+                    "top4Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow13F",
+            "idCName": "影域13F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "FireNerf",
+                    "top1Name": "火傷害無效",
+                    "top2": "PhysicalVillainNerf",
+                    "top2Name": "反派物理反射",
+                    "top3": "VillainBuff5",
+                    "top3Name": "反派有利",
+                    "top4": "PhysicalNerf",
+                    "top4Name": "反射物理"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow14F",
+            "idCName": "影域14F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "SpeedNoEngrgy",
+                    "top1Name": "速度反射能量",
+                    "top2": "BlastNoPhysical",
+                    "top2Name": "爆破反射物理",
+                    "top3": "HeroBuff",
+                    "top3Name": "英雄有利",
+                    "top4": "BlastNoPhysical2",
+                    "top4Name": "爆破反射物理",
+                    "top5": "UniverseVillainBuff",
+                    "top5Name": "宇宙反派有利",
+                    "top6": "VillainBuff3",
+                    "top6Name": "反派有利",
+                    "top7": "CombatBuffAvoid",
+                    "top7Name": "近戰有利(迴避提高)"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow15F",
+            "idCName": "影域15F(入場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Admittance1-1",
+                    "top1Name": "英雄有利",
+                    "top2": "Admittance1-2",
+                    "top2Name": "英雄有利",
+                    "top3": "BlastBuff",
+                    "top3Name": "爆破有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow16F",
+            "idCName": "影域16F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "ElectricityNerf",
+                    "top1Name": "電傷害無效",
+                    "top2": "FireNerf",
+                    "top2Name": "火傷害無效",
+                    "top3": "PhysicalVillainNerf2",
+                    "top3Name": "反派物理反射",
+                    "top4": "PhysicalNerf",
+                    "top4Name": "反射物理",
+                    "top5": "VillainBuff5",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow17F",
+            "idCName": "影域17F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "FireBuff",
+                    "top1Name": "火傷害有利",
+                    "top2": "IceNerf",
+                    "top2Name": "冰傷害無效",
+                    "top3": "VillainBuff6",
+                    "top3Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow18F",
+            "idCName": "影域18F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "BlastNoPhysical",
+                    "top1Name": "爆破反射物理",
+                    "top2": "HeroBuff",
+                    "top2Name": "英雄有利",
+                    "top3": "UniverseVillainBuff",
+                    "top3Name": "宇宙反派有利",
+                    "top4": "VillainBuff3",
+                    "top4Name": "反派有利",
+                    "top5": "CombatBuffAvoid",
+                    "top5Name": "近戰有利(迴避提高)"
+                }
+            ]
+        },
+        {
+            "id": "E.Shadow19F",
+            "idCName": "影域19F(戰場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "HeroBuff2",
+                    "top1Name": "英雄有利",
+                    "top2": "VillainBuff2",
+                    "top2Name": "反派有利",
+                    "top3": "PhysicalVillainNerf",
+                    "top3Name": "反派物理反射",
+                    "top4": "VillainBuff4",
+                    "top4Name": "反派有利",
+                    "top5": "VillainBuff",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow20F",
+            "idCName": "影域20F(入場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Admittance1-1",
+                    "top1Name": "英雄有利",
+                    "top2": "Admittance2-1",
+                    "top2Name": "解除異常狀態",
+                    "top3": "Admittance3-1",
+                    "top3Name": "英雄有利"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow21F",
+            "idCName": "影域21F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "ElectricityNerf",
+                    "top1Name": "電傷害無效",
+                    "top2": "FireNerf",
+                    "top2Name": "火傷害無效",
+                    "top3": "PhysicalVillainNerf2",
+                    "top3Name": "反派物理反射",
+                    "top4": "PhysicalNerf",
+                    "top4Name": "反射物理",
+                    "top5": "VillainBuff5",
+                    "top5Name": "反派有利"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow22F",
+            "idCName": "影域22F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "FireBuff",
+                    "top1Name": "火傷害有利",
+                    "top2": "PhysicalNerf2",
+                    "top2Name": "反射物理",
+                    "top3": "VillainBuff6",
+                    "top3Name": "反派有利",
+                    "top4": "Clone",
+                    "top4Name": "複製人"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow23F",
+            "idCName": "影域23F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "BlastNoPhysical",
+                    "top1Name": "爆破反射物理",
+                    "top2": "HeroBuff",
+                    "top2Name": "英雄有利",
+                    "top3": "UniverseVillainBuff",
+                    "top3Name": "宇宙反派有利",
+                    "top4": "VillainBuff3",
+                    "top4Name": "反派有利",
+                    "top5": "CombatBuffAvoid",
+                    "top5Name": "近戰有利(迴避提高)",
+                    "top6": "PhysicalNerf2",
+                    "top6Name": "爆破反射物理"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow24F",
+            "idCName": "影域24F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "FireBuff",
+                    "top1Name": "火傷害有利",
+                    "top2": "PhysicalNerf2",
+                    "top2Name": "反射物理",
+                    "top3": "VillainBuff6",
+                    "top3Name": "反派有利",
+                    "top4": "Clone",
+                    "top4Name": "複製人"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow25F",
+            "idCName": "影域25F(入場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Admittance3-1",
+                    "top1Name": "英雄有利"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow26F",
+            "idCName": "影域26F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "PhysicalNerf2",
+                    "top1Name": "反射物理",
+                    "top2": "VillainBuff6",
+                    "top2Name": "反派有利",
+                    "top3": "Clone",
+                    "top3Name": "複製人"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow27F",
+            "idCName": "影域27F(入場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Admittance4-1",
+                    "top1Name": "能量反射"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow28F",
+            "idCName": "影域28F(亂鬥模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "HeroBuff",
+                    "top1Name": "英雄有利",
+                    "top2": "UniverseVillainBuff",
+                    "top2Name": "宇宙反派有利",
+                    "top3": "VillainBuff3",
+                    "top3Name": "反派有利",
+                    "top4": "CombatBuffAvoid",
+                    "top4Name": "近戰有利(迴避提高)",
+                    "top5": "PhysicalNerf2",
+                    "top5Name": "爆破反射物理"
+                }
+            ]
+        },
+        {
+            "id": "F.Shadow29F",
+            "idCName": "影域29F(入場模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Admittance5-1",
+                    "top1Name": "強大的隊伍"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow30F",
+            "idCName": "影域30F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "VillainBuff",
+                    "top1Name": "反派有利",
+                    "top2": "UniverseBuff",
+                    "top2Name": "宇宙有利",
+                    "top3": "HeroBuff",
+                    "top3Name": "英雄有利"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow31F",
+            "idCName": "影域31F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "UniverseNoPhysical",
+                    "top1Name": "宇宙反射能量",
+                    "top2": "BlastNoPhysical3",
+                    "top2Name": "爆破反射物理",
+                    "top3": "CombatNoEnergy",
+                    "top3Name": "近戰反射能量"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow32F",
+            "idCName": "影域32F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Spider",
+                    "top1Name": "蜘蛛感應"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow33F",
+            "idCName": "影域33F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Machine",
+                    "top1Name": "機械或精神抗性反派",
+                    "top2": "FireHero",
+                    "top2Name": "火焰屬性",
+                    "top3": "FireHero2",
+                    "top3Name": "火焰屬性"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow34F",
+            "idCName": "影域34F(接力模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "Phoenix",
+                    "top1Name": "鳳凰之力"
+                }
+            ]
+        },
+        {
+            "id": "G.Shadow35F",
+            "idCName": "影域35F(首領模式)",
+            "mode": "影域",
+            "keyword": "",
+            "raiders": [
+                {
+                    "top1": "DD",
+                    "top1Name": "強大的隊伍"
+                }
+            ]
+        },
+        {
+            "id": "H.1-1",
+            "idCName": "劇情模式1-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "1-1",
+            "raiders": [
+                {
+                    "top1": "Mystique/Modern",
+                    "top1Name": "魔形女",
+                    "top2": "BlackDwarf/Unlimited",
+                    "top2Name": "星駭滅寂",
+                    "top3": "DareDevil/Modern",
+                    "top3Name": "夜魔俠"
+                }
+            ]
+        },
+        {
+            "id": "H.1-2",
+            "idCName": "劇情模式1-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "1-2",
+            "raiders": [
+                {
+                    "top1": "CorvusGlaive/Unlimited",
+                    "top1Name": "掠鴉凶刃",
+                    "top2": "Valkyrie/Ragnarok",
+                    "top2Name": "瓦爾基麗",
+                    "top3": "DoctorOctopus/Classic",
+                    "top3Name": "八爪博士"
+                }
+            ]
+        },
+        {
+            "id": "H.1-3",
+            "idCName": "劇情模式1-3(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "1-3",
+            "raiders": [
+                {
+                    "top1": "Valkyrie/Ragnarok",
+                    "top1Name": "瓦爾基麗",
+                    "top2": "BlackWidow/TheAvengers",
+                    "top2Name": "黑寡婦",
+                    "top3": "Namor/Classic",
+                    "top3Name": "納摩"
+                }
+            ]
+        },
+        {
+            "id": "H.2-1",
+            "idCName": "劇情模式2-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "2-1",
+            "raiders": [
+                {
+                    "top1": "BlueDargon/Modern",
+                    "top1Name": "青龍",
+                    "top2": "SilverSurfer/Modern",
+                    "top2Name": "銀色衝浪手",
+                    "top3": "Magneto/Classic",
+                    "top3Name": "萬磁王"
+                }
+            ]
+        },
+        {
+            "id": "H.2-2",
+            "idCName": "劇情模式2-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "2-2",
+            "raiders": [
+                {
+                    "top1": "Cable/Modern",
+                    "top1Name": "機堡",
+                    "top2": "Odin/Modern",
+                    "top2Name": "奧丁",
+                    "top3": "Cyclops/Classic",
+                    "top3Name": "獨眼龍"
+                }
+            ]
+        },
+        {
+            "id": "H.2-3",
+            "idCName": "劇情模式2-3(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "2-3",
+            "raiders": [
+                {
+                    "top1": "Ironman/Classic",
+                    "top1Name": "鋼鐵人",
+                    "top2": "Moleculeman/Modern",
+                    "top2Name": "分子人",
+                    "top3": "Vision/Modern",
+                    "top3Name": "幻視"
+                }
+            ]
+        },
+        {
+            "id": "H.3-1",
+            "idCName": "劇情模式3-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "3-1",
+            "raiders": [
+                {
+                    "top1": "Blackpanther/Modern",
+                    "top1Name": "黑豹",
+                    "top2": "Morbius/Modern",
+                    "top2Name": "魔比斯",
+                    "top3": "Storm/Modern",
+                    "top3Name": "暴風女"
+                }
+            ]
+        },
+        {
+            "id": "H.3-2",
+            "idCName": "劇情模式3-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "3-2",
+            "raiders": [
+                {
+                    "top1": "Odin/Modern",
+                    "top1Name": "奧丁",
+                    "top2": "SunBird/Modern",
+                    "top2Name": "鳳皇",
+                    "top3": "Hulk/TheAvengers",
+                    "top3Name": "浩克"
+                }
+            ]
+        },
+        {
+            "id": "H.3-3",
+            "idCName": "劇情模式3-3(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "3-3",
+            "raiders": [
+                {
+                    "top1": "MoonKight/Kight",
+                    "top1Name": "月光騎士",
+                    "top2": "Silk/AllNewAllDifferent",
+                    "top2Name": "蜘絲女",
+                    "top3": "Spiderwoman/Modern",
+                    "top3Name": "蜘蛛女"
+                }
+            ]
+        },
+        {
+            "id": "H.4-1",
+            "idCName": "劇情模式4-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "4-1",
+            "raiders": [
+                {
+                    "top1": "LukeCage/Modern",
+                    "top1Name": "力量人",
+                    "top2": "HulkCho/AllNew",
+                    "top2Name": "浩克趙",
+                    "top3": "Odin/Modern",
+                    "top3Name": "奧丁"
+                }
+            ]
+        },
+        {
+            "id": "H.4-2",
+            "idCName": "劇情模式4-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "4-2",
+            "raiders": [
+                {
+                    "top1": "Spiderwoman/Modern",
+                    "top1Name": "蛛絲女",
+                    "top2": "BlackDwarf/Unlimited",
+                    "top2Name": "星駭滅寂",
+                    "top3": "EbonyMaw/Unlimited",
+                    "top3Name": "烏木邪心"
+                }
+            ]
+        },
+        {
+            "id": "H.5-1",
+            "idCName": "劇情模式5-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "5-1",
+            "raiders": [
+                {
+                    "top1": "CorvusGlaive/Unlimited",
+                    "top1Name": "掠鴉凶刃",
+                    "top2": "Knull/Modern",
+                    "top2Name": "努爾",
+                    "top3": "ProximaMidnight/Unlimited",
+                    "top3Name": "闇夜無星"
+                }
+            ]
+        },
+        {
+            "id": "H.6-1",
+            "idCName": "劇情模式6-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "6-1",
+            "raiders": [
+                {
+                    "top1": "JessicaJones/Modern",
+                    "top1Name": "潔西卡瓊斯",
+                    "top2": "MoonKight/Kight",
+                    "top2Name": "月光騎士",
+                    "top3": "BetaRayBill/Modern",
+                    "top3Name": "馬面雷神"
+                }
+            ]
+        },
+        {
+            "id": "H.6-2",
+            "idCName": "劇情模式6-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "6-2",
+            "raiders": [
+                {
+                    "top1": "Medusa/AllNewAllDifferent",
+                    "top1Name": "梅杜莎",
+                    "top2": "BetaRayBill/Modern",
+                    "top2Name": "馬面雷神",
+                    "top3": "Sentry/Modern",
+                    "top3Name": "哨兵"
+                }
+            ]
+        },
+        {
+            "id": "H.7-1",
+            "idCName": "劇情模式7-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "7-1",
+            "raiders": [
+                {
+                    "top1": "WarTiger/Modern",
+                    "top1Name": "戰虎",
+                    "top2": "EbonyMaw/Unlimited",
+                    "top2Name": "烏木邪心",
+                    "top3": "Nightcrawler/Modern",
+                    "top3Name": "夜行者"
+                }
+            ]
+        },
+        {
+            "id": "H.7-2",
+            "idCName": "劇情模式7-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "7-2",
+            "raiders": [
+                {
+                    "top1": "Gambit/Modern",
+                    "top1Name": "金牌手",
+                    "top2": "Carnage/AllNewAllDifferent",
+                    "top2Name": "屠殺",
+                    "top3": "SharonRogers/75year",
+                    "top3Name": "雪倫羅傑斯"
+                }
+            ]
+        },
+        {
+            "id": "H.7-3",
+            "idCName": "劇情模式7-3(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "7-3",
+            "raiders": [
+                {
+                    "top1": "Venom/Classic",
+                    "top1Name": "猛毒",
+                    "top2": "SpiderGwen/AllNewAllDifferent",
+                    "top2Name": "蜘蛛關",
+                    "top3": "Dormammu/Classic",
+                    "top3Name": "多瑪暮"
+                }
+            ]
+        },
+        {
+            "id": "H.8-1",
+            "idCName": "劇情模式8-1(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "8-1",
+            "raiders": [
+                {
+                    "top1": "Antman/Modern",
+                    "top1Name": "蟻人",
+                    "top2": "HulkCho/AllNew",
+                    "top2Name": "浩克趙",
+                    "top3": "Quicksilver/Classic",
+                    "top3Name": "快銀"
+                }
+            ]
+        },
+        {
+            "id": "H.8-2",
+            "idCName": "劇情模式8-2(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "8-2",
+            "raiders": [
+                {
+                    "top1": "MisterFantastic/Modern",
+                    "top1Name": "驚奇先生",
+                    "top2": "Cable/Modern",
+                    "top2Name": "機堡",
+                    "top3": "Storm/Modern",
+                    "top3Name": "暴風女"
+                }
+            ]
+        },
+        {
+            "id": "H.8-3",
+            "idCName": "劇情模式8-3(次元衝突)",
+            "mode": "任務模式",
+            "keyword": "8-3",
+            "raiders": [
+                {
+                    "top1": "Deadpool/Modern",
+                    "top1Name": "死恃",
+                    "top2": "X23/Classic",
+                    "top2Name": "X23",
+                    "top3": "SpiderGwen/AllNewAllDifferent",
+                    "top3Name": "蜘蛛關"
+                }
+            ]
+        },
+        {
+            "id": "H.9-1",
+            "idCName": "劇情模式9-1(真正的神盾局)",
+            "mode": "任務模式",
+            "keyword": "9-1",
+            "raiders": [
+                {
+                    "top1": "GhostRider/Classic",
+                    "top1Name": "惡靈戰警",
+                    "top2": "SuperGiant/Unlimited",
+                    "top2Name": "昊天極星",
+                    "top3": "Dormammu/Classic",
+                    "top3Name": "多瑪暮"
+                }
+            ]
+        },
+        {
+            "id": "H.9-2",
+            "idCName": "劇情模式9-2(真正的神盾局)",
+            "mode": "任務模式",
+            "keyword": "9-2",
+            "raiders": [
+                {
+                    "top1": "Odin/Modern",
+                    "top1Name": "奧丁",
+                    "top2": "InvisobleWoman/Modern",
+                    "top2Name": "隱形女",
+                    "top3": "BlackDwarf/Unlimited",
+                    "top3Name": "星駭滅寂"
+                }
+            ]
+        },
+        {
+            "id": "I.10-1",
+            "idCName": "劇情模式10-1(真正的神盾局)",
+            "mode": "任務模式",
+            "keyword": "10-1",
+            "raiders": [
+                {
+                    "top1": "ScarletWitch/Classic",
+                    "top1Name": "緋紅女巫",
+                    "top2": "Nightcrawler/Modern",
+                    "top2Name": "夜行者",
+                    "top3": "BlackWidow/CaptainAmericaCivilWar",
+                    "top3Name": "美國隊長"
+                }
+            ]
+        },
+        {
+            "id": "I.10-2",
+            "idCName": "劇情模式10-2(真正的神盾局)",
+            "mode": "任務模式",
+            "keyword": "10-2",
+            "raiders": [
+                {
+                    "top1": "WinterSoldier/CaptainAmericaTheWinterSoldier",
+                    "top1Name": "酷寒戰士",
+                    "top2": "MisterFantastic/Modern",
+                    "top2Name": "驚奇先生",
+                    "top3": "Bullseye/Modern",
+                    "top3Name": "靶眼"
+                }
+            ]
+        },
+        {
+            "id": "J.11-1",
+            "idCName": "劇情模式11-1(世紀戰爭)",
+            "mode": "任務模式",
+            "keyword": "11-1",
+            "raiders": [
+                {
+                    "top1": "ScarletWitch/Classic",
+                    "top1Name": "緋紅女巫",
+                    "top2": "BlueDargon/Modern",
+                    "top2Name": "青龍",
+                    "top3": "SuperGiant/Unlimited",
+                    "top3Name": "昊天極星"
+                }
+            ]
+        },
+        {
+            "id": "J.11-2",
+            "idCName": "劇情模式11-2(世紀戰爭)",
+            "mode": "任務模式",
+            "keyword": "11-2",
+            "raiders": [
+                {
+                    "top1": "LunaSnow/Modern",
+                    "top1Name": "冰月花雪",
+                    "top2": "JeanGrey/Phoenix",
+                    "top2Name": "琴格雷",
+                    "top3": "BetaRayBill/Modern",
+                    "top3Name": "馬面雷神"
+                }
+            ]
+        },
+        {
+            "id": "J.12-1",
+            "idCName": "劇情模式12-1(世紀戰爭)",
+            "mode": "任務模式",
+            "keyword": "12-1",
+            "raiders": [
+                {
+                    "top1": "Cyclops/Classic",
+                    "top1Name": "獨眼龍",
+                    "top2": "EbonyMaw/Unlimited",
+                    "top2Name": "烏木邪心",
+                    "top3": "ScarletWitch/Classic",
+                    "top3Name": "緋紅女巫"
+                }
+            ]
+        },
+        {
+            "id": "J.12-2",
+            "idCName": "劇情模式12-2(世紀戰爭)",
+            "mode": "任務模式",
+            "keyword": "12-2",
+            "raiders": [
+                {
+                    "top1": "EbonyMaw/Unlimited",
+                    "top1Name": "烏木邪心",
+                    "top2": "JeanGrey/Phoenix",
+                    "top2Name": "琴格雷",
+                    "top3": "ProfessorX/Modern",
+                    "top3Name": "X教授"
+                }
+            ]
+        },
+        {
+            "id": "K.13-1",
+            "idCName": "劇情模式13-1(未來終結)",
+            "mode": "任務模式",
+            "keyword": "13-1",
+            "raiders": [
+                {
+                    "top1": "HulkCho/AllNew",
+                    "top1Name": "浩克趙",
+                    "top2": "Apocalypse/Age",
+                    "top2Name": "天啟",
+                    "top3": "CorvusGlaive/Unlimited",
+                    "top3Name": "掠鴉凶刃"
+                }
+            ]
+        },
+        {
+            "id": "K.13-2",
+            "idCName": "劇情模式13-2(未來終結)",
+            "mode": "任務模式",
+            "keyword": "13-2",
+            "raiders": [
+                {
+                    "top1": "Medusa/AllNewAllDifferent",
+                    "top1Name": "美杜莎",
+                    "top2": "HumanTorch/Modern",
+                    "top2Name": "霹靂火",
+                    "top3": "CorvusGlaive/Unlimited",
+                    "top3Name": "掠鴉凶刃"
+                }
+            ]
+        },
+        {
+            "id": "K.13-3",
+            "idCName": "劇情模式13-3(未來終結)",
+            "mode": "任務模式",
+            "keyword": "13-3",
+            "raiders": [
+                {
+                    "top1": "Dormammu/Classic",
+                    "top1Name": "多瑪暮",
+                    "top2": "Spiderman/Classic",
+                    "top2Name": "蜘蛛人",
+                    "top3": "Mystique/Modern",
+                    "top3Name": "魔形女"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance1",
+            "idCName": "星期一(近戰+英雄)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance2",
+            "idCName": "星期二(爆破+男性)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance3",
+            "idCName": "星期三(宇宙+反派)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance4",
+            "idCName": "星期四(速度+英雄)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance5",
+            "idCName": "星期五(近戰+反派)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance6",
+            "idCName": "星期六(無條件)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "L.Alliance7",
+            "idCName": "星期日(宇宙+英雄+女性)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance1",
+            "idCName": "星期一(反派+女性)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance2",
+            "idCName": "星期二(速度+英雄+女性)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance3",
+            "idCName": "星期三(近戰+女性)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance4",
+            "idCName": "星期四(速度+反派)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance5",
+            "idCName": "星期五(爆破+反派)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance6",
+            "idCName": "星期六(無條件)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        },
+        {
+            "id": "M.Alliance7",
+            "idCName": "星期日(宇宙+英雄)",
+            "mode": "聯盟戰爭",
+            "keyword": "",
+            "raiders": [
+                {
+                    "option1": "星期一",
+                    "option2": "星期二",
+                    "option3": "星期三",
+                    "option4": "星期四",
+                    "option5": "星期五",
+                    "option6": "星期六",
+                    "option7": "星期日",
+                    "option8": "星期一",
+                    "option9": "星期二",
+                    "option10": "星期三",
+                    "option11": "星期四",
+                    "option12": "星期五",
+                    "option13": "星期六",
+                    "option14": "星期日"
+                },
+                {
+                    "top1": "burn",
+                    "top1Name": "燒傷",
+                    "top2": "paralysis",
+                    "top2Name": "麻痺",
+                    "top3": "silence",
+                    "top3Name": "沉默"
+                }
+            ]
+        }
+    ]
+}

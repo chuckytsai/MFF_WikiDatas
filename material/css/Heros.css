@@ -1,0 +1,681 @@
+/* 英雄介紹 */
+
+.heroIntroduction {
+    width: 320px;
+    height: 180px;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 100px;
+    border: 10px solid gray;
+    opacity: 0.9;
+    border-radius: 2%;
+    padding: 20px 3%;
+    display: flex;
+}
+
+/* 英雄大頭照 */
+
+.photoSticker {
+    margin-top: 40px;
+    border: 5px solid rgb(131, 129, 129, 0.5);
+    border-radius: 5px;
+    width: 80px;
+    height: 81px;
+}
+
+.heroData {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.heroName {
+    font-size: 12px;
+    font-weight: 700;
+    width: 100px;
+    height: 32px;
+    padding-top: 10px;
+    padding-left: 3px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+    border-radius: 3px;
+    overflow: scroll;
+    border: 1px inset white;
+}
+
+.heroName::-webkit-scrollbar {
+    display: none;
+}
+
+.howGetLan {
+    display: flex;
+    background-color: gray;
+    color: white;
+    border-radius: 2px;
+    border: 1px inset black;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+}
+
+@media(max-width:800px) {
+    .howGetLan {
+        flex-wrap: wrap;
+        width: 185px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+.howGetLan h5 {
+    flex: none;
+}
+
+.heroP {
+    font-size: 18px;
+    font-weight: 1000;
+    width: 95px;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    color: #448899;
+}
+
+.nameDiv {
+    width: 360px;
+    height: 50px;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 10px;
+    border: 8px solid gray;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+
+@media(max-width:360px) {
+    .nameDiv {
+        width: 200px;
+    }
+}
+
+.evaluationDiv {
+    display: flex;
+    margin-left: 110px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media(max-width:800px) {
+    .evaluationDiv {
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+}
+
+.evaluationDiv button {
+    outline: 0 none !important;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 60px;
+    margin-top: -5px;
+    margin-left: -7px;
+}
+
+.evaluationDiv h5 {
+    font-weight: 1000;
+    color: chocolate;
+    font-size: 22px;
+}
+
+.good {
+    height: 30px;
+}
+
+.goodBtn {
+    background-color: white;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.evaluationDiv h1 {
+    color: gray;
+    font-size: 30px;
+    line-height: 30px;
+    ;
+    margin-top: 6px;
+}
+
+/* 英雄制服選單樣式 */
+
+.HeroskinName {
+    width: 100%;
+    height: 50px;
+    color: #448899;
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 10px;
+    outline: 0 none !important;
+    border: 1px solid white;
+}
+
+.HeroskinName option {
+    color: #448899;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+@media(max-width:800px) {
+    .RelatedAndChainedSpan {
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 8px;
+        display: flex;
+    }
+}
+
+/* 制服對應相關 */
+
+.Related {
+    width: 800px;
+    background-color: white;
+    height: 130px;
+    margin: 0% auto;
+    margin-top: 15px;
+    border-radius: 1%;
+    padding-top: 45px;
+    border: 10px solid rgb(155, 152, 152, 0.8);
+    flex-wrap: wrap;
+    opacity: 0.9;
+    z-index: 888;
+    display: flex;
+}
+
+@media(max-width:800px) {
+    .Related {
+        margin-top: 15px;
+        height: 215px;
+        width: 140px;
+        margin: 5px;
+        padding-top: 5px;
+    }
+}
+
+@media(max-width:800px) {
+    .RelatedSkin {
+        position: absolute;
+        margin-top: 46px;
+        margin-left: 33px;
+    }
+}
+
+.Related h1 {
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-weight: 1000;
+    margin-right: 40px;
+    color: white;
+    background-color: gray;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media(max-width:800px) {
+    .Related h1 {
+        height: 30px;
+        margin: 7px 28%;
+        flex: none;
+    }
+}
+
+.RelatedDiv {
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+@media(max-width:800px) {
+    .RelatedDiv {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:700px) {
+    .RelatedDiv {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+}
+
+.RelatedImg {
+    width: 55px;
+    height: 55px;
+    border: 3px solid rgb(131, 129, 129, 0.5);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.RelatedText {
+    font-size: 12px;
+    width: 110px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@media(max-width:800px) {
+    .RelatedText {
+        width: 134px;
+        height: 50px;
+        margin-right: 0px;
+        margin-left: -28px;
+        text-align: center;
+    }
+}
+
+.RelatedText::-webkit-scrollbar {
+    scroll-snap-type: none;
+}
+
+.RelatedDots {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .RelatedDots {
+        display: flex;
+        position: absolute;
+        display: flex;
+        margin-top: 170px;
+        margin-left: 17px;
+    }
+}
+
+.RelatedDot {
+    border-radius: 50%;
+    background-color: #bbe1eb;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+/* 被對應制服 */
+
+.Chained {
+    width: 795px;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 10px;
+    border-radius: 1%;
+    border: 10px solid rgb(155, 152, 152, 0.8);
+    flex-wrap: wrap;
+    opacity: 0.9;
+    z-index: 888;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 45px;
+}
+
+@media(max-width:800px) {
+    .Chained {
+        height: 220px;
+        width: 140px;
+        margin: 5px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+.Chained h1 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 1000;
+    margin-right: 20px;
+    color: white;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media(max-width:800px) {
+    .Chained h1 {
+        flex: none;
+        height: 30px;
+        margin: 12px 16%;
+    }
+}
+
+.ChainedDiv {
+    margin-top: 14px;
+    width: 140px;
+}
+
+@media(max-width:1400px) {
+    .ChainedDiv {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:800px) {
+    .ChainedDiv {
+        position: absolute;
+        margin-top: 68px;
+        margin-left: 13px;
+    }
+}
+
+.ChainedImg {
+    width: 55px;
+    height: 55px;
+    margin-top: -20px;
+    margin-left: 25px;
+    border: 5px solid rgb(131, 129, 129, 0.5);
+    border-radius: 5px;
+}
+
+.ChainedText {
+    font-size: 12px;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:800px) {
+    .ChainedText {
+        width: 120px;
+    }
+}
+
+.ChainedText::-webkit-scrollbar {
+    scroll-snap-type: none;
+}
+
+.ChainedDots {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .ChainedDots {
+        display: flex;
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 17px;
+        width: 125px;
+        flex-wrap: wrap;
+    }
+}
+
+.ChainedDot {
+    border-radius: 50%;
+    background-color: #bbe1eb;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 3px;
+}
+
+/* 英雄制服技能資料 */
+
+.skinDiv {
+    width: 850px;
+    height: 100%;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    border: 10px solid rgb(155, 152, 152, 0.8);
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 3%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:800px) {
+    .skinDiv {
+        background-color: white;
+        margin: 0% auto;
+        margin-top: 5px;
+        margin-bottom: 120px;
+        border: 10px solid rgb(155, 152, 152, 0.8);
+        opacity: 0.9;
+        border-radius: 10px;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        overflow-y: scroll;
+        width: 80%;
+    }
+}
+
+@media(max-width:800px) {
+    .skinData {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .skinData {
+        height: 500px;
+        padding: 0 8%;
+    }
+}
+
+/* 英雄制服技能資料 */
+
+.skinDataLan {
+    display: flex;
+    height: 80px;
+    margin-bottom: 60px;
+    z-index: 2;
+    position: relative;
+}
+
+@media(max-width:800px) {
+    .skinDataLan {
+        margin-top: 53px;
+        height: 0px;
+        margin-bottom: 0px;
+        display: block;
+    }
+}
+
+.skinDataLanT3 {
+    z-index: 1;
+    display: flex;
+    height: 80px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:800px) {
+    .skinDataLanT3 {
+        display: block;
+        height: 80px;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        position: relative;
+    }
+}
+
+@media(max-width:360px) {
+    .skinDataLanT3 {
+        margin-left: 90px;
+    }
+}
+
+.skinDataLan button {
+    background-color: gray;
+    width: 130px;
+    font-weight: 1000;
+    color: white;
+    padding-left: 3px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+@media(max-width:800px) {
+    .skinDataLan button {
+        width: 80px;
+        padding-left: 0px;
+        text-align: left;
+    }
+}
+
+.skinDataLanT3 button {
+    background-color: gray;
+    width: 130px;
+    font-weight: 1000;
+    color: white;
+    padding-left: 3px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+@media(max-width:800px) {
+    .skinDataLanT3 button {
+        margin-left: 15px;
+        height: 23px;
+        width: 95px;
+        overflow: hidden;
+        padding-left: 0px;
+        text-align: left;
+    }
+}
+
+.skillText {
+    width: 160px;
+}
+
+@media(max-width:800px) {
+    .skillText {
+        width: 1px;
+        height: 30px;
+    }
+}
+
+@media(max-width:360px) {
+    .skillText {
+        width: 90px;
+        height: 25px;
+        margin-right: 0px;
+    }
+}
+
+.SkillDescription {
+    font-size: 12px;
+    border: 1px solid rgb(19, 18, 18, 0.8);
+    width: 127px;
+    height: 60px;
+    z-index: 990;
+    overflow: hidden;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+@media(max-width:800px) {
+    .SkillDescription {
+        display: none;
+    }
+}
+
+.SkillDescription:hover {
+    cursor: pointer;
+    width: 320px;
+    height: 400px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -100px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(247, 237, 226);
+    border: 3px solid rgb(19, 18, 18, 0.8);
+}
+
+.SkillDescription h4 {
+    margin-bottom: 3px;
+}
+
+.DescriptionTitle {
+    height: 20px;
+    width: 127px;
+    line-height: 20px;
+    font-size: 12px;
+    background-color: lightslategrey;
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    overflow-y: hidden;
+}
+
+@media(max-width:800px) {
+    .DescriptionTitle {
+        display: none;
+    }
+}
+
+.DescriptionTitle:hover {
+    width: 150px;
+    overflow-y: scroll;
+}
+
+.SkillCellphone {
+    display: none;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    margin-top: -215px;
+    left: 340px;
+    border: solid 0.5px;
+    padding-top: 2px;
+    padding-left: 2px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+@media(max-width:800px) {
+    .SkillCellphone {
+        display: block;
+    }
+}
+
+@media(max-width:600px) {
+    .SkillCellphone {
+        width: 160px;
+        left: 295px;
+    }
+}
+
+@media(max-width:500px) {
+    .SkillCellphone {
+        width: 220px;
+        left: 23px;
+        margin: 10px 15%;
+    }
+}
+
+.SkillCellphoneTitle {
+    font-size: 16px;
+    font-weight: 1000;
+    color: #448899;
+    margin-bottom: 5px;
+}

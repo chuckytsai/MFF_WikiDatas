@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/mffWIKI/img/logo121.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/mffWIKI/css/CreatHeroDatas.css">
+    <link rel="stylesheet" href="/mffWIKI/css/PublicUtilities.css">
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>新 增 角 色 資 訊</title>
+</head>
+
+<body>
+    <nav class="NavBarMFF">
+        <span class="NavBarMFFSpan"></span>
+    </nav>
+
+    <div class="heroIntroduction">
+        <div>
+            <img class="photoSticker" src="">
+            <input type="text" class="skinNameH3" placeholder="輸入制服中文"></input>
+        </div>
+        <div class="heroData">
+            <div>
+                <p class="heroP">輸入角色名稱:</p>
+                <input type="text" class="heroName" placeholder="輸入名稱(屬性)"></input>
+            </div>
+            <div>
+                <p class="heroP">輸入角色性別:</p>
+                <input type="text" class="heroName" placeholder="輸入性別"></input>
+            </div>
+            <div>
+                <p class="heroP">輸入角色陣營:</p>
+                <input type="text" class="heroName" placeholder="輸入陣營"></input>
+            </div>
+            <div>
+                <p class="heroP">輸入角色種族:</p>
+                <input type="text" class="heroName" placeholder="輸入種族"></input>
+            </div>
+        </div>
+    </div>
+
+    <div class="HeroIconDatas">
+        <h6>輸入編號+角色英文名稱</h6>
+        <input class="HeroIconDatasText" type="text" placeholder="A.輸入英文">
+        <h6>輸入制服英文名稱</h6>
+        <input class="HeroIconDatasText" type="text" placeholder="輸入英文">
+    </div>
+
+    <!-- 關聯制服 -->
+    <div class="Related">
+        <h1>相關制服</h1>
+        <div class="RelatedDiv">
+            <select class="RelatedSelect">
+                <option value="">請選擇制服</option>
+            </select>
+            <h6 class="RelatedText">第一件</h6>
+        </div>
+        <div class="RelatedDiv">
+            <select class="RelatedSelect">
+                <option value="">請選擇制服</option>
+            </select>
+            <h6 class="RelatedText">第二件</h6>
+        </div>
+        <div class="RelatedDiv">
+            <select class="RelatedSelect">
+                <option value="">請選擇制服</option>
+            </select>
+            <h6 class="RelatedText">第三件</h6>
+        </div>
+        <div class="RelatedDiv">
+            <select class="RelatedSelect">
+                <option value="">請選擇制服</option>
+            </select>
+            <h6 class="RelatedText">第四件</h6>
+        </div>
+        <div class="RelatedDiv">
+            <select class="RelatedSelect">
+                <option value="">請選擇制服</option>
+            </select>
+            <h6 class="RelatedText">第五件</h6>
+        </div>
+    </div>
+
+
+    <!-- 英雄制服技能資料 -->
+    <div class="skinDiv">
+        <div class="skinData">
+            <input type="text" placeholder="輸入如何取得" class="howGetLan"></input>
+
+            <div class="skinDataLan">
+                <div class="skillText">
+                    <p>技能1名稱與效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>技能2名稱與效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>技能3名稱與效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>技能4名稱與效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>技能5名稱與效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+            </div>
+            <div class="skinDataLanT3">
+
+                <div class="skillText">
+                    <p>T1名稱與技能效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>T2名稱與技能效果</p>
+                    <textarea placeholder="名稱招式(主動)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+                <div class="skillText">
+                    <p>隊長名稱與技能效果</p>
+                    <textarea placeholder="名稱招式(隊長技),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+
+                <div class="skillText3">
+                    <p>T3(覺醒)技能名稱與效果</p>
+                    <textarea placeholder="名稱招式(終極技能)(屬性),適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+
+                <div class="skillText skinSkill">
+                    <p>制服技能</p>
+                    <textarea placeholder="適用對象:對象,觸發時機:XXX,傷害，追加傷害,冷卻時間:XX秒" type="text" class="SkillDescription"></textarea>
+                </div>
+            </div>
+            <button type="button" class="updataBtn" onclick="HeroDatas()">確認輸入完畢</button>
+        </div>
+    </div>
+
+    <div class="FooterMFF">網 石__版 權 所 有__2021</div>
+</body>
+<script src="/mffWIKI/js/PublicUtilities.js"></script>
+<script type='text/babel' src="/mffWIKI/js/ReactElement.js"></script>
+<script type='text/babel' src="/mffWIKI/js/CreatNavMFF.js"></script>
+<script src="/mffWIKI/js/CreatHeroDatas.js"></script>
+<script src="/mffWIKI/js/RecordLocation.js"></script>
+</html>

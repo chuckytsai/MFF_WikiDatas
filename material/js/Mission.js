@@ -67,7 +67,8 @@ function MissionDatas() {
                 render() {
                     return <div className="MissionStroy">
                         <div className="MissionDiv" onClick={function () {
-                            localStorage.setItem('HerosRecordLocation', 0)
+                            localStorage.setItem('HerosRecordLocation', 0),
+                                localStorage.setItem("cellphoneSkill", 0)
                         }}>
                             <a href={'/Heros/' + r.data[0]['top1']}>
                                 <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
@@ -75,7 +76,8 @@ function MissionDatas() {
                             </a>
                         </div>
                         <div className="MissionDiv" onClick={function () {
-                            localStorage.setItem('HerosRecordLocation', 0)
+                            localStorage.setItem('HerosRecordLocation', 0),
+                                localStorage.setItem("cellphoneSkill", 0)
                         }}>
                             <a href={'/Heros/' + r.data[0]['top2']}>
                                 <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
@@ -83,7 +85,8 @@ function MissionDatas() {
                             </a>
                         </div>
                         <div className="MissionDiv" onClick={function () {
-                            localStorage.setItem('HerosRecordLocation', 0)
+                            localStorage.setItem('HerosRecordLocation', 0),
+                                localStorage.setItem("cellphoneSkill", 0)
                         }}>
                             <a href={'/Heros/' + r.data[0]['top3']}>
                                 <MffImg className="MissionImg" src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
@@ -104,6 +107,7 @@ function MissionDatas() {
             ReactDOM.render(
                 MissionDatasElems, document.getElementsByClassName('ChallengeList')[0]);
             MissionOptionShow();
+            ChallengeMissionMoveScol();
         }).catch(function (error) {
             console.log(error)
         });
@@ -121,6 +125,30 @@ function MissionOptionShow() {
         if (optionShow[index].value == localStorage.ChallengeOptionMission) {
             optionShow[index].style.display = 'none';
         }
+    }
+}
+
+// ======滾動滑鼠======
+window.addEventListener("scroll", () => {
+    let bodyTop = 0;
+    if (typeof window.pageYOffset != "undefined") {
+        bodyTop = window.pageYOffset;
+
+    }
+    else if (typeof document.compatMode != "undefined" && document.compatMode != "BackCompat") {
+        bodyTop = document.documentElement.scrollTop;
+    }
+    else if (typeof document.body != "undefined") {
+        bodyTop = document.body.scrollTop;
+    }
+    /*捲動後的高度值*/
+    localStorage.setItem('ChallengeMissionRecordLocation', bodyTop) //將Y座標位置紀錄
+})
+
+function ChallengeMissionMoveScol() {
+    var scrollo_y = localStorage.ChallengeMissionRecordLocation;
+    if (scrollo_y != null) {
+        window.scrollTo(100, scrollo_y);
     }
 }
 

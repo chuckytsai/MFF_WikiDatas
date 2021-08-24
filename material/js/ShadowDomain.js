@@ -112,6 +112,7 @@ function ShadowDomainDatas() {
                 shadowDatasElems, document.getElementsByClassName('ChallengeList')[0]);
             noneNoIcon();
             shadowOptionShow();
+            ChallengeShadowMoveScol();
         }).catch(function (error) {
             console.log(error)
         });
@@ -142,5 +143,29 @@ function shadowOptionShow() {
         if (optionShow[index].value == localStorage.ChallengeOptionShadowDomain) {
             optionShow[index].style.display = 'none';
         }
+    }
+}
+
+// ======滾動滑鼠======
+window.addEventListener("scroll", () => {
+    let bodyTop = 0;
+    if (typeof window.pageYOffset != "undefined") {
+        bodyTop = window.pageYOffset;
+
+    }
+    else if (typeof document.compatMode != "undefined" && document.compatMode != "BackCompat") {
+        bodyTop = document.documentElement.scrollTop;
+    }
+    else if (typeof document.body != "undefined") {
+        bodyTop = document.body.scrollTop;
+    }
+    /*捲動後的高度值*/
+    localStorage.setItem('ChallengeShadowRecordLocation', bodyTop) //將Y座標位置紀錄
+})
+
+function ChallengeShadowMoveScol() {
+    var scrollo_y = localStorage.ChallengeShadowRecordLocation;
+    if (scrollo_y != null) {
+        window.scrollTo(100, scrollo_y);
     }
 }

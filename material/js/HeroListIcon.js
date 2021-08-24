@@ -13,12 +13,12 @@ else {
 
 // =====英雄列表ICON製造區=====
 function Herolist() {
-    fetch("/api/HeroIcon?preset=" +localStorage.Present+
-        "&Gender=" + localStorage.Gender+
+    fetch("/api/HeroIcon?preset=" + localStorage.Present +
+        "&Gender=" + localStorage.Gender +
         "&HeroAttributes=" + localStorage.HeroAttributes +
-        "&Race=" + localStorage.Race + 
+        "&Race=" + localStorage.Race +
         "&Camp=" + localStorage.Camp +
-        "&Ability=" + localStorage.Ability )
+        "&Ability=" + localStorage.Ability)
         .then(response => {
             return response.json();
         })
@@ -31,21 +31,24 @@ function Herolist() {
         let icons = [];
         for (let n = 0; n < data.length; n++) {
             icons.push(<a className={n} href={data[n].url}>
-                <div>
+                <div onClick={function () {
+                    localStorage.setItem("cellphoneSkill", 0);
+                }
+                }>
                     <img src={data[n].bgImg}></img>
                     <h6 className='heroName'>{data[n].name}</h6>
                 </div></a>)
         }
         ReactDOM.render(
             icons, document.getElementsByClassName('HeroListIcon')[0]);
-            HeroListMoveScol();
+        HeroListMoveScol();
     }
 }
 
 function HeroListMoveScol() {
     var scrollo_y = localStorage.HeroListRecordLocation;
     if (scrollo_y != null) {
-        window.setTimeout(( () => window.scrollTo(100, scrollo_y) ), 1000);
-        
+        window.setTimeout((() => window.scrollTo(100, scrollo_y)), 1000);
+
     }
 }

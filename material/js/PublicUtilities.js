@@ -66,7 +66,7 @@ async function registerProcess() {
         RegisteredDatasPassword.value = '';
         AgreeWarningSign[0].innerHTML = ' * 再次確認密碼為空白'
     }
-    else if (RegisteredDatasEmail.search(emailRule) == -1) { 
+    else if (RegisteredDatasEmail.search(emailRule) == -1) {
         AgreeWarningSign[0].style.display = 'block';
         AgreeWarningSign[0].innerHTML = '信箱格式錯誤'
     }
@@ -119,8 +119,13 @@ async function registerProcess() {
 }
 
 
-
-
+// 清除全部LocalStorage
+function byeByeLocalStrorage() {
+    localStorage.clear();
+}
+var t1 = window.setTimeout(byeByeLocalStrorage, 21,600,000);
+var t2 = window.setTimeout("byeByeLocalStrorage()", 21,600,000);
+window.clearTimeout(t1);
 
 
 

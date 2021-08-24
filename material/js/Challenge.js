@@ -26,6 +26,7 @@ class ChallengePicDiv extends React.Component {
                 localStorage.setItem("modeBtn", 3);
                 changeBtn();
                 MissionDatas();
+                
             }}
             />
         </div>

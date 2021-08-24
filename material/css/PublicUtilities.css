@@ -262,6 +262,13 @@ body {
     margin-left: 30%;
 }
 
+@media(max-width:800px) {
+    .LoginForm div p {
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+}
+
 .LoginForm div input {
     padding-left: 3px;
     font-size: 14px;
@@ -296,7 +303,7 @@ body {
     height: 50px;
 }
 
-@media (max-width:360px) {
+@media (max-width:800px) {
     .LoginForm button {
         margin-left: 38%;
     }

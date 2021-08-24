@@ -32,7 +32,7 @@ function skinEvaluation(AccountNumber) {
         body: JSON.stringify({
             user: AccountNumber,
             HeroName: HeroName,
-            Heroskin: SkinName
+            HeroSkin: SkinName
         }),
     })
         .then(response => {

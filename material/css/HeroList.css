@@ -13,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
-    padding-left: 3%;
 }
 
 @media(max-width:800px) {
@@ -74,7 +73,7 @@
 
 @media(max-width:800px) {
     .TypeSelectSpan select {
-        width: 55px;
+        width: 50px;
         font-size: 14px;
         padding-left: 0.5px;
     }
@@ -138,16 +137,11 @@
 .HeroListIcon{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 5%;
 }
 
-@media(max-width:800px) {
+@media(max-width:450px) {
     .HeroListIcon {
-        padding-left: 35px;
-    }
-}
-
-@media(max-width:550px) {
-    .HeroListIcon {
-        padding-left: 18px;
+        padding: 0 38px;
     }
 }

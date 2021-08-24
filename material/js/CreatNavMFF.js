@@ -19,7 +19,17 @@ class NavMenuCreat extends React.Component {
                     <MffA className='hamburgerA' href='/Challenge' />
                 </div>
                 <MffA className='navRightA' text='遊戲角色' href='/Herolist' />
-                <MffA className='navRightA' text='遊戲攻略' href='/Challenge' />
+                <MffA className='navRightA' text='遊戲攻略' href='/Challenge' onClick={function () {
+                    localStorage.setItem("mode", '世界頭目');
+                    localStorage.setItem("idCName", '闇夜無星');
+                    localStorage.setItem("ChallengeOptionShadowDomain", '影域1F(接力模式)');
+                    localStorage.setItem('ChallengeOptionAlliance', ',英雄,近戰');
+                    localStorage.setItem('ChallengeRaiders', '麻痺(');
+                    localStorage.setItem('ChallengeOptionAllianceText', '星期一(近戰+英雄)');
+                    localStorage.setItem('ChallengeRaidersText', '麻痺');
+                    localStorage.setItem('ChallengeOptionMission', '劇情模式1-1(次元衝突)');
+                    localStorage.setItem('ChallengeWorldBossRecordLocation', 0)
+                }} />
                 <form class='serchBtn' onSubmit={serchBtnInput}>
                     <MffInput className='serchBtnInput' type='text' placeholder='搜尋關鍵字' />
                     <MffImg src='/mffWIKI/img/searchBTN.JPG' onClick={serchBtnInput} />

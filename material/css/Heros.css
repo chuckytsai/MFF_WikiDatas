@@ -149,7 +149,6 @@
     color: gray;
     font-size: 30px;
     line-height: 30px;
-    ;
     margin-top: 6px;
 }
 
@@ -462,6 +461,12 @@
     }
 }
 
+@media(max-width:320px) {
+    .skinDiv {
+        margin-left: 26px;
+    }
+}
+
 @media(max-width:800px) {
     .skinData {
         margin-left: 20px;
@@ -472,6 +477,13 @@
     .skinData {
         height: 500px;
         padding: 0 8%;
+    }
+}
+
+@media(max-width:320px) {
+    .skinData {
+        height: 500px;
+        padding: 0 0%;
     }
 }
 
@@ -665,11 +677,30 @@
     }
 }
 
-@media(max-width:500px) {
+@media (max-width: 500px) {
+    .SkillCellphone {
+        margin: 16px -55%;
+        width: 278px;
+    }
+}
+
+@media (max-width: 375px) {
+    .SkillCellphone {
+        margin: 7px -64%;
+    }
+}
+
+@media (max-width: 360px) {
+    .SkillCellphone {
+        margin: 16px -70%;
+    }
+}
+
+@media(max-width:320px) {
     .SkillCellphone {
         width: 220px;
         left: 23px;
-        margin: 10px 15%;
+        margin: -7px 12%;
     }
 }
 

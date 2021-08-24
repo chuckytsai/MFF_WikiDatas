@@ -3,7 +3,7 @@ class LoginFormAccountDiv extends React.Component {
     render() {
         return <div>
             <MffP text='帳號' />
-            <MffInput className='loginInput' type='text' />
+            <MffInput className='loginInput' type='text' placeholder='* 請輸入帳號'/>
         </div>;
     }
 }
@@ -12,7 +12,7 @@ class LoginFormPasswordDiv extends React.Component {
     render() {
         return <div>
             <MffP text='密碼' />
-            <MffInput className='loginInput' type='password' />
+            <MffInput className='loginInput' type='password' placeholder='* 請輸入密碼'/>
         </div>;
     }
 }

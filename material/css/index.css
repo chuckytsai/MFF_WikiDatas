@@ -14,25 +14,36 @@
 
 @media(max-width:800px) {
     .PicDiv {
+        width: 700px;
+        height: 394px;
+    }
+}
+
+@media(max-width:500px) {
+    .PicDiv {
         width: 300px;
-        margin-top: 20%;
+        margin-top: 40%;
         height: 168px;
     }
 }
 
 @media(max-width:360px) {
     .PicDiv {
-        margin-top: 40%;
         border: 3px solid gray;
     }
 }
 
 @media(max-width:800px) {
     .PicDiv a img {
-        width: 150px;
+        width: 350px;
     }
 }
 
+@media(max-width:500px) {
+    .PicDiv a img {
+        width: 150px;
+    }
+}
 
 .PicDiv h5 {
     font-size: 22px;
@@ -57,9 +68,9 @@
 
 @media(max-width:800px) {
     .PicDivImg:hover {
-        width: 200px;
-        height: 225px;
-        border: 5px solid white;
+        width: 150px;
+        height: 168.75px;
+        border: none;
         border-radius: 1%;
     }
 }

@@ -63,7 +63,7 @@ function AllianceDatas() {
             let HeroIcons = [];
             for (let x = 0; x < r.data.length; x++) {
                 HeroIcons.push(<a href={'/Heros/' + r.data[x]['imgUrl']}>
-                    <div onClick={function () { localStorage.setItem('HerosRecordLocation', 0) }}>
+                    <div onClick={function () { localStorage.setItem('HerosRecordLocation', 0), localStorage.setItem("cellphoneSkill", 0) }}>
                         <MffImg className='allianceImg' src={'/mffWIKI/img/Heros/' + r.data[x]['imgUrl'] + '.jpg'} />
                         <MffH5 className='allianceH5' text={r.data[x]['CName'].split('(')[0] + '/' + r.data[x]['SkinName']} />
                     </div>
@@ -80,6 +80,7 @@ function AllianceDatas() {
             ReactDOM.render(
                 AllianceDataDivElems, document.getElementsByClassName('ChallengeList')[0]);
             AllianceOptionShow();
+            ChallengeAllianceMoveScol();
         }).catch(function (error) {
             console.log(error)
         });
@@ -110,5 +111,29 @@ function AllianceOptionShow() {
             localStorage.setItem('ChallengeRaidersText', optionShow[index].innerHTML)
             optionShow[index].style.display = 'none';
         }
+    }
+}
+
+// ======滾動滑鼠======
+window.addEventListener("scroll", () => {
+    let bodyTop = 0;
+    if (typeof window.pageYOffset != "undefined") {
+        bodyTop = window.pageYOffset;
+
+    }
+    else if (typeof document.compatMode != "undefined" && document.compatMode != "BackCompat") {
+        bodyTop = document.documentElement.scrollTop;
+    }
+    else if (typeof document.body != "undefined") {
+        bodyTop = document.body.scrollTop;
+    }
+    /*捲動後的高度值*/
+    localStorage.setItem('ChallengeAllianceRecordLocation', bodyTop) //將Y座標位置紀錄
+})
+
+function ChallengeAllianceMoveScol() {
+    var scrollo_y = localStorage.ChallengeAllianceRecordLocation;
+    if (scrollo_y != null) {
+        window.scrollTo(100, scrollo_y);
     }
 }

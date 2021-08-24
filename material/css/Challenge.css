@@ -23,9 +23,15 @@
     color: #448899;
     cursor: pointer;
     border-radius: 5px;
-    width: 90px;
+    width: 80px;
     border: none;
     background-color: white;
+}
+
+@media(max-width:320px) {
+    .ChallengePicDivs button {
+        width: 80px;
+    }
 }
 
 .ChallengeDatas {
@@ -52,15 +58,14 @@
 }
 
 .raidersDiv {
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 80px;
-        color: black;
-        font-weight: 1000;
-        padding-left: 3px;
-        border-radius: 2.5px;
-        font-size: 15px;
-
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    color: black;
+    font-weight: 1000;
+    padding-left: 3px;
+    border-radius: 2.5px;
+    font-size: 15px;
 }
 
 .raidersDiv button {
@@ -130,6 +135,12 @@
     max-width: 0 20px;
 }
 
+@media(max-width:320px) {
+    .recommendDiv {
+        width: 55px;
+    }
+}
+
 .recommendImg {
     width: 50px;
 }
@@ -141,7 +152,7 @@
 }
 
 .WorldBossTitle {
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -152,6 +163,18 @@
     display: flex;
     margin-left: 20px;
     flex-wrap: wrap;
+}
+
+@media(max-width:500px) {
+    .BossAchievementDiv {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .BossAchievementDiv {
+        margin-left: 17px;
+    }
 }
 
 .PassHerosH5Div {
@@ -174,15 +197,40 @@
     padding: 5% 10%;
 }
 
+@media(max-width:800px) {
+    .ShadowDomainMode {
+        padding: 5% 5%;
+    }
+}
+
+@media(max-width:375px) {
+    .ShadowDomainMode {
+        padding: 5% 3%;
+    }
+}
+
 @media(max-width:360px) {
     .ShadowDomainMode {
-        padding: 5% 2%;
+        padding: 0% 10%;
+    }
+}
+
+@media(max-width:320px) {
+    .ShadowDomainMode {
+        padding: 0% 4%;
     }
 }
 
 .ShadowDomainDiv {
     margin-left: 10px;
     padding-left: 10px;
+}
+
+@media(max-width:360px) {
+    .ShadowDomainDiv {
+        margin-left: 0px;
+        padding-left: 5px;
+    }
 }
 
 .ShadowDomainImg {
@@ -203,9 +251,15 @@
     margin-top: 20px;
 }
 
-@media(max-width:360px) {
+@media(max-width:375px) {
     .allianceDataDiv {
-        margin-left: 15px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .allianceDataDiv {
+        margin-left: 20px;
     }
 }
 

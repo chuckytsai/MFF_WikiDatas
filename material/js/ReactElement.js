@@ -14,6 +14,7 @@ class MffA extends React.Component {
     render() {
         return <a
             className={this.props.className}
+            onClick={this.props.onClick}
             href={this.props.href}>
             {this.props.text}
         </a>;

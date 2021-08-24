@@ -57,7 +57,8 @@ function WorldBossDatas() {
                         {/* 站長推薦輸出角色 */}
                         <div className='DpsTop5'>
                             <div className='recommendDiv' onClick={function () {
-                                localStorage.setItem('HerosRecordLocation', 0)
+                                localStorage.setItem('HerosRecordLocation', 0),
+                                    localStorage.setItem("cellphoneSkill", 0)
                             }}>
                                 <a href={'/Heros/' + r.data[0]['top1']}>
                                     <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top1'] + ".jpg"} />
@@ -66,7 +67,8 @@ function WorldBossDatas() {
                             </div>
 
                             <div className='recommendDiv' onClick={function () {
-                                localStorage.setItem('HerosRecordLocation', 0)
+                                localStorage.setItem('HerosRecordLocation', 0),
+                                    localStorage.setItem("cellphoneSkill", 0)
                             }}>
                                 <a href={'/Heros/' + r.data[0]['top2']}>
                                     <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top2'] + ".jpg"} />
@@ -75,7 +77,8 @@ function WorldBossDatas() {
                             </div>
 
                             <div className='recommendDiv' onClick={function () {
-                                localStorage.setItem('HerosRecordLocation', 0)
+                                localStorage.setItem('HerosRecordLocation', 0),
+                                    localStorage.setItem("cellphoneSkill", 0)
                             }}>
                                 <a href={'/Heros/' + r.data[0]['top3']}>
                                     <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top3'] + ".jpg"} />
@@ -84,7 +87,8 @@ function WorldBossDatas() {
                             </div>
 
                             <div className='recommendDiv' onClick={function () {
-                                localStorage.setItem('HerosRecordLocation', 0)
+                                localStorage.setItem('HerosRecordLocation', 0),
+                                    localStorage.setItem("cellphoneSkill", 0)
                             }}>
                                 <a href={'/Heros/' + r.data[0]['top4']}>
                                     <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top4'] + ".jpg"} />
@@ -94,7 +98,8 @@ function WorldBossDatas() {
 
 
                             <div className='recommendDiv' onClick={function () {
-                                localStorage.setItem('HerosRecordLocation', 0)
+                                localStorage.setItem('HerosRecordLocation', 0),
+                                    localStorage.setItem("cellphoneSkill", 0)
                             }}>
                                 <a href={'/Heros/' + r.data[0]['top5']}>
                                     <MffImg className='recommendImg' src={"/mffWIKI/img/Heros/" + r.data[0]['top5'] + ".jpg"} />
@@ -111,7 +116,8 @@ function WorldBossDatas() {
                             <div className="BossAchievementDiv">
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f9']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f9'] + ".jpg"} />
@@ -120,7 +126,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f19']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f19'] + ".jpg"} />
@@ -129,7 +136,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f29']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f29'] + ".jpg"} />
@@ -139,7 +147,8 @@ function WorldBossDatas() {
 
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f39']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f39'] + ".jpg"} />
@@ -148,7 +157,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f49']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f49'] + ".jpg"} />
@@ -157,7 +167,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f59']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f59'] + ".jpg"} />
@@ -166,7 +177,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f69']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f69'] + ".jpg"} />
@@ -175,7 +187,8 @@ function WorldBossDatas() {
                                 </div>
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f79']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f79'] + ".jpg"} />
@@ -185,7 +198,8 @@ function WorldBossDatas() {
 
 
                                 <div className="PassHerosDiv" onClick={function () {
-                                    localStorage.setItem('HerosRecordLocation', 0)
+                                    localStorage.setItem('HerosRecordLocation', 0),
+                                        localStorage.setItem("cellphoneSkill", 0)
                                 }}>
                                     <a href={'/Heros/' + r.data[0]['f89']}>
                                         <MffImg className="PassHerosImg" src={"/mffWIKI/img/Heros/" + r.data[0]['f89'] + ".jpg"} />
@@ -210,7 +224,7 @@ function WorldBossDatas() {
                 WorldBossDatasElems, document.getElementsByClassName('ChallengeList')[0]);
             WorldBossOptionShow();
             NoneImg();
-            ChallengeMoveScol();
+            ChallengeWorldBossMoveScol();
         }).catch(function (error) {
             console.log(error)
         });
@@ -238,5 +252,29 @@ function NoneImg() {
         if (PassHerosImg[index].src == 'http://35.73.243.150:3000/mffWIKI/img/Heros/.jpg') {
             PassHerosDiv[index].style.display = 'none'
         }
+    }
+}
+
+// ======滾動滑鼠======
+window.addEventListener("scroll", () => {
+    let bodyTop = 0;
+    if (typeof window.pageYOffset != "undefined") {
+        bodyTop = window.pageYOffset;
+
+    }
+    else if (typeof document.compatMode != "undefined" && document.compatMode != "BackCompat") {
+        bodyTop = document.documentElement.scrollTop;
+    }
+    else if (typeof document.body != "undefined") {
+        bodyTop = document.body.scrollTop;
+    }
+    /*捲動後的高度值*/
+    localStorage.setItem('ChallengeWorldBossRecordLocation', bodyTop) //將Y座標位置紀錄
+})
+
+function ChallengeWorldBossMoveScol() {
+    var scrollo_y = localStorage.ChallengeWorldBossRecordLocation;
+    if (scrollo_y != null) {
+        window.scrollTo(100, scrollo_y);
     }
 }

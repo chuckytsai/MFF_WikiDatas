@@ -39,7 +39,7 @@ async function ChangeDatas() {
     let AgreeWarningSign = document.getElementsByClassName("AgreeWarningSign");
 
     if (ChangeDatasEmail.search(emailRule) != -1) { //信箱格式
-        if (ChangeDatasNewPassword.length > 7 && ChangeDatasNewPassword.length < 13 && ChangeDatasNewPassword.Search(passwordRule)) {
+        if (ChangeDatasNewPassword.length > 7 && ChangeDatasNewPassword.length < 13 && ChangeDatasNewPassword.search(passwordRule)) {
             if (ChangeDatasNewPassword == ChangeDatasNewPasswordAgain) {  //再次確認密碼
                 await fetch("/api/ChangePassword", {
                     method: "POST",

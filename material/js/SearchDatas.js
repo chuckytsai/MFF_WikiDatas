@@ -4,6 +4,7 @@ checkProcess();
 if (localStorage.getItem('showSmall') == null) {
     localStorage.setItem("showSmall", 0);
     localStorage.setItem("showBig", 20);
+    localStorage.setItem("searchBtnIndex", 0);
 }
 let wantKeyWordUrl = location.href.split('/Search')[1].split('/')[1]
 var encoded = wantKeyWordUrl;
@@ -33,7 +34,6 @@ fetch("/api/SearchDatas?wantKey=" + wantKeyWordUrl)
             data3SearchUrl(data3)
         }
         SearchUrlCut();
-        SearchDataMoveScol();
     }).catch(function (error) {
         console.log(error)
     });
@@ -119,6 +119,7 @@ function SearchUrlCut(showSmall, showBig) {
         }
     }
     srarchBtnColor();
+    SearchDataMoveScol();
 }
 function searchPageBtnCreate(pageMath) {
     let pages = [];
@@ -127,7 +128,9 @@ function searchPageBtnCreate(pageMath) {
             localStorage.setItem("showSmall", x * 20);
             localStorage.setItem("showBig", (x + 1) * 20);
             localStorage.setItem("searchBtnIndex", x);
+            localStorage.setItem('SearchRecordLocation', 0)
             SearchUrlCut();
+            SearchDataMoveScol();
         }}>{x + 1}</button>)
     }
     ReactDOM.render(
@@ -155,16 +158,13 @@ window.addEventListener("scroll", () => {
 function SearchDataMoveScol() {
     var scrollo_y = localStorage.SearchRecordLocation;
     if (scrollo_y != null) {
-        window.scrollTo(100, scrollo_y);
+        window.setTimeout((() => window.scrollTo(100, scrollo_y)), 300);
     }
 }
 
 
 function srarchBtnColor() {
     let searchPageBtn = document.getElementsByClassName('searchPageBtn');
-    if(localStorage.getItem('searchBtnIndex') == null){
-        localStorage.setItem("searchBtnIndex", 0);
-    }
     for (let index = 0; index < searchPageBtn.length; index++) {
         searchPageBtn[index].style.color = 'black';
         searchPageBtn[index].style.backgroundColor = '#c2c2e2';

@@ -160,7 +160,9 @@ function test() {
         .then(r => {
             let needHeroTop = []
             for (let index = 0; index < r.data.length; index++) {
-                needHeroTop.push(r.data[index].needHeroName.split(',')[0] + ',' + r.data[index].needHeroName.split(',')[1] + ',' + r.data[index].needHeroName.split(',')[2] + ',')
+                needHeroTop.push(r.data[index].needHeroName.split(',')[0])
+                needHeroTop.push(r.data[index].needHeroName.split(',')[1])
+                needHeroTop.push(r.data[index].needHeroName.split(',')[2])
             }
             console.log(needHeroTop)
         }).catch(function (error) {

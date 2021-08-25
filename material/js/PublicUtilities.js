@@ -119,14 +119,6 @@ async function registerProcess() {
 }
 
 
-// 清除全部LocalStorage
-function byeByeLocalStrorage() {
-    localStorage.clear();
-}
-var t1 = window.setTimeout(byeByeLocalStrorage, 21,600,000);
-var t2 = window.setTimeout("byeByeLocalStrorage()", 21,600,000);
-window.clearTimeout(t1);
-
 
 
 

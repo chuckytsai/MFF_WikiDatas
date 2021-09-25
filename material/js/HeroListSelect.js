@@ -17,7 +17,7 @@ class GenderSelect extends React.Component {
                 className={"Gender"}
                 onChange={() => {
                     localStorage.setItem("Present", ' ');
-                    localStorage.setItem("Gender", document.getElementsByClassName('Gender')[0].value,5000);
+                    localStorage.setItem("Gender", document.getElementsByClassName('Gender')[0]);
                     optionShow();
                     Herolist();
                 }}>

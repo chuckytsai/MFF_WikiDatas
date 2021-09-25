@@ -46,6 +46,12 @@
     padding-bottom: 20px;
 }
 
+@media(max-width:1024px) {
+    .ChallengeDatas {
+        width: 84%;
+    }
+}
+
 .ChallengeModeBtn {
     margin: 1px auto;
     margin-top: 10px;

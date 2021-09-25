@@ -60,9 +60,9 @@
 }
 
 .PicDivImg:hover {
-    width: 406px;
-    height: 445px;
-    border: 5px solid white;
+    width: 402px;
+    height: 446px;
+    border: 2px solid white;
     border-radius: 1%;
 }
 

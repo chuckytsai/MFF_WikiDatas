@@ -48,7 +48,7 @@ function Herolist() {
 function HeroListMoveScol() {
     var scrollo_y = localStorage.HeroListRecordLocation;
     if (scrollo_y != null) {
-        window.setTimeout((() => window.scrollTo(100, scrollo_y)), 1000);
+        window.setTimeout((() => window.scrollTo(100, scrollo_y)), 300);
 
     }
 }
